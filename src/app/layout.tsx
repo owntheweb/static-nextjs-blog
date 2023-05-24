@@ -1,7 +1,9 @@
+import React, { useState } from "react";
 import Image from 'next/image'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import ExportedImage from "next-image-export-optimizer";
+import SideNav from '@/components/SideNav';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,10 +25,18 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   const header = (
-    <header className="text-center bg-slate-800 p-8 my-6 rounded-md">
-      <ExportedImage src="/logo.png" alt="logo" width={40} height={40} className="mx-auto" />
-      <h1 className="text-2xl text-white font-bold mt-4">Christopher Stevens Blog</h1>
-      <p className="text-slate-300">Hello world.</p>
+    <header className="bg-slate-800 p-8 mb-6">
+      <div className="mx-auto max-w-4xl px-6">
+        <div className="flex">
+          <div className="flex-none w-48">
+            <ExportedImage src="/logo.png" alt="logo" width={40} height={40} />
+          </div>
+          <div>
+            <h1 className="text-2xl text-white font-bold">Christopher Stevens Blog</h1>
+            <p className="text-slate-300">Need to design this thing soon.</p>
+          </div>
+        </div>
+      </div>
     </header>
   );
 
@@ -39,9 +49,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="mx-auto max-w-2xl px-6">
-          {header}
-          {children}
+        {header}
+        <div className="mx-auto max-w-4xl px-6">
+          <div className="flex">
+            <SideNav className="flex-none w-48" />
+            <div className="">
+              {children}
+            </div>
+          </div>
           {footer}
         </div>
       </body>

@@ -1,6 +1,6 @@
 import fs from 'fs';
 import matter from 'gray-matter';
-import { PostMetadata } from './PostMetadata';
+import { PostMetadata } from '../model/PostMetadata';
 
 const getPostMetadata = (): PostMetadata[] => {
   const folder = "posts/";
@@ -16,6 +16,7 @@ const getPostMetadata = (): PostMetadata[] => {
       date: grayMatter.data.date,
       subtitle: grayMatter.data.subtitle,
       slug:  fileName.replace('.md', ''),
+      tags: grayMatter.data.tags,
     }
   });
 

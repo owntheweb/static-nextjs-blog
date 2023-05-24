@@ -2,6 +2,12 @@
 title: "A Second Post"
 subtitle: "It's after the first."
 date: "2023-05-21"
+tags:
+  - "Blog"
+  - "Pizza"
+  - "Next.js"
+  - "React"
+  - "Another Test"
 ---
 
 Are you looking for ways to engage your audience with concise, relevant, and exciting content? A short blog post might just be the answer! In a world where people are constantly bombarded by digital content, a brief article can be a breath of fresh air for your readers. In this post, we'll outline some key tips to help you create a short blog post that keeps your audience hooked from start to finish.

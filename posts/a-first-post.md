@@ -1,10 +1,15 @@
 ---
 title: "The Art of Crafting a Short Blog Post"
 subtitle: "It's very artsy and craftsy."
-date: "2023-05-20"
+date: "2021-05-25"
+tags:
+  - "Blog"
+  - "Next.js"
+  - "React"
+  - "Life"
 ---
 
-Are you looking for ways to engage your audience with concise, relevant, and exciting content? A short blog post might just be the answer! In a world where people are constantly bombarded by digital content, a brief article can be a breath of fresh air for your readers. In this post, we'll outline some key tips to help you create a short blog post that keeps your audience hooked from start to finish.
+Are you looking for ways to engage your audience with concise, relevant, and exciting content? A short blog post might just be the answer! In a world where people are constantly bombarded by digital content, a brief article can be a breath of fresh air for your readers. In this post, we'll outline some key tips to help you create a short blog post that keeps your audience hooked from start to finish. [Here's a link](https://google.com).
 
 ![images are cool](/images/new-favorite-mug.jpg)
 

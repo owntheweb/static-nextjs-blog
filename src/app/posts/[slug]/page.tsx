@@ -1,4 +1,4 @@
-import getPostMetadata from '@/components/getPostMetadata';
+import getPostMetadata from '@/components/utils/getPostMetadata';
 import fs from 'fs';
 import matter from 'gray-matter';
 import sizeOf from 'image-size';
@@ -97,8 +97,8 @@ const Post = (props: any) => {
   
   return (
     <div>
-      <div className="my-12 text-center">
-        <h1 className="text-2xl text-slate-600">This is a post: {slug}</h1>
+      <div className="my-12">
+        <h1 className="text-2xl text-slate-600">{post.data.title}</h1>
         <p className="text-slate-400 mt-2">{post.data.date}</p>
       </div>
       <article className="prose">

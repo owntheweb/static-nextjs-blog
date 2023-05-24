@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import ExportedImage from "next-image-export-optimizer";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,7 +24,7 @@ export default function RootLayout({
 }) {
   const header = (
     <header className="text-center bg-slate-800 p-8 my-6 rounded-md">
-      <Image src="/logo.png" alt="logo" width={40} height={40} className="mx-auto" />
+      <ExportedImage src="/logo.png" alt="logo" width={40} height={40} className="mx-auto" />
       <h1 className="text-2xl text-white font-bold mt-4">Christopher Stevens Blog</h1>
       <p className="text-slate-300">Hello world.</p>
     </header>

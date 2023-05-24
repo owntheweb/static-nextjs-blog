@@ -6,7 +6,7 @@ date: "2023-05-20"
 
 Are you looking for ways to engage your audience with concise, relevant, and exciting content? A short blog post might just be the answer! In a world where people are constantly bombarded by digital content, a brief article can be a breath of fresh air for your readers. In this post, we'll outline some key tips to help you create a short blog post that keeps your audience hooked from start to finish.
 
-![image](/images/new-favorite-mug.jpg)
+![images are cool](/images/new-favorite-mug.jpg)
 
 ## Begin with a Clear Purpose
 

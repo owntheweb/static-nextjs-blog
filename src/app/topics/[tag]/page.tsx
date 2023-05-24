@@ -26,11 +26,13 @@ export default function TagPosts(props: any) {
   return (
     <>
       <div className="my-12">
-        <h1 className="text-2xl text-slate-600">Posts: {unsluggedTag}</h1>
-        <p className="text-slate-400 mt-2">Technically these are tags, yet have you ever played the game, Table Topics? So much more fun.</p>
+        <h1 className="text-2xl text-slate-600">Topics: {unsluggedTag}</h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
         {postPreviews}
+      </div>
+      <div>
+        <Link href={`/topics`} className="hover:underline">See All Topics</Link>
       </div>
     </>
   )

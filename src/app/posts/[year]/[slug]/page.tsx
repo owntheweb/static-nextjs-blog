@@ -4,6 +4,8 @@ import matter from 'gray-matter';
 import sizeOf from 'image-size';
 import ReactMarkdown from 'react-markdown';
 import ExportedImage from "next-image-export-optimizer";
+import Link from 'next/link';
+import { slugifyTag } from '@/components/utils/tags';
 
 
 // TODO: Define generated image sizes in nextjs config when design is ready
@@ -95,16 +97,18 @@ const Post = (props: any) => {
   const post = getPostContent(slug);
   const contentImageMetadata: ImageMetadata[] = getContentImageMetadata(post.content) ?? [];
 
-  // TODO: Add this next:
-  /*
-  const linkedTags = (
-    <ul role="navigation">
-      <li>
-        
-      </li>
+  const tagNav = <section role="navigation">
+    <h3 className="text-lg text-slate-600 mb-2">Topics</h3>
+    <ul role="navigation" className="flex flex-wrap">
+      {post.data.tags.map((tag: string) => {
+        return (
+          <li>
+            <Link href={`/topics/${slugifyTag(tag)}`} className="mr-4 hover:underline md:mr-6">{tag}</Link>
+          </li>
+        )
+      })}
     </ul>
-  );
-  */
+  </section>;
   
   return (
     <div>
@@ -112,7 +116,7 @@ const Post = (props: any) => {
         <h1 className="text-2xl text-slate-600">{post.data.title}</h1>
         <p className="text-slate-400 mt-2">{post.data.date}</p>
       </div>
-      <article className="prose">
+      <article className="prose mb-12">
         <ReactMarkdown
           components={{
             img: (imgProps) => (
@@ -124,6 +128,7 @@ const Post = (props: any) => {
           {post.content}
         </ReactMarkdown>
       </article>
+      {tagNav}
     </div>
   )
 };

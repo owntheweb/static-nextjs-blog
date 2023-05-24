@@ -8,6 +8,8 @@ tags:
   - "OpenAI"
   - "DALL-E"
   - "Oracle"
+  - "AI"
+  - "ML"
 ---
 
 ![image](/images/new-favorite-mug.jpg)

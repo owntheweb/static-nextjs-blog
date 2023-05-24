@@ -10,7 +10,6 @@ export const metadata = {
 // TODO: no any
 export default function TagPosts(props: any) {
   const postMetadata = getPostMetadata();
-  console.log(props);
   const taggedPosts = postMetadata.filter(post => {
     const slugifiedTags = post.tags.map(tag => slugifyTag(tag));
     return slugifiedTags.includes(props.params.tag);

@@ -1,6 +1,5 @@
 ---
 title: "The Art of Crafting a Short Blog Post"
-subtitle: "It's very artsy and craftsy."
 date: "2021-05-25"
 tags:
   - "Blog"

@@ -1,6 +1,5 @@
 ---
 title: "A Second Post"
-subtitle: "It's after the first."
 date: "2023-05-21"
 tags:
   - "Blog"

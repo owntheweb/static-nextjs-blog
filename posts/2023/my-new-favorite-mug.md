@@ -1,6 +1,5 @@
 ---
 title: "My New Favorite Mug"
-subtitle: "Do I really want subtitles?"
 date: "2023-05-19"
 tags:
   - "BombBomb"

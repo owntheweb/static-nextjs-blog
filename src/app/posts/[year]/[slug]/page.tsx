@@ -15,14 +15,6 @@ export const generateStaticParams = async () => {
   }));
 };
 
-const getPostContent = (slug:string) => {
-  const folder = 'posts/';
-  const file = `${folder}${slug}.md`;
-  const content = fs.readFileSync(file, 'utf8');
-  const grayMatter = matter(content);
-  return grayMatter;
-}
-
 interface ImageMetadata {
   src: string,
   width: number,
@@ -31,7 +23,7 @@ interface ImageMetadata {
 }
 
 // TODO: no any
-const getContentImageMetadata = (content: string): ImageMetadata[] => {
+const getContentImageMetadata = (content: string): ImageMetadata[] => {  
   // get image sizes
   const iterator = content.matchAll(/\!\[.*]\((.*)\)/g);
   
@@ -91,9 +83,28 @@ const getSizedImage = (imgSrc: string, contentImageMetadata: any[]): any => {
 }
 
 const Post = (props: any) => {
+  const getPostContent = (slug:string) => {
+    const folder = 'posts/';
+    const file = `${folder}${props.params.year}/${slug}.md`;
+    const content = fs.readFileSync(file, 'utf8');
+    const grayMatter = matter(content);
+    return grayMatter;
+  }
+  
   const slug = props.params.slug;
   const post = getPostContent(slug);
   const contentImageMetadata: ImageMetadata[] = getContentImageMetadata(post.content) ?? [];
+
+  // TODO: Add this next:
+  /*
+  const linkedTags = (
+    <ul role="navigation">
+      <li>
+        
+      </li>
+    </ul>
+  );
+  */
   
   return (
     <div>

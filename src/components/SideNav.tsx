@@ -2,13 +2,40 @@ import Link from "next/link";
 import getPostMetadata from "./utils/getPostMetadata";
 import { slugifyTag, getAllPostTags, getSortedTags } from "./utils/tags";
 import { GeneralComponentProps } from "./model/GeneralComponentProps";
+import { PostMetadata } from "./model/PostMetadata";
 
-const SideNav = ({ className }: GeneralComponentProps) => {
-  const postMetadata = getPostMetadata();
+const SideNav = ({ className }: GeneralComponentProps) => {  
+  const getAllYears = (postMetadata: PostMetadata[]): number[] => {
+    const years = postMetadata.map(post => Number(
+        new Date(post.date).getFullYear())
+      );
+    return years;
+  }
+
+  const groupAndSortYears = (allYears: number[], count:number): number[][] => {
+    const yearCounts: { [key: string]: number } = {};
+    for (const year of allYears) {
+      yearCounts[year] = yearCounts[year] ? yearCounts[year] + 1 : 1;
+    }
+    let sortedYears = [];
+    for (let year in yearCounts) {
+      sortedYears.push([Number(year), yearCounts[year]]);
+    }
+    sortedYears.sort(function(a, b) {
+        return b[1] - a[1];
+    });
+    return sortedYears.slice(0, count);
+  }
   
+  const postMetadata = getPostMetadata();
+
+  // years nav
+  const allYears = getAllYears(postMetadata);
+  const groupedSortedYears = groupAndSortYears(allYears, 5);
+  
+  // tags/topics nav
   const targetSinceDate = new Date();
   targetSinceDate.setFullYear(targetSinceDate.getFullYear() - 1);
-  
   const allPostTags = getAllPostTags(postMetadata, targetSinceDate);
   const sortedTags = getSortedTags(allPostTags, 10);
 
@@ -26,9 +53,13 @@ const SideNav = ({ className }: GeneralComponentProps) => {
       
       {/*// TODO: begin linking all posts by year and use that in nav*/}
       <ul className="mb-12">
-        <li><Link href="/posts/2023">2023 (99)</Link></li>
-        <li><Link href="/posts/2022">2022 (99)</Link></li>
-        <li><Link href="/posts/2021">2021 (99)</Link></li>
+        {groupedSortedYears.map( yearAndCount => {
+          return(
+            <li>
+              <Link href={`/posts/${yearAndCount[0]}`}>{yearAndCount[0]} ({yearAndCount[1]})</Link>
+            </li>
+          );
+        })}
         <li><Link href="/posts">See All Posts</Link></li>
       </ul>
       

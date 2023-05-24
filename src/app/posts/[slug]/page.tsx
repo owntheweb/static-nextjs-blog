@@ -2,14 +2,9 @@ import getPostMetadata from '@/components/getPostMetadata';
 import fs from 'fs';
 import matter from 'gray-matter';
 import sizeOf from 'image-size';
-import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import ExportedImage from "next-image-export-optimizer";
 
-interface ImageWidthBreakpoint {
-  width: number,
-  className: string,
-}
 
 // TODO: Define generated image sizes in nextjs config when design is ready
 

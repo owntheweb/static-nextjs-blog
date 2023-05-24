@@ -7,8 +7,22 @@ export const metadata = {
   title: 'Posts'
 }
 
-// TODO: no any
-export default function TagPosts(props: any) {
+interface TagPostParams {
+  tag: string,
+}
+
+interface TagPostsProps {
+  params: TagPostParams,
+}
+
+export const generateStaticParams = async () => {
+  const posts = getPostMetadata();
+  return posts.map(post => ({
+    tags: post.tags
+  }));
+};
+
+export default function TagPosts(props: TagPostsProps) {
   const postMetadata = getPostMetadata();
   const taggedPosts = postMetadata.filter(post => {
     const slugifiedTags = post.tags.map(tag => slugifyTag(tag));

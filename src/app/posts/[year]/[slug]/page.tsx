@@ -6,6 +6,7 @@ import ReactMarkdown from 'react-markdown';
 import ExportedImage from "next-image-export-optimizer";
 import Link from 'next/link';
 import { slugifyTag } from '@/components/utils/tags';
+import { ReactElement } from 'react-markdown/lib/react-markdown';
 
 
 // TODO: Define generated image sizes in nextjs config when design is ready
@@ -24,14 +25,13 @@ interface ImageMetadata {
   alt: string,
 }
 
-// TODO: no any
 const getContentImageMetadata = (content: string): ImageMetadata[] => {  
   // get image sizes
   const iterator = content.matchAll(/\!\[.*]\((.*)\)/g);
   
   let match: IteratorResult<RegExpMatchArray, any>;
   
-  let contentImageMetadata:any = [];
+  let contentImageMetadata:ImageMetadata[] = [];
   while (!(match = iterator.next()).done) {
     const src = match.value[1];
     const altMatch = match.value[0].match(/\[(.*?)\]/g);
@@ -42,8 +42,8 @@ const getContentImageMetadata = (content: string): ImageMetadata[] => {
       const { width, height } = sizeOf(`public/${src}`);
       contentImageMetadata.push({
         src,
-        width,
-        height,
+        width : width ? width : 1000,
+        height: height ? height : 500,
         alt,
       });
     } catch (err) {
@@ -60,8 +60,7 @@ const getContentImageMetadata = (content: string): ImageMetadata[] => {
   return contentImageMetadata;
 }
 
-// TODO: no any
-const getSizedImage = (imgSrc: string, contentImageMetadata: any[]): any => {
+const getSizedImage = (imgSrc: string, contentImageMetadata: ImageMetadata[]): ReactElement => {
   const imageMetadataResults = contentImageMetadata.filter((contentImageMetadata: any) => contentImageMetadata.src === imgSrc);
   if (imageMetadataResults.length > 0) {
     return <ExportedImage
@@ -84,7 +83,16 @@ const getSizedImage = (imgSrc: string, contentImageMetadata: any[]): any => {
   />;
 }
 
-const Post = (props: any) => {
+interface PostParams {
+  slug: string,
+  year: number,
+}
+
+interface PostProps {
+  params: PostParams,
+}
+
+const Post = (props: PostProps) => {
   const getPostContent = (slug:string) => {
     const folder = 'posts/';
     const file = `${folder}${props.params.year}/${slug}.md`;

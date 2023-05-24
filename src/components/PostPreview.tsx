@@ -10,7 +10,6 @@ const PostPreview = (props: PostMetadata) => {
       <Link href={`/posts/${year}/${props.slug}`} >
         <h2 className="text-violet-600 hover:underline mb-4">{props.title}</h2>
       </Link>
-      <p className="text-slate-700">{props.subtitle}</p>
     </div>
   )
 }

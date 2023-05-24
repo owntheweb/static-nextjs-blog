@@ -6,7 +6,22 @@ export const metadata = {
   title: 'Posts'
 }
 
-export default function YearPosts(props: any) {
+interface YearPostsParams {
+  year: number,
+}
+
+interface YearPostsProps {
+  params: YearPostsParams,
+}
+
+export const generateStaticParams = async () => {
+  const posts = getPostMetadata();
+  return posts.map(post => ({
+    year: new Date(post.date).getFullYear().toString()
+  }));
+};
+
+export default function YearPosts(props: YearPostsProps) {
   const postMetadata = getPostMetadata();
   
   const postPreviews = postMetadata

@@ -44,11 +44,11 @@ const Post = (props: PostProps) => {
   
   return (
     <>
-      <div className="my-12">
+      <div className="my-6">
         <h1 className="text-2xl text-slate-600">{post.data.title}</h1>
         <p className="text-slate-400 mt-2">{post.data.date}</p>
       </div>
-      <article className="prose mb-12">
+      <article className="prose mb-6">
         <ReactMarkdown
           components={{
             img: (imgProps) => (

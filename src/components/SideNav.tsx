@@ -40,9 +40,9 @@ const SideNav = ({ className }: GeneralComponentProps) => {
   const sortedTags = getSortedTags(allPostTags, 10);
 
   return (
-    <nav role="navigation" className={`${className} mt-12`}>
+    <nav role="navigation" className={`${className} mt-6`}>
       <h3 className="text-lg text-slate-600 mb-2">Connect</h3>
-      <ul className="mb-12">
+      <ul className="mb-6">
         <li><Link href="https://linkedin.com/in/interactiveguru/">LinkedIn</Link></li>
         <li><Link href="https://github.com/owntheweb">GitHub</Link></li>
         <li><Link href="https://twitter.com/owntheweb">Twitter</Link></li>
@@ -52,7 +52,7 @@ const SideNav = ({ className }: GeneralComponentProps) => {
       <h3 className="text-lg text-slate-600 mb-2">Posts</h3>
       
       {/*// TODO: begin linking all posts by year and use that in nav*/}
-      <ul className="mb-12">
+      <ul className="mb-6">
         {groupedSortedYears.map( yearAndCount => {
           return(
             <li>
@@ -64,7 +64,7 @@ const SideNav = ({ className }: GeneralComponentProps) => {
       </ul>
       
       <h3 className="text-lg text-slate-600 mb-2">Topics</h3>
-      <ul className="mb-12">
+      <ul className="mb-6">
         {sortedTags && sortedTags.map((tagCount: [string, number]) => {
           return(
             <li>

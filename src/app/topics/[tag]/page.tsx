@@ -38,10 +38,10 @@ export default function TagPosts(props: TagPostsProps) {
 
   return (
     <>
-      <div className="my-12">
+      <div className="my-6">
         <h1 className="text-2xl text-slate-600">Topics: {unsluggedTag}</h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
         {postPreviews}
       </div>
       <div>

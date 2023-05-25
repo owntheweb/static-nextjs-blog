@@ -29,7 +29,7 @@ export default function Posts() {
 
   return (
     <>
-      <div className="my-12">
+      <div className="my-6">
         <h1 className="text-2xl text-slate-600">Topics</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

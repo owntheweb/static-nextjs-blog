@@ -32,8 +32,8 @@ export default function RootLayout({
             <ExportedImage src="/logo.png" alt="logo" width={40} height={40} />
           </div>
           <div>
-            <h1 className="text-2xl text-white font-bold">Christopher Stevens Blog</h1>
-            <p className="text-slate-300">Need to design this thing soon.</p>
+            <h1 className="text-2xl text-white font-bold mb-2">Christopher Stevens Blog</h1>
+            <p className="text-slate-300">Worlds to explore. Worlds to create.</p>
           </div>
         </div>
       </div>

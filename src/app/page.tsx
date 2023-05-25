@@ -28,7 +28,7 @@ export default function Home() {
   // For the moment, include first two paragraphs, which by cherished habit includes an image at the top.
   const firstTwoParagraphs = latestPostContent.content.trim().split('\n\n').slice(0, 2).join('\n\n');
   const topHighlight = (
-    <article className="prose mb-12">
+    <article className="prose mb-6">
       <h2 className="text-xl text-slate-600 font-normal mb-2">{latestPostContent.data.title}</h2>
       <p className="text-slate-400">{latestPostContent.data.date}</p>
       <ReactMarkdown
@@ -49,7 +49,7 @@ export default function Home() {
   );
   return (
     <>
-      <div className="my-12">
+      <div className="my-6">
         <h1 className="text-2xl text-slate-600">Hello!</h1>
         <p className="text-slate-400 mt-2">Here's an intro thing.</p>
       </div>
@@ -57,7 +57,7 @@ export default function Home() {
       {topHighlight}
 
       <h3 className="text-lg text-slate-600 mb-4">More Happenings</h3>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
         {postPreviews}
       </div>
 

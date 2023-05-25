@@ -1,4 +1,4 @@
-import getPostMetadata from '@/components/utils/getPostMetadata';
+import { getPostMetadata } from '@/components/utils/posts';
 import PostPreview from '@/components/PostPreview';
 
 export const metadata = {
@@ -6,7 +6,7 @@ export const metadata = {
 }
 
 export default function Posts() {
-  const postMetadata = getPostMetadata();
+  const postMetadata = getPostMetadata(true);
   const postPreviews = postMetadata.map(post => (
     <PostPreview key={post.slug} {...post} />
   ));

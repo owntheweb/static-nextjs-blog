@@ -41,8 +41,8 @@ export default function RootLayout({
   );
 
   const footer = (
-    <footer className="border-t border-slate-500 mt-6 py-6 text-center text-slate-400">
-      <p>Built by Christopher Stevens</p>
+    <footer className="border-t border-slate-500 mt-6 py-6 text-slate-400">
+      <p>&copy; Christopher Stevens</p>
     </footer>
   );
 

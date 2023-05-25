@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import getPostMetadata from '@/components/utils/getPostMetadata';
+import { getPostMetadata } from '@/components/utils/posts';
 import PostPreview from '@/components/PostPreview';
 
 export const metadata = {
@@ -15,14 +15,14 @@ interface YearPostsProps {
 }
 
 export const generateStaticParams = async () => {
-  const posts = getPostMetadata();
+  const posts = getPostMetadata(false);
   return posts.map(post => ({
     year: new Date(post.date).getFullYear().toString()
   }));
 };
 
 export default function YearPosts(props: YearPostsProps) {
-  const postMetadata = getPostMetadata();
+  const postMetadata = getPostMetadata(false);
   
   const postPreviews = postMetadata
     .filter(post => {

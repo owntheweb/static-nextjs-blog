@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import getPostMetadata from '@/components/utils/getPostMetadata';
+import { getPostMetadata } from '@/components/utils/posts';
 import { getAllPostTags, getSortedTags, slugifyTag } from '@/components/utils/tags';
 
 
@@ -8,7 +8,7 @@ export const metadata = {
 }
 
 export default function Posts() {
-  const postMetadata = getPostMetadata();
+  const postMetadata = getPostMetadata(true);
 
   // Any posts before Woodstock will be an anomaly.
   const targetSinceDate = new Date('1969-08-15');

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import getPostMetadata from '@/components/utils/getPostMetadata';
+import { getPostMetadata } from '@/components/utils/posts';
 import PostPreview from '@/components/PostPreview';
 import { slugifyTag } from '@/components/utils/tags';
 
@@ -16,14 +16,14 @@ interface TagPostsProps {
 }
 
 export const generateStaticParams = async () => {
-  const posts = getPostMetadata();
+  const posts = getPostMetadata(true);
   return posts.map(post => ({
     tags: post.tags
   }));
 };
 
 export default function TagPosts(props: TagPostsProps) {
-  const postMetadata = getPostMetadata();
+  const postMetadata = getPostMetadata(true);
   const taggedPosts = postMetadata.filter(post => {
     const slugifiedTags = post.tags.map(tag => slugifyTag(tag));
     return slugifiedTags.includes(props.params.tag);

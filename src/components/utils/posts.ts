@@ -2,7 +2,15 @@ import fs from 'fs';
 import matter from 'gray-matter';
 import { PostMetadata } from '../model/PostMetadata';
 
-const getPostMetadata = (year?: number): PostMetadata[] => {
+const sortPostMetadata = (unsortedPostMetadata: PostMetadata[]): PostMetadata[] => {
+  let sortedPostMetadata: PostMetadata[] = [...unsortedPostMetadata];
+
+  return sortedPostMetadata.sort((a: any, b: any) => {
+    return new Date(b.date).getTime() - new Date(a.date).getTime();
+  });
+}
+
+const getPostMetadata = (sort: boolean, year?: number): PostMetadata[] => {
   const folder = "posts/";
 
   let files: string[] = [];
@@ -29,12 +37,27 @@ const getPostMetadata = (year?: number): PostMetadata[] => {
       title: grayMatter.data.title,
       date: grayMatter.data.date,
       subtitle: grayMatter.data.subtitle,
-      slug:  fileName.split('/')[1].replace('.md', ''),
+      slug: fileName.split('/')[1].replace('.md', ''),
       tags: grayMatter.data.tags,
     }
   });
 
+  if (sort) {
+    return sortPostMetadata(posts);
+  }
+
   return posts;
 }
 
-export default getPostMetadata;
+const getPostContent = (year: number, slug:string) => {
+  const folder = 'posts/';
+  const file = `${folder}${year}/${slug}.md`;
+  const content = fs.readFileSync(file, 'utf8');
+  const grayMatter = matter(content);
+  return grayMatter;
+}
+
+export {
+  getPostMetadata,
+  getPostContent,
+};

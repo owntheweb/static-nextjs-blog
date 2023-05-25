@@ -1,5 +1,5 @@
 import Link from "next/link";
-import getPostMetadata from "./utils/getPostMetadata";
+import { getPostMetadata } from "./utils/posts";
 import { slugifyTag, getAllPostTags, getSortedTags } from "./utils/tags";
 import { GeneralComponentProps } from "./model/GeneralComponentProps";
 import { PostMetadata } from "./model/PostMetadata";
@@ -27,7 +27,7 @@ const SideNav = ({ className }: GeneralComponentProps) => {
     return sortedYears.slice(0, count);
   }
   
-  const postMetadata = getPostMetadata();
+  const postMetadata = getPostMetadata(false);
 
   // years nav
   const allYears = getAllYears(postMetadata);

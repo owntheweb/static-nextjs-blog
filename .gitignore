@@ -37,3 +37,8 @@ next-env.d.ts
 # don't add next-image-export-optimizer generated images (lots) to repo
 public/images/next-image-export-optimizer-hashes.json
 public/images/nextImageExportOptimizer*
+
+#CSV import artifacts
+csvImport/node_modules
+csvImport/importData
+csvImport/output

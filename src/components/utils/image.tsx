@@ -28,7 +28,8 @@ const getSizedImage = (imgSrc: string, contentImageMetadata: ImageMetadata[]): R
 
 const getContentImageMetadata = (content: string): ImageMetadata[] => {  
   // get image sizes
-  const iterator = content.matchAll(/\!\[.*]\((.*)\)/g);
+  //const iterator = content.matchAll(/\!\[.*]\((.*)\)/g);
+  const iterator = content.matchAll(/!\[[^\]]*\]\((?<filename>.*?)(?=\"|\))(?<optionalpart>\".*\")?\)/g);
   
   let match: IteratorResult<RegExpMatchArray, any>;
   

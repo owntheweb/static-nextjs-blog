@@ -32,6 +32,7 @@ const SideNav = ({ className }: GeneralComponentProps) => {
   // years nav
   const allYears = getAllYears(postMetadata);
   const groupedSortedYears = groupAndSortYears(allYears, 5);
+
   
   // tags/topics nav
   const targetSinceDate = new Date();
@@ -51,7 +52,6 @@ const SideNav = ({ className }: GeneralComponentProps) => {
 
       <h3 className="text-lg text-slate-600 mb-2">Posts</h3>
       
-      {/*// TODO: begin linking all posts by year and use that in nav*/}
       <ul className="mb-6">
         {groupedSortedYears.map( yearAndCount => {
           return(

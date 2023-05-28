@@ -3,6 +3,7 @@ import sizeOf from 'image-size';
 import { ReactElement } from 'react-markdown/lib/react-markdown';
 import { ImageMetadata } from "../model/ImageMetadata";
 
+// TODO: Do I need to pass in an array of contentImageMetadata here? Single would be cooler.
 const getSizedImage = (imgSrc: string, contentImageMetadata: ImageMetadata[]): ReactElement => {
   const imageMetadataResults = contentImageMetadata.filter((contentImageMetadata: any) => contentImageMetadata.src === imgSrc);
   if (imageMetadataResults.length > 0) {
@@ -26,6 +27,26 @@ const getSizedImage = (imgSrc: string, contentImageMetadata: ImageMetadata[]): R
   />;
 }
 
+const getImageMetadata = (src: string, alt: string) => {
+  try {
+    const { width, height } = sizeOf(`public/${src}`);
+    return {
+      src,
+      width : width ? width : 1000,
+      height: height ? height : 500,
+      alt,
+    };
+  } catch (err) {
+    console.error(`${src}: Unable to get image size.`, err);
+    return {
+      src,
+      width: 1000,
+      height: 500,
+      alt,
+    };
+  }
+}
+
 const getContentImageMetadata = (content: string): ImageMetadata[] => {  
   // get image sizes
   //const iterator = content.matchAll(/\!\[.*]\((.*)\)/g);
@@ -39,24 +60,7 @@ const getContentImageMetadata = (content: string): ImageMetadata[] => {
     const altMatch = match.value[0].match(/\[(.*?)\]/g);
     const altText = altMatch && altMatch[0] ? altMatch[0] : 'image';
     const alt = altText.replace(/[\[\]']+/g, '');
-
-    try {
-      const { width, height } = sizeOf(`public/${src}`);
-      contentImageMetadata.push({
-        src,
-        width : width ? width : 1000,
-        height: height ? height : 500,
-        alt,
-      });
-    } catch (err) {
-      console.error(`${src}: Unable to get image size.`, err);
-      contentImageMetadata.push({
-        src,
-        width: 1000,
-        height: 500,
-        alt,
-      });
-    }
+    contentImageMetadata.push(getImageMetadata(src, alt));
   }
 
   return contentImageMetadata;
@@ -64,5 +68,6 @@ const getContentImageMetadata = (content: string): ImageMetadata[] => {
 
 export {
   getSizedImage,
+  getImageMetadata,
   getContentImageMetadata,
 }

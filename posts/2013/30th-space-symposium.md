@@ -13,7 +13,7 @@ tags:
   - responsive
   - Twitter Bootstrap
 ---
-![30th Space Symposium](/images/30thSymposium.jpg)
+`[30th Space Symposium](/images/30thSymposium.jpg): TODO: missing from migration`
 
 ### Status
 

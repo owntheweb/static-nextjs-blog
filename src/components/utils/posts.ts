@@ -34,10 +34,12 @@ const getPostMetadata = (sort: boolean, year?: number): PostMetadata[] => {
     const grayMatter = matter(fileContents);
 
     return {
+      type: grayMatter.data.type,
       title: grayMatter.data.title,
       date: grayMatter.data.date,
       subtitle: grayMatter.data.subtitle,
       slug: fileName.split('/')[1].replace('.md', ''),
+      previewImage: grayMatter.data.previewImage,
       tags: grayMatter.data.tags,
     }
   });

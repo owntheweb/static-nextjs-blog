@@ -22,7 +22,7 @@ const SideNav = ({ className }: GeneralComponentProps) => {
       sortedYears.push([Number(year), yearCounts[year]]);
     }
     sortedYears.sort(function(a, b) {
-        return b[1] - a[1];
+        return b[0] - a[0];
     });
     return sortedYears.slice(0, count);
   }

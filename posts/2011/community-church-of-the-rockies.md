@@ -13,7 +13,7 @@ tags:
 
 ### Status
 
-Archived, offline (church closed its doors after years of financial struggle - website built at no charge of course)
+Archived, offline (church closed its doors after years of financial struggle - website built at no cost)
 
 ### Roles
 

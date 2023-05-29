@@ -7,16 +7,13 @@ tags:
   - ActionScript
   - AIML
   - Flash
+  - Commotion
 ---
 !["The Dogfather"](/images/dogFatherTop.jpg)
 
 ### Status
 
-Archived, limited demo link available
-
-### Link
-
-[http://www.christopherstevens.cc/samples/dogfather](/samples/dogfather)
+Archived
 
 ### Roles
 

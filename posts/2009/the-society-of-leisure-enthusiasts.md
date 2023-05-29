@@ -12,6 +12,7 @@ tags:
   - PHP
   - print
   - WordPress
+  - The Society
 ---
 ![The Society of Leisure Enthusiasts](/images/societyTop.jpg)
 

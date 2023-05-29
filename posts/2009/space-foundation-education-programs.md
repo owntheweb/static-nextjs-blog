@@ -8,6 +8,7 @@ tags:
   - Drupal
   - Drupal 6
   - MySQL
+  - Space Foundation
 ---
 ![Space Foundation Education Programs](/images/education.jpg)
 

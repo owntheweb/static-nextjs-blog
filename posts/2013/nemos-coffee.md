@@ -11,16 +11,13 @@ tags:
   - responsive
   - Scrapy
   - Twitter Bootstrap
+  - life
 ---
 ![Nemo's Coffee](/images/nemosTop.jpg)
 
 ### Status
 
-Active
-
-### Link
-
-[http://www.nemoscoffee.com](http://www.nemoscoffee.com)
+Archived
 
 ### Roles
 

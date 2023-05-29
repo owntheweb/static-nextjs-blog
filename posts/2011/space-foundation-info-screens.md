@@ -10,19 +10,15 @@ tags:
   - Drupal 6
   - Drupal 7
   - Flash
-  - JSON
   - PHP
-  - XML
+  - Space Foundation
+  - Space Symposium
 ---
 ![Space Foundation Info Screens](/images/infoScreensTopImage.jpg)
 
 ### Status
 
-Active
-
-### Link
-
-Private
+Archived
 
 ### Roles
 

@@ -2,13 +2,18 @@
 title: Turn a Raspberry Pi into a Minimal Hands-Free Kiosk
 type: Blog Post
 date: '2014-10-14'
-previewImage: /images/todo.jpg
+previewImage: /images/raspberryPi.jpg
 tags:
-  - Needs Tagged
+  - blog
+  - Raspberry Pi
+  - kiosk
+  - life
 ---
+![Raspberry Pi](/images/raspberryPi.jpg)
+
 Working in a museum setting, I was looking for a way to turn a Raspberry Pi into a simple kiosk that anyone could plug in and leave (no logins, clicking around to get things started, just plug n' go type stuff). Examples of kiosks in mind include a live streaming video kiosk of the International Space Station (NASA provides multiple live video feeds!), a basic slideshow or scrolling list of donors from a web browser or even something like a artifact touchscreen interface (not discussed here as a larger compatible touchscreen wasn't within reach). And why not? A Raspberry Pi device only costs $38, perfect for a non-profit budget while bringing more life to existing or new display equipment.
 
-Thanks to some wonderful sources listed [below](#sources), getting started was pretty straight forward. Here's the quick combined step-by step.
+Thanks to some wonderful sources listed below, getting started was pretty straight forward. Here's the quick combined step-by step.
 
 ### Sources
 

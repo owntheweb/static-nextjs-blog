@@ -6,12 +6,14 @@ previewImage: /images/theater-ad-preview.jpg
 tags:
   - Blender
   - music
+  - video
+  - Space Foundation
 ---
 ![Discovery Center Theater Ad](/images/theater-ad-top.jpg)
 
 ### Status
 
-Active
+Archived (YouTube link still available)
 
 ### Link
 

@@ -4,14 +4,10 @@ type: Blog Post
 date: '2009-06-04'
 previewImage: /images/moved.jpg
 tags:
-  - colorado
-  - colorado-school-for-the-deaf-and-blind
-  - colorado-springs
-  - family
-  - joann-fabrics
-  - move
-  - space-foundation
-  - web-designer
+  - Colorado
+  - Colorado Springs
+  - life
+  - Space Foundation
 ---
 ![New Apartment](/images/newapartment.jpg)
 

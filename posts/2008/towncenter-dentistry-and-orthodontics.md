@@ -6,12 +6,13 @@ previewImage: /images/kesslerFeatured.jpg
 tags:
   - custom theme
   - WordPress
+  - PHP
 ---
 ![TownCenter Dentistry and Orthodontics](/images/kesslerTop.jpg)
 
 ### Status
 
-Archived (new caring marketing team took over while I transitioned to full-time non-profit work)
+Archived
 
 ### Link
 

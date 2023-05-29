@@ -10,18 +10,15 @@ tags:
   - JavaScript
   - MySQL
   - PHP
-  - responsive
   - Twitter Bootstrap
+  - Space Foundation
+  - Space Symposium
 ---
 ![31st Space Symposium Website](/images/31stSymposium-top.jpg)
 
 ### Status
 
-Active
-
-### Link
-
-[http://www.spacesymposium.org](http://www.spacesymposium.org)
+Archived
 
 ### Roles
 

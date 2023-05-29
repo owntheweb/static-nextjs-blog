@@ -10,6 +10,8 @@ tags:
   - JavaScript
   - PHP
   - WordPress
+  - Commotion
+  - Parking Stripe Advertising
 ---
 ![Parking Stripe Advertising](/images/parkingStripeAdvertisingTop.jpg)
 

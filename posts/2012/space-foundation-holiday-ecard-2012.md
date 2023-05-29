@@ -6,16 +6,14 @@ previewImage: /images/holidayFeature.jpg
 tags:
   - ActionScript
   - Flash
+  - eCard
+  - Space Foundation
 ---
 ![Space Foundation Holiday eCard 2012](/images/holidayTop.jpg)
 
 ### Status
 
-Archived, online
-
-### Link
-
-[http://www.spacefoundation.org/tmp/holiday](http://www.spacefoundation.org/tmp/holiday)
+Archived
 
 ### Roles
 

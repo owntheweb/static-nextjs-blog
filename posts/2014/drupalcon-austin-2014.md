@@ -4,10 +4,14 @@ type: Blog Post
 date: '2014-06-11'
 previewImage: /images/feature.jpg
 tags:
-  - Needs Tagged
+  - Drupal
+  - DrupalCon
+  - Drupal 8
+  - Texas
+  - Austin
+  - Conference
+  - Space Foundation
 ---
-![DrupalCon Austin 2014](/images/IMG_20140603_222404b.jpg)
-
 ![Downtown Austin, Texas - Rock n Roll Saved My Black Heart and Soul](/images/IMG_20140603_222404b.jpg)
 
 ![DrupalCon Drone Photo](/images/crowd.jpg) DrupalCon Austin drone group photo taken by [Michael Schmid](https://twitter.com/Schnitzel)
@@ -56,7 +60,7 @@ I sat in on a session on how to take donations and online subscriptions via Drup
 
 Serving as a web server administrator recently (in addition to development, database management, website building, designer and even logo designer lately - the life of many non-profit web people), I felt there was still more I needed to know about securing the stack from bottom up. Two sessions attended were very enlightening if not a touch sobering, kicking some things I hadn't thought about into gear. This also sparked some discussions with other companies such as [Black Mesh](http://www.blackmesh.com/), [Acquia](http://www.acquia.com/) and [Pantheon](https://www.getpantheon.com/) about value-added hosting services in this area for the future, freeing me up to focus more on user experience and design.
 
-![](/images/security2.jpg)
+![web server security](/images/security2.jpg)
 
 Mark Stanislav gave an excellent overview of web server security, not Drupal-specific but also covered some excellent Drupal material such as modules that check different things. At the end of his presentation I knew more about how to make our sites more elusive to mass hackings, at the least buying time to resolve known issues while easier fish are cooked. I also learned a bit about two-factor authentication, making logins more secure (also a touch harder for some, but not something to dismiss for sure). View the full session [here](https://www.youtube.com/watch?v=UPGQdxFt0YE&feature=youtu.be).
 

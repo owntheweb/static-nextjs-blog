@@ -8,16 +8,14 @@ tags:
   - Flash
   - MySQL
   - PHP
+  - Space Foundation
+  - Space Symposium
 ---
 ![Space Shuttle Challenge](/images/shuttleTop.jpg)
 
 ### Status
 
-Archived, online
-
-### Link
-
-[http://www.spacefoundation.org/tmp/shuttle2/](http://www.spacefoundation.org/tmp/shuttle2/)
+Archived
 
 ### Roles
 

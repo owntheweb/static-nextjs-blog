@@ -5,6 +5,8 @@ date: '2011-10-30'
 previewImage: /images/27thNssPosterFeature.jpg
 tags:
   - print
+  - Space Foundation
+  - Space Symposium
 ---
 ![27th National Space Symposium Poster](/images/27thNssPosterTop.jpg)
 

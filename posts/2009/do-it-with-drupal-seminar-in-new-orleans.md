@@ -4,13 +4,15 @@ type: Blog Post
 date: '2009-12-14'
 previewImage: /images/newOrleans.jpg
 tags:
-  - Needs Tagged
+  - Drupal
+  - Space Foundation
+  - Conference
 ---
 ![New Orleans](/images/neworleans.jpg)
 
 I just got back from [Do It With Drupal](http://www.doitwithdrupal.com), a three day seminar held in New Orleans. IT WAS AMAZING! I was able to interact with roughly 200 developers from Canada to Sweden, who spoke the same Drupal talk. TONS of information was absorbed. I was able to get up to date on what's going on, and reap the rewards of being a part of an open source community. A growing list of Drupal questions were tackled that were directly affecting projects at the Space Foundation. I was able to put a face to those who make my life wonderful when building websites with Drupal.
 
-[![Drupal](/sites/default/files/blog/blog/wp-content/uploads/2009/12/drupallogo.gif)](http://www.drupal.org)
+[![Drupal](/images/drupallogo.gif)](http://www.drupal.org)
 
 What is Drupal? [Drupal](http://www.drupal.org) is an open source project that is three things:
 
@@ -22,24 +24,24 @@ We're using Drupal at the Space Foundation as the platform to replace all our we
 
 I had a few plaguing Drupal questions that weren't fully answered in forums or chat channels over the past months. Speaking with experts at the Do It With Drupal conference blew those questions wide open (often with more questions, giving a great place to start research). All of them were touched. Here's what I have:
 
-*   [What are the weaknesses and bottlenecks of Drupal?](#q1)
-*   [How do I prevent hackers from hacking my Drupal websites?](#q2)
-*   [How do other Drupal themers go about theming their Drupal websites?](#q3)
-*   [Is it "OK" to override Drupal's primary/secondary navigation theme function, and what's the best practices?](#q4)
-*   [What's the best way to migrate data from old non-Drupal websites into Drupal?](#q5)
-*   [How are others managing their client expectations and project timelines?](#q6)
-*   [Is it possible to create custom maps of hotels, galaxies, and other non-standard maps in a Google Maps kind of way?](#q7)
-*   [How do I film, upload, manage, and sell video for an event online?](#q8)
-*   [How do I optimize the speed of a Drupal website?](#q9)
-*   [How do some Drupal websites handle millions of visitors per day?](#q10)
-*   [How do I roll out features from a local test server to a live Drupal website without losing my mind?](#q11)
-*   [How many modules are too many modules on a Drupal website?](#q12)
-*   [How do I publish content to multiple websites at once?](#q13)
-*   [Is Ubercart (the Drupal shopping cart) really the "one cart to rule them all"?](#q14)
-*   [Why consider an external search service like Acquia hosted Apache SOLR?](#q15)
-*   [How does Open Atrium compare to basecamp?](#q16)
-*   [How does Drupal work in the cloud?](#q17)
-*   [What are some cool modules, themes, and projects I can't live without?](#q18)
+- [What are the weaknesses and bottlenecks of Drupal?](#what-are-the-weaknesses-and-bottlenecks-of-drupal)
+- [How do I prevent hackers from hacking my Drupal websites?](#how-do-i-prevent-hackers-from-hacking-my-drupal-websites)
+- [How do other Drupal themers go about theming their Drupal websites?](#how-do-other-drupal-themers-go-about-theming-their-drupal-websites)
+- [Is it "OK" to override Drupal's primary/secondary navigation theme function, and what's the best practices?](#is-it-ok-to-override-drupals-primarysecondary-navigation-theme-function-and-whats-the-best-practices)
+- [What's the best way to migrate data from old non-Drupal websites into Drupal?](#whats-the-best-way-to-migrate-data-from-old-non-drupal-websites-into-drupal)
+- [How are others managing their client expectations and project timelines?](#how-are-others-managing-their-client-expectations-and-project-timelines)
+- [Is it possible to create custom maps of hotels, galaxies, and other non-standard maps in a Google Maps kind of way?](#is-it-possible-to-create-custom-maps-of-hotels-galaxies-and-other-non-standard-maps-in-a-google-maps-kind-of-way)
+- [How do I film, upload, manage, and sell video for an event online?](#how-do-i-film-upload-manage-and-sell-video-for-an-event-online)
+- [How do I optimize the speed of a Drupal website?](#how-do-i-optimize-the-speed-of-a-drupal-website)
+- [How do some Drupal websites handle millions of visitors per day?](#how-do-some-drupal-websites-handle-millions-of-visitors-per-day)
+- [How do I roll out features from a local test server to a live Drupal website without losing my mind?](#how-do-i-roll-out-features-from-a-local-test-server-to-a-live-drupal-website-without-losing-my-mind)
+- [How many modules are too many modules on a Drupal website?](#how-many-modules-are-too-many-modules-on-a-drupal-website)
+- [How do I publish content to multiple websites at once?](#how-do-i-publish-content-to-multiple-websites-at-once)
+- [Is Ubercart (the Drupal shopping cart) really the "one cart to rule them all"?](#is-ubercart-the-drupal-shopping-cart-really-the-one-cart-to-rule-them-all)
+- [Why consider an external search service like Acquia hosted Apache SOLR?](#why-consider-an-external-search-service-like-acquia-hosted-apache-solr)
+- [How does Open Atrium compare to basecamp?](#how-does-open-atrium-compare-to-basecamp)
+- [How does Drupal work in the cloud?](#how-does-drupal-work-in-the-cloud)
+- [What are some cool modules, theme engines, and projects I can't live without?](#what-are-some-cool-modules-theme-engines-and-projects-i-cant-live-without)
 
 ### What are the weaknesses and bottlenecks of Drupal?
 

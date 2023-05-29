@@ -12,16 +12,14 @@ tags:
   - PHP
   - responsive
   - Twitter Bootstrap
+  - Space Foundation
+  - Space Symposium
 ---
-`[30th Space Symposium](/images/30thSymposium.jpg): TODO: missing from migration`
+![30th Space Symposium](/images/30thSymposium.jpg)
 
 ### Status
 
-Active
-
-### Link
-
-[http://www.spacesymposium.org](http://www.spacesymposium.org)
+Archived
 
 ### Roles
 
@@ -29,7 +27,7 @@ Web developer/designer
 
 ### Additional Credits
 
-Design and content support by web developer/designer Luciana Mendes. Poster artwork (design based on commemorative poster) by Joe Vinton. 30th Space Symposium logo designed by Amy Mirocha. Photography by Tom Kimmell and his team. Content maintained by 15+ passionate non-technical co-workers.
+Design and content support by web developer/designer Luciana Mendes. Poster artwork (design based on commemorative poster) by Joe Vinton. 30th Space Symposium logo designed by Amy Mirocha. Photography by Tom Kimmell and his team. Content maintained by 15+ passionate co-workers.
 
 ### Purpose
 
@@ -38,7 +36,3 @@ Provide customer information and promote registration for the Space Foundation's
 ### Highlighted Features
 
 Responsive mobile-friendly design, custom Google Translate integration, media sync with main Space Foundation website, [pricing calculator](http://www.spacesymposium.org/register/fees-tickets-policies), IP->geo-located welcome flag, greater customer focus
-
-### Prototypes
-
-[rough prototype 1](/samples/30th-symposium/prototype1.htm), [prototype 2](/samples/30th-symposium/prototype2.htm), [prototype 3](/samples/30th-symposium/prototype3.htm), [prototype 4](/samples/30th-symposium/prototype4.htm)

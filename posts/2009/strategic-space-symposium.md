@@ -6,18 +6,13 @@ previewImage: /images/stratFeature.jpg
 tags:
   - Drupal
   - Drupal 6
+  - Space Foundation
 ---
 ![Strategic Space Symposium](/images/strat.jpg)
 
 ### Status
 
-Archived, online
-
-### Link
-
-[http://stratspace.org](http://stratspace.org)
-
-**Note:** This website has been converted into static HTML for long-term security purposes and to serve as a reference of past events. Some features will not work (e.g. search, home page dynamic slide show, etc.).
+Archived
 
 ### Roles
 

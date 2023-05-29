@@ -4,15 +4,14 @@ type: Blog Post
 date: '2011-11-02'
 previewImage: /images/diwdNewYork.jpg
 tags:
-  - '911'
   - conference
   - diwd
-  - do-it-with-drupal
+  - Do It with Drupal
   - drupal
   - new-york
   - notes
-  - space-foundation
-  - times-square
+  - Space Foundation
+  - Times Square
 ---
 [![Times Square in New York](/images/newYorkTimesSquare.jpg)](/sites/default/files/blog/blog/wp-content/uploads/2011/10/newYorkTimesSquare.jpg)
 

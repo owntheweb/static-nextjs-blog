@@ -4,7 +4,7 @@ type: Blog Post
 date: '2009-05-01'
 previewImage: /images/societyPreview.jpg
 tags:
-  - Needs Tagged
+  - The Society
 ---
 ![TheSociety.com Website Home Page Preview](/images/societyhomepreview.jpg) TheSociety.com will be publishing a large update early next week! The biggest updates include a revised navigation scheme lead by The Society Co-Founder Scott Berkley, two new products and content lead by Co-Founder Mike McFadden, and several visual updates and content additions developed/designed myself.
 

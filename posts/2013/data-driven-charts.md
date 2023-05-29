@@ -8,16 +8,13 @@ tags:
   - jpGraph
   - JSON
   - PHP
+  - Space Foundation
 ---
 ![Data-Driven Charts](/images/index.png)
 
 ### Status
 
-Active
-
-### Link
-
-Private
+Archived
 
 ### Roles
 
@@ -26,7 +23,3 @@ Developer/designer
 ### Purpose
 
 Automate the process of a commonly requested chart graphic while adding custom brand-friendly design specifically for Space Foundation Indexes.
-
-### Additional Information
-
-Learn more about Space Foundation Indexes [here](http://www.spacefoundation.org/programs/research-and-analysis/space-foundation-indexes).

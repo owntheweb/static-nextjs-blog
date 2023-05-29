@@ -5,10 +5,10 @@ date: '2010-06-16'
 previewImage: /images/whatsMissing.jpg
 tags:
   - breadcrumbs
-  - drupal
-  - javascript
+  - Drupal
+  - JavaScript
   - refresh-view
-  - space-foundation
+  - Space Foundation
 ---
 ![Space Foundation Redesign Project](/images/redesignwebsitepreview.jpg)
 
@@ -16,10 +16,10 @@ After some brainstorming and planning with team members Luciana and Paul, I buil
 
 At the early stage of planning, site activity hasn't quite picked up yet (although some great ideas have been received already!). However, the opportunity to experiment while developing this less formal site has answered many Drupal development questions, benefiting future Space Foundation websites. Here are the bigger questions answered:
 
-*   [How do I take full control over breadcrumbs on very large Drupal websites?](#q1)
-*   [How do I create a node without leaving a page, using JavaScript?](#q2)
-*   [How do I refresh a view block on a page, without refreshing the entire page?](#q3)
-*   [What's the best way to bulk import predefined users into a Drupal website, with accounts and profiles?](#q4)
+- [How do I take full control over breadcrumbs on very large Drupal websites?](#how-do-i-take-full-control-over-breadcrumbs-on-very-large-drupal-websites)
+- [How do I create a node without leaving a page, using JavaScript?](#how-do-i-create-a-node-without-leaving-a-page-using-javascript)
+- [How do I refresh a view on a page, without refreshing the entire page?](#how-do-i-refresh-a-view-on-a-page-without-refreshing-the-entire-page)
+- [What's the best way to bulk import predefined users into a Drupal website, with accounts and profiles?](#whats-the-best-way-to-bulk-import-predefined-users-into-a-drupal-website-with-accounts-and-profiles)
 
  
 

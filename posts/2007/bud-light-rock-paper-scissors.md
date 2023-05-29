@@ -6,12 +6,13 @@ previewImage: /images/budLightHandFeature.jpg
 tags:
   - ActionScript
   - Flash
+  - Commotion
 ---
 ![Bud Light Rock Paper Scissors](/images/budLightRockPaperScissorsTop.jpg)
 
 ### Status
 
-Archived, offline
+Archived
 
 ### Roles
 

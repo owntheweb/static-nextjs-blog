@@ -7,12 +7,13 @@ tags:
   - ActionScript
   - Flash
   - Sandy 3D
+  - life
 ---
 ![3D Satellite Simulator](/images/satTop.jpg)
 
 ### Status
 
-Experimental, Archived (permission renewal required to continue data sharing)
+Archived
 
 ### Roles
 

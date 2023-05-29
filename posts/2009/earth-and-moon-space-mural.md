@@ -5,6 +5,8 @@ date: '2009-07-01'
 previewImage: /images/earthMoonFeature.jpg
 tags:
   - print
+  - mural
+  - Space Foundation
 ---
 ![Earth and Moon Space Mural](/images/earthMoonTop.jpg)
 
@@ -18,7 +20,7 @@ Designer
 
 ### Additional Credits
 
-Wall mural design prep and alterations by Lauren Mothersole.
+Wall mural print large scale print prep and alterations by Lauren Mothersole.
 
 ### Purpose
 

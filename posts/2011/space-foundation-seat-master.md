@@ -9,16 +9,14 @@ tags:
   - jQuery
   - PHP
   - Twilio
+  - Space Foundation
+  - Space Symposium
 ---
 ![Space Foundation "Seat Master"](/images/seatMasterTop.jpg)
 
 ### Status
 
-Active
-
-### Link
-
-Private
+Active* (?) (reported to be my longest running app at the Space Foundation!)
 
 ### Roles
 

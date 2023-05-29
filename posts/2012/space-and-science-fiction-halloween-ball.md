@@ -7,16 +7,13 @@ tags:
   - custom theme
   - responsive
   - Twitter Bootstrap
+  - Space Foundation
 ---
 ![Space and Science Fiction Halloween Ball](/images/halloweenBallTop.jpg)
 
 ### Status
 
-Active
-
-### Link
-
-The 2013 event website is/was fully maintained by Luciana Mendes at [http://www.scifisprings.com](http://www.scifisprings.com). (I worked out the first event branding and website in 2012.)
+Archived
 
 ### Roles
 

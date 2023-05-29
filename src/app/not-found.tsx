@@ -5,10 +5,10 @@ export default function FourOhFour() {
   return (
     <>
       <div className="mt-6">
-        <h1 className="text-2xl text-slate-600 mb-2">Hmm...</h1>
+        <h1 className="text-2xl text-slate-600 mb-2">Not found... yet.</h1>
       </div>
       <div className="mb-4">
-        You may have taken a wrong turn, yet there's still hope. <Link href={`/`} className="underline inline">Explore posts</Link>.
+        We'll need to investigate this anomaly. <Link href={`/posts`} className="underline inline">Return to home base</Link>.
       </div>
       <ExportedImage
         src="/images/not-found-yet.jpg"

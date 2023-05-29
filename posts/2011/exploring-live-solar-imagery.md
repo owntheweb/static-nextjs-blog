@@ -4,16 +4,12 @@ type: Blog Post
 date: '2011-01-02'
 previewImage: /images/exploringSolar.jpg
 tags:
-  - live-images
-  - live-solar-images
-  - solar-and-heliospheric-observatory
-  - solar-dynamics-observatory
-  - solar-imagery
-  - solar-weather
-  - stereo
-  - sun
+  - live solar images
+  - solar- imagery
+  - solar weather
+  - Space Foundation
 ---
-object, embed { height: 600px; }    1/9/2011: This project has been archived, no longer grabbing live images from various sources for personal web hosting performance reasons. It now sits in the toolbox for future space endeavors when needed. My CEO dropped off a magazine before the holiday break with an article about monitoring live solar weather. What started as something interesting to read sparked a very fascinating endeavor! As I've enjoyed combining webcam images and other data in the past ([old blog theme](http://www.christopherstevens.cc/blog/2008/06/24/49/) used Live Devner image/weather), playing with live solar imagery took the excitement out of this world. I wrote a script to start automatically pulling in and archiving 32 live or nearly live solar images from Solar Dynamics Observatory (SDO), NOAA's Space Weather Protection Center (SWPC), Solar and Heliospheric Observatory (SOHO) and Solar TErrestrial RElations Observatory (STEREO). I also built a crude Flash interface (above) to load and play images being collected. The result: HOT. 8)
+This project has been archived, no longer grabbing live images from various sources for personal web hosting performance reasons. It now sits in the toolbox for future space endeavors when needed. My CEO dropped off a magazine before the holiday break with an article about monitoring live solar weather. What started as something interesting to read sparked a very fascinating endeavor! As I've enjoyed combining webcam images and other data in the past used Live Devner image/weather, playing with live solar imagery took the excitement out of this world. I wrote a script to start automatically pulling in and archiving 32 live or nearly live solar images from Solar Dynamics Observatory (SDO), NOAA's Space Weather Protection Center (SWPC), Solar and Heliospheric Observatory (SOHO) and Solar TErrestrial RElations Observatory (STEREO). I also built a crude Flash interface (above) to load and play images being collected. The result: HOT.
 
 ### Why monitor solar activity?
 

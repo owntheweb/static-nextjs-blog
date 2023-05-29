@@ -4,10 +4,15 @@ type: Blog Post
 date: '2015-05-27'
 previewImage: /images/ibeacon-ranger-feature.jpg
 tags:
-  - Needs Tagged
+  - iBeacon
+  - PhoneGap
+  - Cordova
+  - iOS
+  - Android
+  - Bluetooth
+  - BLE
+  - Space Foundation
 ---
-![iBeacon Ranger](/images/lightblue-bean-ibeacons.jpg)
-
 ![iBeacon Ranger: iBeacon scanning and diagnostic tool](/images/ibeacon-ranger.jpg)
 
 I finished up a mobile iBeacon diagnostic tool and am sharing the source with you! :D
@@ -71,8 +76,6 @@ iBeacons are exciting, yet 'simple' low-energy Bluetooth (BLE) devices. They rep
 *   If only using ranging features, it will work properly when app requests to only access the user's location when the app is active. See end of delegate.didRangeBeaconsInRegion in BeaconMonitor.js with a commented out permissions option.
 
 ### Thank You
-
-![Space Foundation](https://camo.githubusercontent.com/71411bcc03e9eff5a8c78d2ead8fff07c760d6c0/687474703a2f2f7777772e7370616365666f756e646174696f6e2e6f72672f6d2f7663617264732f696d616765732f73664c6f676f2e706e67)
 
 In addition to personal time spent on this project, extra special thanks goes to the Space Foundation team, supplying iBeacon hardware, an iOS developer account and even a few on-the-clock training hours to dedicate towards iBeacon research. The Space Foundation is aiming to improve attendee navigational experiences at the annual [Space Symposium](http://www.spacesymposium.org) via a useful app map. We're also exploring options for future use in the [Space Foundation Discovery Center](http://www.spacefoundation.org/museum). You too can help the Space Foundation achieve their mission to inspire, enable and propel, by contributing to this project. :D
 

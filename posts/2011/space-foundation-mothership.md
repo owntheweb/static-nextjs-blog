@@ -12,12 +12,13 @@ tags:
   - JSON
   - MySQL
   - PHP
+  - Space Foundation
 ---
 ![Space Foundation "Mothership"](/images/spaceFoundationTopImage.jpg)
 
 ### Status
 
-Active
+Archived
 
 ### Link
 
@@ -38,7 +39,3 @@ Showcase everything Space Foundation.
 ### Highlighted Features
 
 Near-live solar background image, currently over 5,000 pages, new mobile-ready data feeds (JSON) for upcoming app
-
-### Case Study
-
-\[coming very soon\]

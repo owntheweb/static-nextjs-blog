@@ -9,16 +9,13 @@ tags:
   - Foundation
   - PHP
   - responsive
+  - Space Foundation
 ---
 ![Teacher Liaison Application Process](/images/teacherLiaisonsFeatured.jpg)
 
 ### Status
 
-Active
-
-### Link
-
-[http://www.spacefoundation.org/liaisons/apply](http://www.spacefoundation.org/liaisons/apply)
+Archived
 
 ### Roles
 

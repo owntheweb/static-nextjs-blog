@@ -7,18 +7,14 @@ tags:
   - Drupal
   - Drupal 6
   - MySQL
+  - Space Foundation
+  - Space Symposium
 ---
 ![27th National Space Symposium](/images/27thSymposiumTop.jpg)
 
 ### Status
 
-Archived, online
-
-### Link
-
-[http://2011.spacesymposium.org/](http://2011.spacesymposium.org/)
-
-**Note:** This website has been converted into static HTML for long-term security purposes and to serve as a reference of past events. Some features will not work (e.g. search, home page dynamic slide show, etc.).
+Archived
 
 ### Roles
 

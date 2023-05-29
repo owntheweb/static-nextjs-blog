@@ -7,12 +7,13 @@ tags:
   - custom theme
   - Drupal
   - Drupal 6
+  - Space Foundation
 ---
 ![Global Space Development Summit](/images/globalSpaceTop.jpg)
 
 ### Status
 
-Archived, offline (past event completed)
+Archived
 
 ### Roles
 

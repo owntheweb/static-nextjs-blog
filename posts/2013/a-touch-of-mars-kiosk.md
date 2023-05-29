@@ -9,16 +9,17 @@ tags:
   - Away3D
   - Blender
   - Flash
+  - Space Foundation
 ---
 !["A Touch of Mars" Kiosk](/images/touchOfMarsTop.jpg)
 
 ### Status
 
-Active
+Archived
 
 ### Link
 
-The kiosk operates offline, but the project itself is open source and available [here](https://github.com/spacefoundation/mars-poi-kiosk)
+The kiosk could* still be in operation in the Space Foundation Discovery Center. However, the project is over a decade old and uses deprecated software. The source is available [here](https://github.com/spacefoundation/mars-poi-kiosk).
 
 ### Roles
 

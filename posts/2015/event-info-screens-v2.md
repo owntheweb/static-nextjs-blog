@@ -11,16 +11,15 @@ tags:
   - Linux
   - Node.js
   - PHP
+  - Raspberry Pi
+  - Space Foundation
+  - Space Symposium
 ---
 ![Event Info Screens (v2)](/images/digital-signs-top.jpg)
 
 ### Status
 
-Active
-
-### Link
-
-Private
+Archived
 
 ### Roles
 
@@ -28,7 +27,7 @@ Developer/designer
 
 ### Purpose
 
-Show live event schedule, ads, announcements and meal seating assignments at Space Symposium events and venue. Replace the [old version](/projects/space-foundation-info-screens) that ran in Flash/Adobe AIR with a JavaScript/HTML5 version optimized to run on mobile technology.
+Show live event schedule, ads, announcements and meal seating assignments at Space Symposium events and venue. Replace the [old version](/posts/2011/space-foundation-info-screens) that ran in Flash/Adobe AIR with a JavaScript/HTML5 version optimized to run on mobile technology.
 
 ### Highlighted Features
 

@@ -6,6 +6,8 @@ previewImage: /images/fireworksFeature.jpg
 tags:
   - Blender
   - Python
+  - video
+  - Space Foundation
 ---
 ![Fireworks Science On a Sphere Dataset](/images/fireworksTop.jpg)
 
@@ -27,4 +29,4 @@ Launch the Northrop Grumman Science Center featuring Science On a Sphere (part o
 
 ### Additional Information
 
-Read more about the Grand Opening of the Northrop Grumman Science Center featuring Science On a Sphere [here](http://spacefoundation.org/media/press-releases/space-foundation-celebrates-grand-opening-northrop-grumman-science-center).
+View the Fireworks dataset on the [Science On a Sphere website](https://sos.noaa.gov/catalog/datasets/fireworks/).

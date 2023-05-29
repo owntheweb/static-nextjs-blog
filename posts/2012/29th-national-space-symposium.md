@@ -11,16 +11,14 @@ tags:
   - PHP
   - responsive
   - Twitter Bootstrap
+  - Space Foundation
+  - Space Symposium
 ---
 ![29th National Space Symposium](/images/29thNationalTopImage.jpg)
 
 ### Status
 
-Active
-
-### Link
-
-[http://2013.spacesymposium.org](http://2013.spacesymposium.org)
+Archived
 
 ### Roles
 
@@ -37,7 +35,3 @@ Provide customer information and promote registration for the Space Foundation's
 ### Highlighted Features
 
 Custom agenda functionality connected with speaker listings, custom reports, new media sync capabilities with main Space Foundation website
-
-### Additional Information
-
-**Note:** Twitter widget no longer supported after event, sadly leaving a hole on the home page of the archived website.

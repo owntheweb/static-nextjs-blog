@@ -10,6 +10,10 @@ const matter = require('gray-matter');
 // and was a duplicate of existing alt attributes.
 // VSCode search regex: title=""(.+?)""
 
+// Code blocks imported inline and needed reworked
+
+// Forget .gif files and needed to work those in
+
 const IMPORT_CONTENT_FILE = './importData/node_content2.csv';
 const OUTPUT_FOLDER = './output';
 

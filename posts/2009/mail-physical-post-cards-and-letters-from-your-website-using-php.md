@@ -4,18 +4,12 @@ type: Blog Post
 date: '2009-05-15'
 previewImage: /images/snailMailFromWebsite.jpg
 tags:
-  - automated-mail
-  - direct-mail
-  - download
-  - letters
-  - open-source
-  - php
-  - postal-mail
-  - postcard
+  - automated mail
+  - direct mail
+  - PHP
   - postcards
-  - postful
-  - postfulcom
-  - snail-mail
+  - Postful
+  - life
 ---
 ![Snail Mail from a Website!](/images/snailmail.jpg)
 
@@ -33,7 +27,130 @@ Postful.com's API can be finicky. Efforts were made to relieve the quirks throug
 
 ### Usage
 
-Example: Mail a postcard (image on front, text on back) `include_once "PostfulMail.php"; $mail = new PostfulMail("yourpostfulemail@whatever.com", "yourpassword"); //upload image to use on front of postcard if(!$frontID = $mail->uploadFile("frontTest.jpg")) { die($mail->errors); } //create a post card with image on the front that scales up until it //"fills" the font of the card, and place text on the back. $mail->postCard($frontID, "", "Hello from my office tent. Hope all is great!\n\nLove,\n\nYour Friend", "fill"); //add address(es) //keep in mind that post cards can only be sent within the United States at the time of creating this script $mail->domesticAddress("Name 1", "Optional Company", "Address 1", "Optional Address 2", "City", "State", "Zip"); $mail->domesticAddress("Name 2", "Optional Company", "Address 1", "Optional Address 2", "City", "State", "Zip"); //send! $orderID = $mail->sendMail(); if($mail->errors == "") { echo "Success! Order ID is: " . $orderID; } else { echo $mail->errors; }` Example: Mail a postcard (image on front AND back) `include_once "PostfulMail.php"; $mail = new PostfulMail("yourpostfulemail@whatever.com", "yourpassword"); //upload image to use on front of postcard if(!$frontID = $mail->uploadFile("frontTest.jpg")) { die($mail->errors); } //upload image to use on back of postcard if(!$backID = $mail->uploadFile("backTest.jpg")) { die($mail->errors); } //create a post card with image on front and back $mail->postcard($frontID, $backID, "", "fill"); //add address(es) //keep in mind that post cards can only be sent within the United States at the time of creating this script $mail->domesticAddress("Name 1", "Optional Company", "Address 1", "Optional Address 2", "City", "State", "Zip"); $mail->domesticAddress("Name 2", "Optional Company", "Address 1", "Optional Address 2", "City", "State", "Zip"); //send! $orderID = $mail->sendMail(); if($mail->errors == "") { echo "Success! Order ID is: " . $orderID; } else { echo $mail->errors; }` Example: Mail a postcard (image on front, text on back) Bonus: Upload 1 image once, then send custom messages to each recipient - oh yeah! Caveat: Multiple API requests at once will take longer and could cause server issues if sending too many at the same time. `include_once "PostfulMail.php"; $mail = new PostfulMail("yourpostfulemail@whatever.com", "yourpassword"); //One image (from above) uploaded, with custom messages for //each postcard sent! Save time by not uploading an image //each time you send a card. This is intended for a //single session. //upload image to use on front of postcard if(!$frontID = $mail->uploadFile("frontTest.jpg")) { die($mail->errors); } //recipient 1 $mail->postcard($frontID, "", "Hello from my office tent. Hope all is great!\n\nLove,\n\nYour Friend", "fill"); $mail->domesticAddress("Name 1", "Company", "Address 1", "Optional Address 2", "City", "State", "Zip"); $mail->sendMail(); //recipient 2 $mail->postcard($frontID, "", "Hey! Let us get some cards sent!\n\nLove,\n\nYour Friend", "fill"); $mail->domesticAddress("Name 2", "Company", "Address 1", "Optional Address 2", "City", "State", "Zip"); $mail->sendMail();` Example: Mail a letter from rtf file `include_once "../PostfulMail.php"; $mail = new PostfulMail("yourpostfulemail@whatever.com", "yourpassword"); //upload rtf file (suported extensions are .htm, .html, .pdf, .doc, .txt, .rtf, .odt if(!$contentID = $mail->uploadFile("letterTest.rtf")) { die($mail->errors); } //create a letter (supported document types are html, pdf, doc, txt, rtf, odt) $mail->letter($contentID, "pdf"); //add address(es) $mail->returnAddress("line 1", "line 2", "line 3", "optional line 4", "optional line 5", "optional line 6", "optional line 7"); $mail->domesticAddress("Name", "Optional Company", "Address 1", "Optional Address 2", "City", "State", "Zip"); //For international addresses, the PostfulMail class will convert //two or three letter country codes into specific country names //required by the postful.com API. $mail->internationalAddress("line 1","line 2","line 3","opt line 4","opt line 5","opt line 6","opt line 7","two or three letter country code"); //send! $orderID = $mail->sendMail(); if($mail->errors == "") { echo "Success! Order ID is: " . $orderID; } else { echo $mail->errors; }`
+Example: Mail a postcard (image on front, text on back) 
+
+```
+include_once "PostfulMail.php";
+
+$mail = new PostfulMail("yourpostfulemail@whatever.com", "yourpassword");
+
+//upload image to use on front of postcard
+if(!$frontID = $mail->uploadFile("frontTest.jpg")) {
+    die($mail->errors);
+}
+
+//create a post card with image on the front that scales up until it
+//"fills" the font of the card, and place text on the back.
+$mail->postCard($frontID, "", "Hello from my office tent. Hope all is great!\n\nLove,\n\nYour Friend", "fill");
+
+//add address(es)
+//keep in mind that post cards can only be sent within the United States at the time of creating this script
+$mail->domesticAddress("Name 1", "Optional Company", "Address 1", "Optional Address 2", "City", "State", "Zip");
+$mail->domesticAddress("Name 2", "Optional Company", "Address 1", "Optional Address 2", "City", "State", "Zip");
+
+//send!
+$orderID = $mail->sendMail();
+if($mail->errors == "") {
+echo "Success! Order ID is: " . $orderID;
+} else {
+echo $mail->errors;
+}
+```
+
+Example: Mail a postcard (image on front AND back)
+
+```
+include_once "PostfulMail.php";
+
+$mail = new PostfulMail("yourpostfulemail@whatever.com", "yourpassword");
+
+//upload image to use on front of postcard
+if(!$frontID = $mail->uploadFile("frontTest.jpg")) {
+    die($mail->errors);
+}
+
+//upload image to use on back of postcard
+if(!$backID = $mail->uploadFile("backTest.jpg")) {
+    die($mail->errors);
+}
+
+//create a post card with image on front and back
+$mail->postcard($frontID, $backID, "", "fill");
+
+//add address(es)
+//keep in mind that post cards can only be sent within the United States at the time of creating this script
+$mail->domesticAddress("Name 1", "Optional Company", "Address 1", "Optional Address 2", "City", "State", "Zip");
+$mail->domesticAddress("Name 2", "Optional Company", "Address 1", "Optional Address 2", "City", "State", "Zip");
+
+//send!
+$orderID = $mail->sendMail();
+if($mail->errors == "") {
+echo "Success! Order ID is: " . $orderID;
+} else {
+echo $mail->errors;
+}
+```
+
+Example: Mail a postcard (image on front, text on back) Bonus: Upload 1 image once, then send custom messages to each recipient - oh yeah! Caveat: Multiple API requests at once will take longer and could cause server issues if sending too many at the same time.
+
+```
+include_once "PostfulMail.php";
+
+$mail = new PostfulMail("yourpostfulemail@whatever.com", "yourpassword");
+
+//One image (from above) uploaded,  with custom messages for 
+//each postcard sent! Save time by not uploading an image 
+//each time you send a card. This is intended for a 
+//single session.
+
+//upload image to use on front of postcard
+if(!$frontID = $mail->uploadFile("frontTest.jpg")) {
+    die($mail->errors);
+}
+
+//recipient 1
+$mail->postcard($frontID, "", "Hello from my office tent. Hope all is great!\n\nLove,\n\nYour Friend", "fill");
+$mail->domesticAddress("Name 1", "Company", "Address 1", "Optional Address 2", "City", "State", "Zip");
+$mail->sendMail();
+
+//recipient 2
+$mail->postcard($frontID, "", "Hey! Let us get some cards sent!\n\nLove,\n\nYour Friend", "fill");
+$mail->domesticAddress("Name 2", "Company", "Address 1", "Optional Address 2", "City", "State", "Zip");
+$mail->sendMail();
+```
+
+Example: Mail a letter from rtf file
+
+```
+include_once "../PostfulMail.php";
+
+$mail = new PostfulMail("yourpostfulemail@whatever.com", "yourpassword");
+
+//upload rtf file (suported extensions are .htm, .html, .pdf, .doc, .txt, .rtf, .odt
+if(!$contentID = $mail->uploadFile("letterTest.rtf")) {
+    die($mail->errors);
+}
+
+//create a letter (supported document types are html, pdf, doc, txt, rtf, odt)
+$mail->letter($contentID, "pdf");
+
+//add address(es)
+$mail->returnAddress("line 1", "line 2", "line 3", "optional line 4", "optional line 5", "optional line 6", "optional line 7");
+$mail->domesticAddress("Name", "Optional Company", "Address 1", "Optional Address 2", "City", "State", "Zip");
+
+//For international addresses, the PostfulMail class will convert
+//two or three letter country codes into specific country names
+//required by the postful.com API.
+$mail->internationalAddress("line 1","line 2","line 3","opt line 4","opt line 5","opt line 6","opt line 7","two or three letter country code");
+
+//send!
+$orderID = $mail->sendMail();
+if($mail->errors == "") {
+echo "Success! Order ID is: " . $orderID;
+} else {
+echo $mail->errors;
+}
+```
 
 ### Feedback
 

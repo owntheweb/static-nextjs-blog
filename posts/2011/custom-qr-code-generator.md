@@ -12,16 +12,13 @@ tags:
   - jQuery
   - PHP
   - phpqrcode
+  - Space Foundation
 ---
 ![Custom QR Code Generator](/images/qrTop.jpg)
 
 ### Status
 
-Active
-
-### Link
-
-Private
+Archived
 
 ### Roles
 

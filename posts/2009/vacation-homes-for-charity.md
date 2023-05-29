@@ -9,6 +9,7 @@ tags:
   - PHP
   - print
   - WordPress
+  - The Society
 ---
 ![Vacation Homes for Charity](/images/societyVacationHomesCharityTop.jpg)
 
@@ -23,7 +24,3 @@ Web developer/designer
 ### Purpose
 
 Pair vacation homes from The Society of Leisure Enthusiasts with charities to raise money for good causes.
-
-### Additional Information
-
-View The Society of Leisure Enthusiasts project [here](/projects/society-leisure-enthusiasts).

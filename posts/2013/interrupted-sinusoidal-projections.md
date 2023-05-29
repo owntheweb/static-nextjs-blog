@@ -4,11 +4,15 @@ type: Blog Post
 date: '2013-12-31'
 previewImage: /images/jupiterFeatured.jpg
 tags:
-  - Needs Tagged
+  - sinusoidal projection
+  - print
+  - NOAA
+  - ECE Image
+  - Geogiff
+  - life
 ---
-![Interrupted Sinusoidal Projections](/images/inturruptedSinusoidal.jpg)
-
-![Jupiter](/images/inturruptedSinusoidal.jpg) Interrupted Sinusoidal projection produced from equiangular image of Jupiter found on NOAA's website [here](ftp://public.sos.noaa.gov/astronomy/jupiter/still/4096.jpg). While an interrupted Sinusoidal projection may not be supported by general mapping community software, it could come in handy. For example, it's useful when printing giant light-up inflatable globes, a fun project perused here for a Space Foundation parade float. Here are basic notes used to complete this project.
+![Jupiter](/images/inturruptedSinusoidal.jpg)
+Interrupted Sinusoidal projection produced from equiangular image of Jupiter found on NOAA's website [here](ftp://public.sos.noaa.gov/astronomy/jupiter/still/4096.jpg). While an interrupted Sinusoidal projection may not be supported by general mapping community software, it could come in handy. For example, it's useful when printing giant light-up inflatable globes, a fun project perused here for a Space Foundation parade float. Here are basic notes used to complete this project.
 
 ### Install GDAL
 
@@ -28,15 +32,58 @@ Interrupted Sinusoidal projections can be made up of any number of segments. I m
 
 ### Convert Map Images Into Geogiffs
 
-Images need to be converted into geotiffs that define some basic geospacial data (world boundaries, projection format) so that they can be reprojected into Sinusoidal projections in the next step. Using the command line: `gdal_translate -of gtiff -a_srs epsg:4326 -a_ullr -180 90 180 -90 -co tiled=no -co compress=lzw input1.tif input1.gtif gdal_translate -of gtiff -a_srs epsg:4326 -a_ullr -180 90 180 -90 -co tiled=no -co compress=lzw input2.tif input2.gtif gdal_translate -of gtiff -a_srs epsg:4326 -a_ullr -180 90 180 -90 -co tiled=no -co compress=lzw input3.tif input3.gtif gdal_translate -of gtiff -a_srs epsg:4326 -a_ullr -180 90 180 -90 -co tiled=no -co compress=lzw input4.tif input4.gtif gdal_translate -of gtiff -a_srs epsg:4326 -a_ullr -180 90 180 -90 -co tiled=no -co compress=lzw input5.tif input5.gtif gdal_translate -of gtiff -a_srs epsg:4326 -a_ullr -180 90 180 -90 -co tiled=no -co compress=lzw input6.tif input6.gtif gdal_translate -of gtiff -a_srs epsg:4326 -a_ullr -180 90 180 -90 -co tiled=no -co compress=lzw input7.tif input7.gtif gdal_translate -of gtiff -a_srs epsg:4326 -a_ullr -180 90 180 -90 -co tiled=no -co compress=lzw input8.tif input8.gtif`
+Images need to be converted into geotiffs that define some basic geospacial data (world boundaries, projection format) so that they can be reprojected into Sinusoidal projections in the next step. Using the command line:
+```
+gdal_translate -of gtiff -a_srs epsg:4326 -a_ullr -180 90 180 -90 -co tiled=no -co compress=lzw input1.tif input1.gtif
+
+gdal_translate -of gtiff -a_srs epsg:4326 -a_ullr -180 90 180 -90 -co tiled=no -co compress=lzw input2.tif input2.gtif
+
+gdal_translate -of gtiff -a_srs epsg:4326 -a_ullr -180 90 180 -90 -co tiled=no -co compress=lzw input3.tif input3.gtif
+
+gdal_translate -of gtiff -a_srs epsg:4326 -a_ullr -180 90 180 -90 -co tiled=no -co compress=lzw input4.tif input4.gtif
+
+gdal_translate -of gtiff -a_srs epsg:4326 -a_ullr -180 90 180 -90 -co tiled=no -co compress=lzw input5.tif input5.gtif
+
+gdal_translate -of gtiff -a_srs epsg:4326 -a_ullr -180 90 180 -90 -co tiled=no -co compress=lzw input6.tif input6.gtif
+
+gdal_translate -of gtiff -a_srs epsg:4326 -a_ullr -180 90 180 -90 -co tiled=no -co compress=lzw input7.tif input7.gtif
+
+gdal_translate -of gtiff -a_srs epsg:4326 -a_ullr -180 90 180 -90 -co tiled=no -co compress=lzw input8.tif input8.gtif
+```
 
 ### Reproject ECE Geotiffs Into Sinusoidal Projections
 
-![Eight Sinusoidal Projections of Jupiter](/images/jupiter8Sinsusoidal.jpg) Sinusoidal projection is another very common geospacial data format. These will soon be broken up into an "interrupted" spin on on Sinusoidal (which isn't as commonly used). `gdalwarp -s_srs EPSG:4326 -t_srs '+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs' -r bilinear -te -20037508.343 -9988770.144 20024086.595 10001965.729 -overwrite input1.gtif sinu1.tif gdalwarp -s_srs EPSG:4326 -t_srs '+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs' -r bilinear -te -20037508.343 -9988770.144 20024086.595 10001965.729 -overwrite input2.gtif sinu2.tif gdalwarp -s_srs EPSG:4326 -t_srs '+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs' -r bilinear -te -20037508.343 -9988770.144 20024086.595 10001965.729 -overwrite input3.gtif sinu3.tif gdalwarp -s_srs EPSG:4326 -t_srs '+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs' -r bilinear -te -20037508.343 -9988770.144 20024086.595 10001965.729 -overwrite input4.gtif sinu4.tif gdalwarp -s_srs EPSG:4326 -t_srs '+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs' -r bilinear -te -20037508.343 -9988770.144 20024086.595 10001965.729 -overwrite input5.gtif sinu5.tif gdalwarp -s_srs EPSG:4326 -t_srs '+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs' -r bilinear -te -20037508.343 -9988770.144 20024086.595 10001965.729 -overwrite input6.gtif sinu6.tif gdalwarp -s_srs EPSG:4326 -t_srs '+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs' -r bilinear -te -20037508.343 -9988770.144 20024086.595 10001965.729 -overwrite input7.gtif sinu7.tif gdalwarp -s_srs EPSG:4326 -t_srs '+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs' -r bilinear -te -20037508.343 -9988770.144 20024086.595 10001965.729 -overwrite input8.gtif sinu8.tif`
+![Eight Sinusoidal Projections of Jupiter](/images/jupiter8Sinsusoidal.jpg) Sinusoidal projection is another very common geospacial data format. These will soon be broken up into an "interrupted" spin on on Sinusoidal (which isn't as commonly used).
+
+```
+gdalwarp -s_srs EPSG:4326 -t_srs '+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs' -r bilinear -te -20037508.343 -9988770.144 20024086.595 10001965.729 -overwrite input1.gtif sinu1.tif
+
+gdalwarp -s_srs EPSG:4326 -t_srs '+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs' -r bilinear -te -20037508.343 -9988770.144 20024086.595 10001965.729 -overwrite input2.gtif sinu2.tif
+
+gdalwarp -s_srs EPSG:4326 -t_srs '+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs' -r bilinear -te -20037508.343 -9988770.144 20024086.595 10001965.729 -overwrite input3.gtif sinu3.tif
+
+gdalwarp -s_srs EPSG:4326 -t_srs '+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs' -r bilinear -te -20037508.343 -9988770.144 20024086.595 10001965.729 -overwrite input4.gtif sinu4.tif
+
+gdalwarp -s_srs EPSG:4326 -t_srs '+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs' -r bilinear -te -20037508.343 -9988770.144 20024086.595 10001965.729 -overwrite input5.gtif sinu5.tif
+
+gdalwarp -s_srs EPSG:4326 -t_srs '+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs' -r bilinear -te -20037508.343 -9988770.144 20024086.595 10001965.729 -overwrite input6.gtif sinu6.tif
+
+gdalwarp -s_srs EPSG:4326 -t_srs '+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs' -r bilinear -te -20037508.343 -9988770.144 20024086.595 10001965.729 -overwrite input7.gtif sinu7.tif
+
+gdalwarp -s_srs EPSG:4326 -t_srs '+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs' -r bilinear -te -20037508.343 -9988770.144 20024086.595 10001965.729 -overwrite input8.gtif sinu8.tif
+```
 
 ### Create Interrupted Sinusoidal Projection Segment Mask
 
-That's a mouthful... (Experts: feel free to correct my lingo anytime). The center of each Sinusoidal projection gets segmented out and merged with other segments to form the final interrupted Sinusoidal projection image. An appropriately shaped mask needs to be created to knock out a segment of each Sinusoidal projection. ![Single segment ECE](/images/singleECESegment_0.jpg) To create the mask shape, start with a transparent image in Photopshop sized the same as the original ECE image (4096x2048 pixels in my case). Center a colored box (any color, black shown here) that is 1/8th the width (512 pixels). Save the image as a .tiff, making sure that transparency is checked in the save options. The ECE segment shape is converted into a Sinusoidal segment shape with similar commands as used above, only with minor differences to handle an alpha channel: `gdal_translate -of gtiff -a_srs epsg:4326 -a_ullr -180 90 180 -90 -co tiled=no -co compress=lzw segmentECE.tif segmentECE.gtif gdalwarp -s_srs EPSG:4326 -t_srs '+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs' -r bilinear -dstalpha -te -20037508.343 -9988770.144 20024086.595 10001965.729 -overwrite segmentECE.gtif segmentSinu.tif` ![](/images/black.jpg) While black at first glance, the transparency information was moved to an alpha channel. ![](/images/segmentSinu.jpg) Clicking on the "Channels" tab reveals the shape segment shape data in an alpha channel. After selecting the later with the data, clicking the dotted circle at the bottom of the Channels tab loads the alpha channel as a selection. The selection can then be copied with (command+C on Mac), which places the shape in the clipboard. ![](/images/sinusoidalSelect1.jpg) Opening up one of the Sinusoidal projections, the shape can be pasted (command+V on Mac), placing the shape in its own layer perfectly centered over the projection. ![](/images/sinusoidalSelect2.jpg) The pixel mask can be selected with a command+click (Mac, I think it's Ctrl+click on PC) on the shape thumbnail in the Layers tab. Selecting the original layer below and copying places the image segment data in the clipboard.
+That's a mouthful... (Experts: feel free to correct my lingo anytime). The center of each Sinusoidal projection gets segmented out and merged with other segments to form the final interrupted Sinusoidal projection image. An appropriately shaped mask needs to be created to knock out a segment of each Sinusoidal projection. ![Single segment ECE](/images/singleECESegment_0.jpg) To create the mask shape, start with a transparent image in Photopshop sized the same as the original ECE image (4096x2048 pixels in my case). Center a colored box (any color, black shown here) that is 1/8th the width (512 pixels). Save the image as a .tiff, making sure that transparency is checked in the save options. The ECE segment shape is converted into a Sinusoidal segment shape with similar commands as used above, only with minor differences to handle an alpha channel:
+
+```
+gdal_translate -of gtiff -a_srs epsg:4326 -a_ullr -180 90 180 -90 -co tiled=no -co compress=lzw segmentECE.tif segmentECE.gtif
+
+gdalwarp -s_srs EPSG:4326 -t_srs '+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs' -r bilinear -dstalpha -te -20037508.343 -9988770.144 20024086.595 10001965.729 -overwrite segmentECE.gtif segmentSinu.tif
+```
+
+![](/images/black.jpg) While black at first glance, the transparency information was moved to an alpha channel. ![](/images/segmentSinu.jpg) Clicking on the "Channels" tab reveals the shape segment shape data in an alpha channel. After selecting the later with the data, clicking the dotted circle at the bottom of the Channels tab loads the alpha channel as a selection. The selection can then be copied with (command+C on Mac), which places the shape in the clipboard. ![](/images/sinusoidalSelect1.jpg) Opening up one of the Sinusoidal projections, the shape can be pasted (command+V on Mac), placing the shape in its own layer perfectly centered over the projection. ![](/images/sinusoidalSelect2.jpg) The pixel mask can be selected with a command+click (Mac, I think it's Ctrl+click on PC) on the shape thumbnail in the Layers tab. Selecting the original layer below and copying places the image segment data in the clipboard.
 
 ### Piece Segments Together
 

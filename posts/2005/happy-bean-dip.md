@@ -4,7 +4,8 @@ type: Blog Post
 date: '2005-12-29'
 previewImage: /images/happyBeanDip.jpg
 tags:
-  - Needs Tagged
+  - life
+  - Commotion
 ---
 ![Brandi holds some world famous Happy Bean Dip](/images/20051229-brandiHappy.jpg)
 

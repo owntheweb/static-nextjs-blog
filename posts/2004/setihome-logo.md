@@ -5,6 +5,7 @@ date: '2004-01-16'
 previewImage: /images/seti-at-home-logo-feature.jpg
 tags:
   - print
+  - life
 ---
 ![SETI@home Logo](/images/seti-at-home-logo.jpg)
 

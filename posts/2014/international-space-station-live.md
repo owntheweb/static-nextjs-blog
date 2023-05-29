@@ -6,16 +6,15 @@ previewImage: /images/iss-feature3.jpg
 tags:
   - HTML5
   - JavaScript
+  - NASA
+  - ISS
+  - Space Foundation
 ---
 ![International Space Station: LIVE!](/images/iss-top.jpg)
 
 ### Status
 
-Active
-
-### Link
-
-Private display link available upon request.
+Archived
 
 ### Roles
 

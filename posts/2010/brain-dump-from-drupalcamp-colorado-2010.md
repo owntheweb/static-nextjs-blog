@@ -4,14 +4,15 @@ type: Blog Post
 date: '2010-06-28'
 previewImage: /images/dropalCampColorado.jpg
 tags:
-  - colorado
+  - Colorado
   - designers
   - developers
-  - drupal-camp
-  - drupalcamp
+  - Drupal Camp
   - networking
+  - Drupal
+  - life
 ---
-![drupalcamp](/sites/default/files/blog/blog/wp-content/uploads/2010/06/drupalcamp.gif) Image from [drupalcampcolorado.org](http://drupalcampcolorado.org) website
+![drupalcamp](/images/drupalcamp.gif) Image from [drupalcampcolorado.org](http://drupalcampcolorado.org) website
 
 Over 300 people attended [Drupalcamp Colorado](http://drupalcampcolorado.org/) over the June 26-27 weekend, including myself and Space Foundation co-worker Luciana. For a mere $30 admission fee (unless waiting untill the last second), Drupal developers, designers, enthusiasts, and interested newcomers met for sessions, networking, and some pretty darn good food (Don't forget the free beer provided by [Volacci](http://www.volacci.com/) Saturday evening!).
 
@@ -27,11 +28,11 @@ I'm sure there's several additional modules discussed in sessions that I didn't 
 
 **[Flag](http://drupal.org/project/flag)** Flag was used to "flag" or "star" events I wanted to attend in my Drupalcamp Colorado schedule. I list it here because it will be a perfect addition to Space Foundation event schedules, making them personalized.
 
-**[jQuery UI](http://drupal.org/project/jquery_ui)** Adding jQuery UI to Drupal allows the ability to add great JavaScript controlled tabs, accordion menus, and other elements that would be more complicated without the module. More information about jQuery UI can be fount here\[http://jqueryui.com/\]. A great example showcased in [Ken Woodworth](http://twitter.com/kenwoodworth)'s session, 'Enhancing Drupal Interfaces with JavaScript and Flash', is [Adaptive Learning Mechanism](http://www.adaptationlearning.net/). Check out the accordion menu on the right of the home page.
+**[jQuery UI](http://drupal.org/project/jquery_ui)** Adding jQuery UI to Drupal allows the ability to add great JavaScript controlled tabs, accordion menus, and other elements that would be more complicated without the module. More information about jQuery UI can be fount [here](http://jqueryui.com/). A great example showcased in [Ken Woodworth](http://twitter.com/kenwoodworth)'s session, 'Enhancing Drupal Interfaces with JavaScript and Flash', is [Adaptive Learning Mechanism](http://www.adaptationlearning.net/). Check out the accordion menu on the right of the home page.
 
 **[jQuery Update](http://drupal.org/project/jquery_update)** On a related note, jQuery Update does what it says. It updates the Drupal built-in version of jQuery to a newer version. The newer version is required for many jQuery widgets and Drupal modules out there.
 
-**[drush](http://drupal.org/project/drush)** Drush is a development tool that runs on the server (plus as a module), performing Drupal maintenance tasks with ease using the command line. I would say a majority of Drupalcamp Colorado presenters used this tool during their presentations. Rachel Makrucki \[http://www.twitter.com/m\_rookie\] gave a fantastic presentation about developing modules, and gave examples of how to use drush. I watched her turn 30 minutes of the usual downloading, uploading, unzipping, pointing, and clicking into 10 seconds of type->enter->confirm->done (think apt-get for ubuntu). I'll have to talk to my IT guy on getting this set up on the server.
+**[drush](http://drupal.org/project/drush)** Drush is a development tool that runs on the server (plus as a module), performing Drupal maintenance tasks with ease using the command line. I would say a majority of Drupalcamp Colorado presenters used this tool during their presentations. Rachel Makrucki gave a fantastic presentation about developing modules, and gave examples of how to use drush. I watched her turn 30 minutes of the usual downloading, uploading, unzipping, pointing, and clicking into 10 seconds of type->enter->confirm->done (think apt-get for ubuntu). I'll have to talk to my IT guy on getting this set up on the server.
 
 **[devel](http://drupal.org/project/devel)** I already use this module to help pull apart nodes for theming purposes. However, this module comes with a TON of tools and debugging functions to help develop for Drupal websites. On an added note, presenters recommended using this only in test invironments, NOT on the production website.
 
@@ -39,7 +40,7 @@ I'm sure there's several additional modules discussed in sessions that I didn't 
 
 **[Module Builder](http://drupal.org/project/module_builder)** This module lets you select what things you want to develop for (e.g. the menu, hooks, etc), then automatically writes the 'scafolding' php of the module for you. Used by advanced developers and beginners alike, there's actually a checkbox to indicate your experience level. Beginners get extra comments placed in the generated code. This module makes me drool and will save headaches.
 
-**[API](http://drupal.org/project/api)** Generates devloper documentation as seen at http://api.drupal.org .
+**[API](http://drupal.org/project/api)** Generates developer documentation as seen at http://api.drupal.org .
 
 **[Examples for Developers](http://drupal.org/project/examples)** Examples for Developers is a module that gives a wide range of development examples
 

@@ -6,16 +6,14 @@ previewImage: /images/valentinesDayFeature.jpg
 tags:
   - ActionScript
   - Flash
+  - eCard
+  - life
 ---
 ![You Light Up My Valentines Day!](/images/valentinesDayTop.jpg)
 
 ### Status
 
-Active, experimental
-
-### Link
-
-[http://www.christopherstevens.cc/vday/](http://www.christopherstevens.cc/vday/)
+Archived
 
 ### Roles
 

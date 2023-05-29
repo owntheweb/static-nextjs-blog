@@ -6,16 +6,14 @@ previewImage: /images/dentalDivaFeatured.jpg
 tags:
   - custom theme
   - PHP
+  - Commotion
+  - WordPress
 ---
 ![The Dental Diva](/images/dentalDivaTop.jpg)
 
 ### Status
 
-Active
-
-### Link
-
-[http://www.thedentaldiva.com](http://www.thedentaldiva.com)
+Archived
 
 ### Roles
 

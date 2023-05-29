@@ -6,16 +6,15 @@ previewImage: /images/thanksgivingFeatured.jpg
 tags:
   - ActionScript
   - Flash
+  - eCard
+  - life
+  - Space Foundation
 ---
 ![Eat Well and Prosper](/images/thanksgiving.jpg)
 
 ### Status
 
-Archived, online
-
-### Link
-
-[http://www.christopherstevens.cc/thanksgiving/](http://www.christopherstevens.cc/thanksgiving/)
+Archived
 
 ### Roles
 

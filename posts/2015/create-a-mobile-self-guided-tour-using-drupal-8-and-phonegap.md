@@ -4,7 +4,12 @@ type: Blog Post
 date: '2015-06-20'
 previewImage: /images/ibeacon-tour-feature.jpg
 tags:
-  - Needs Tagged
+  - iBeacon
+  - Phonegap
+  - DrupalCamp
+  - Drupal
+  - JavaScript
+  - life
 ---
 ![Create a Mobile Self-guided Tour Using Drupal 8 and PhoneGap ](/images/ibeacon-tour-feature-big.jpg)
 
@@ -12,16 +17,12 @@ Here are starter resources for the DrupalCamp Colorado 2015 session, "Create a M
 
 ### iBeacon Ranger PhoneGap App (built with [Adobe PhoneGap Build](https://build.phonegap.com/))
 
-![install](https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=https://build.phonegap.com/apps/1457475/install/K1QfZmso-8twHSGrK7is&chld=L|1&choe=UTF-8)
-
 Install app at: [https://build.phonegap.com/apps/1457475/share](https://build.phonegap.com/apps/1457475/share)  
 iPhone users: I need to register your device first, send me your [iDevice's UDID](http://whatsmyudid.com/) before or after the session  
 Android users: Not sure if this is going to work for you yet. See me after the session to help troubleshoot (and thanks in advance!).  
 App source: [https://github.com/owntheweb/ibeacon-ranger](https://github.com/owntheweb/ibeacon-ranger)
 
 ### iBeacon Tour Starter PhoneGap App (built with [Adobe PhoneGap Build](https://build.phonegap.com/))
-
-![install](https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=https://build.phonegap.com/apps/1457475/install/K1QfZmso-8twHSGrK7is&chld=L|1&choe=UTF-8)
 
 Install app at: [https://build.phonegap.com/apps/1515188/share](https://build.phonegap.com/apps/1515188/share)  
 iPhone users: I need to register your device first, send me your [iDevice's UDID](http://whatsmyudid.com/) before or after the session  

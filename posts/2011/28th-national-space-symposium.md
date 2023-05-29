@@ -9,18 +9,14 @@ tags:
   - JSON
   - MySQL
   - PHP
+  - Space Foundation
+  - Space Symposium
 ---
 ![28th National Space Symposium](/images/28thTop.jpg)
 
 ### Status
 
-Archived, online
-
-### Link
-
-Link: [http://2012.spacesymposium.org](http://2012.spacesymposium.org)
-
-**Note:** This website has been converted into static HTML for long-term security purposes and to serve as a reference of past events. Some features will not work (e.g. search, home page dynamic slide show, etc.).
+Archived
 
 ### Roles
 

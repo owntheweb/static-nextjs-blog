@@ -4,17 +4,14 @@ type: Blog Post
 date: '2012-12-18'
 previewImage: /images/scienceOnSphereFeatured.jpg
 tags:
-  - 3d
   - animation
+  - video
   - blender
   - ece
   - music
   - noaa
-  - northrop-grumman
-  - science-on-a-sphere
-  - science-on-the-sphere
-  - sos
-  - space-foundation
+  - Science On a Sphere
+  - Space Foundation
 ---
 ![Wonders of the Universe Courses at the Space Foundation Visitors Center featuring Science On a Sphere](/images/wondersOfTheUniverse.jpg) Credit: [Space Foundation](http://www.spacefoundation.org) - Check out photo galleries [here](http://www.spacefoundation.org/media/photo-galleries).
 

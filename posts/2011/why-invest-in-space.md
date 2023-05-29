@@ -5,6 +5,7 @@ date: '2011-03-02'
 previewImage: /images/certSTHOFPosters.jpg
 tags:
   - print
+  - Space Foundation
 ---
 ![Why invest in space?](/images/certSTHOFTop.jpg)
 

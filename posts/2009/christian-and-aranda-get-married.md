@@ -4,7 +4,9 @@ type: Blog Post
 date: '2009-08-04'
 previewImage: /images/christianAranda.jpg
 tags:
-  - Needs Tagged
+  - wedding
+  - South Dakota
+  - life
 ---
 Amanda and I took off for a brief yet well spent trip to South Dakota for my cousin Christian and his new wife Aranda's wedding. Christian asked me to be his best man and I was honored to be there for him (and very grateful for the time off while newly employed!).
 

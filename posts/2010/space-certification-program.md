@@ -7,12 +7,13 @@ tags:
   - Drupal
   - Drupal 6
   - MySQL
+  - Space Foundation
 ---
 ![Space Certification Program](/images/certificationwebsite.jpg)
 
 ### Status
 
-Assimilated and merged into the [Space Foundation website](http://www.spacefoundation.org/programs/space-certification).
+Assimilated and merged into the [Space Foundation website](http://www.spacefoundation.org).
 
 ### Roles
 

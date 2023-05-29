@@ -5,6 +5,7 @@ date: '2014-09-01'
 previewImage: /images/iac-feature3.jpg
 tags:
   - print
+  - Space Foundation
 ---
 ![68th IAC Logo (for event proposal)](/images/iac-1.jpg)
 

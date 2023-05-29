@@ -26,7 +26,7 @@ So much change:
 
 For the purpose of continuing to reconnect with myself and others (pandemics man!), I've set off to relaunch the blog. I might even backfill it a bit with music and silly holiday eCard traditions.
 
-I'm trying to bring in a large audience, because who cares (reason for dropping it in the first place). I feel it's good to know where a person has been on their journey and to give others a hint of that while building relationships.
+I'm not trying to bring in a large audience, because who cares (reason for dropping it in the first place). I feel it's good to know where a person has been on their journey and to give others a hint of that while building relationships.
 
 ![Chris and Amanda](/images/wedding13.jpg)
 

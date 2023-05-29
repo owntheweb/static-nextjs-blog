@@ -13,13 +13,13 @@ visitorActions:
     label: "Comment at LinkedIn"
     url: "https://www.linkedin.com/posts/interactiveguru_developer-database-video-activity-7065103898172157952-596T"
 tags:
-  - "BombBomb"
-  - "PostgreSQL"
-  - "OpenAI"
-  - "DALL-E"
-  - "Oracle"
-  - "AI"
-  - "ML"
+  - BombBomb
+  - PostgreSQL
+  - OpenAI
+  - 'DALL-E'
+  - Oracle
+  - AI
+  - ML
 ---
 
 ![image](/images/new-favorite-mug.jpg)

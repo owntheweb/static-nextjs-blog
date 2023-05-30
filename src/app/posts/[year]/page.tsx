@@ -35,14 +35,14 @@ export default function YearPosts(props: YearPostsProps) {
 
   return (
     <>
-      <div className="my-6">
-        <h1 className="text-2xl text-slate-600">Posts: {props.params.year}</h1>
+      <div className="mb-6">
+        <h1 className="text-2xl text-creamcicle">Posts: {props.params.year}</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
         {postPreviews}
       </div>
       <div>
-        <Link href={`/posts`} className="hover:underline">See All Posts</Link>
+        <Link href={`/posts`} className="hover:underline text-white">See All Posts</Link>
       </div>
     </>
   )

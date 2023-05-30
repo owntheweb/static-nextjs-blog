@@ -1,0 +1,9 @@
+.post {
+  background-color: #f8f2e3;
+}
+
+.prose :where(img):not(:where([class~="not-prose"] *)) {
+  margin-top: 0;
+}
+
+/* TODO: markdown prose overrides */

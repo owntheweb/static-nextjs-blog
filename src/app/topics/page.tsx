@@ -21,7 +21,7 @@ export default function Posts() {
     return (
       <div className="border border-slate-300 p-4 rounded-md shadow-sm bg-white">
         <Link href={`/topics/${slugifyTag(tag[0])}`}>
-          <h2 className="text-violet-600 hover:underline mb-4">{tag[0]} ({tag[1]})</h2>
+          <h2 className="text-cream hover:underline mb-4">{tag[0]} ({tag[1]})</h2>
         </Link>
       </div>
     );
@@ -29,8 +29,8 @@ export default function Posts() {
 
   return (
     <>
-      <div className="my-6">
-        <h1 className="text-2xl text-slate-600">Topics</h1>
+      <div className="mb-6">
+        <h1 className="text-2xl text-creamcicle">Topics</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {tagGrid}

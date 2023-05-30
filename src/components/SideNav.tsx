@@ -41,38 +41,38 @@ const SideNav = ({ className }: GeneralComponentProps) => {
   const sortedTags = getSortedTags(allPostTags, 10);
 
   return (
-    <nav role="navigation" className={`${className} mt-6`}>
-      <h3 className="text-lg text-slate-600 mb-2">Connect</h3>
+    <nav role="navigation" className={`${className}`}>
+      <h3 className="text-2xl text-creamcicle mb-2">Connect</h3>
       <ul className="mb-6">
-        <li><Link href="https://linkedin.com/in/interactiveguru/">LinkedIn</Link></li>
-        <li><Link href="https://github.com/owntheweb">GitHub</Link></li>
-        <li><Link href="https://twitter.com/owntheweb">Twitter</Link></li>
-        <li><Link href="/email">Email</Link></li>
+        <li><Link className="text-white hover:underline" href="https://linkedin.com/in/interactiveguru/">LinkedIn</Link></li>
+        <li><Link className="text-white hover:underline" href="https://github.com/owntheweb">GitHub</Link></li>
+        <li><Link className="text-white hover:underline" href="https://twitter.com/owntheweb">Twitter</Link></li>
+        <li><Link className="text-white hover:underline" href="/email">Email</Link></li>
       </ul>
 
-      <h3 className="text-lg text-slate-600 mb-2">Posts</h3>
+      <h3 className="text-2xl text-creamcicle mb-2">Posts</h3>
       
       <ul className="mb-6">
         {groupedSortedYears.map( yearAndCount => {
           return(
             <li>
-              <Link href={`/posts/${yearAndCount[0]}`}>{yearAndCount[0]} ({yearAndCount[1]})</Link>
+              <Link className="text-white hover:underline" href={`/posts/${yearAndCount[0]}`}>{yearAndCount[0]} ({yearAndCount[1]})</Link>
             </li>
           );
         })}
-        <li><Link href="/posts">See All Posts</Link></li>
+        <li><Link className="text-white hover:underline" href="/posts">See All Posts</Link></li>
       </ul>
       
-      <h3 className="text-lg text-slate-600 mb-2">Topics</h3>
+      <h3 className="text-2xl text-creamcicle mb-2">Topics</h3>
       <ul className="mb-6">
         {sortedTags && sortedTags.map((tagCount: [string, number]) => {
           return(
             <li>
-              <Link href={`/topics/${slugifyTag(tagCount[0])}`}>{tagCount[0]} ({tagCount[1]})</Link>
+              <Link className="text-white hover:underline" href={`/topics/${slugifyTag(tagCount[0])}`}>{tagCount[0]} ({tagCount[1]})</Link>
             </li>
           );
         })}
-        <li><Link href="/topics">See All Topics</Link></li>
+        <li><Link className="text-white hover:underline" href="/topics">See All Topics</Link></li>
       </ul>
     </nav>
   )

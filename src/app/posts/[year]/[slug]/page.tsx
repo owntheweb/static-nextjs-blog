@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { slugifyTag } from '@/components/utils/tags';
 import { ImageMetadata } from '@/components/model/ImageMetadata';
 import { getContentImageMetadata, getSizedImage } from '@/components/utils/image';
+import './style.css';
 
 
 // TODO: Define generated image sizes in nextjs config when design is ready
@@ -30,12 +31,12 @@ const Post = (props: PostProps) => {
   const contentImageMetadata: ImageMetadata[] = getContentImageMetadata(post.content) ?? [];
 
   const tagNav = <section role="navigation">
-    <h3 className="text-lg text-slate-600 mb-2">Topics</h3>
+    <h3 className="text-2xl mb-2 text-creamcicle">Topics</h3>
     <ul role="navigation" className="flex flex-wrap">
       {post.data.tags.map((tag: string) => {
         return (
           <li>
-            <Link href={`/topics/${slugifyTag(tag)}`} className="mr-4 hover:underline md:mr-6">{tag}</Link>
+            <Link href={`/topics/${slugifyTag(tag)}`} className="mr-4 hover:underline md:mr-6 text-cream">{tag}</Link>
           </li>
         )
       })}
@@ -44,11 +45,11 @@ const Post = (props: PostProps) => {
   
   return (
     <>
-      <div className="my-6">
-        <h1 className="text-2xl text-slate-600">{post.data.title}</h1>
-        <p className="text-slate-400 mt-2">{post.data.date}</p>
+      <div className="mb-6">
+        <h1 className="text-2xl text-creamcicle">{post.data.title}</h1>
+        <p className="text-cream mt-2">{post.data.date}</p>
       </div>
-      <article className="prose mb-6">
+      <article className="prose mb-6 post p-4 rounded-md shadow-md bg-cream">
         <ReactMarkdown
           components={{
             img: (imgProps) => (

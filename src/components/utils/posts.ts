@@ -51,7 +51,7 @@ const getPostMetadata = (sort: boolean, year?: number): PostMetadata[] => {
   return posts;
 }
 
-const getPostContent = (year: number, slug:string) => {
+const getPostContent = (year: number, slug:string): matter.GrayMatterFile<string> => {
   const folder = 'posts/';
   const file = `${folder}${year}/${slug}.md`;
   const content = fs.readFileSync(file, 'utf8');

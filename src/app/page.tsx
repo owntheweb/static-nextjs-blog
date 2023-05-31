@@ -1,7 +1,6 @@
 import { getPostMetadata, getPostContent } from '@/components/utils/posts';
 import PostPreview from '@/components/PostPreview';
 import Link from 'next/link';
-import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
 import { getContentImageMetadata, getSizedImage } from '@/components/utils/image';
 import { ImageMetadata } from '@/components/model/ImageMetadata';
 
@@ -29,7 +28,7 @@ export default function Home() {
   
   return (
     <>
-      <h3 className="text-lg text-creamcicle mb-4">Recent Posts</h3>
+      <h3 className="text-2xl text-creamcicle mb-4">Recent Posts</h3>
 
       {topPostPreview}
 

@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import SideNav from '@/components/SideNav';
 import Link from "next/link";
 import './style.css';
+import { withRouter } from 'next/router'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -63,7 +64,7 @@ export default function RootLayout({
         bg-no-repeat
         bg-top`}>
         {header}
-        <div className="mx-auto lg:max-w-4xl py-8 lg:rounded-md drop-shadow-2xl aged-background">
+        <div className="mx-auto lg:max-w-4xl py-8 lg:rounded-md drop-shadow-2xl px-6 lg:px-0">
           <div className="flex">
             <SideNav className="flex-none w-48 max-sm:hidden" />
             <div className="">

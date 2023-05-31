@@ -5,6 +5,7 @@ import { slugifyTag } from '@/components/utils/tags';
 import { ImageMetadata } from '@/components/model/ImageMetadata';
 import { getContentImageMetadata, getSizedImage } from '@/components/utils/image';
 import './style.css';
+import PreviousNextPosts from '@/components/PreviousNextPosts';
 
 
 // TODO: Define generated image sizes in nextjs config when design is ready
@@ -25,7 +26,7 @@ interface PostProps {
   params: PostParams,
 }
 
-const Post = (props: PostProps) => {
+const Post = (props: PostProps) => {  
   const slug = props.params.slug;
   const post = getPostContent(props.params.year, slug);
   const contentImageMetadata: ImageMetadata[] = getContentImageMetadata(post.content) ?? [];
@@ -49,7 +50,7 @@ const Post = (props: PostProps) => {
         <h1 className="text-2xl text-creamcicle">{post.data.title}</h1>
         <p className="text-cream mt-2">{post.data.date}</p>
       </div>
-      <article className="prose mb-6 post p-4 rounded-md shadow-md bg-cream">
+      <article className="prose mb-4 post p-4 rounded-md shadow-md bg-cream" style={{ maxWidth: 'inherit' }}>
         <ReactMarkdown
           components={{
             img: (imgProps) => (
@@ -61,6 +62,7 @@ const Post = (props: PostProps) => {
           {post.content}
         </ReactMarkdown>
       </article>
+      {<PreviousNextPosts {...post} />}
       {tagNav}
     </>
   )

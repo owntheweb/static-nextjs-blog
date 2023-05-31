@@ -1,8 +1,6 @@
 import { getPostMetadata, getPostContent } from '@/components/utils/posts';
 import PostPreview from '@/components/PostPreview';
 import Link from 'next/link';
-import { getContentImageMetadata, getSizedImage } from '@/components/utils/image';
-import { ImageMetadata } from '@/components/model/ImageMetadata';
 
 /*
 // TODO: Fill metadata in referencing:
@@ -24,7 +22,6 @@ export default function Home() {
 
   const year = new Date(postMetadata[0].date).getFullYear();
   const latestPostContent = getPostContent(year, postMetadata[0].slug);
-  const latestPostImageMetadata: ImageMetadata[] = getContentImageMetadata(latestPostContent.content) ?? [];
   
   return (
     <>

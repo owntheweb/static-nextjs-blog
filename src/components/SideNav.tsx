@@ -60,7 +60,9 @@ const SideNav = ({ className }: GeneralComponentProps) => {
             </li>
           );
         })}
-        <li><Link className="text-white hover:underline" href="/posts">See All Posts</Link></li>
+        <li>
+          <Link className="text-white hover:underline" href="/posts">See All Posts</Link>
+        </li>
       </ul>
       
       <h3 className="text-2xl text-creamcicle mb-2">Topics</h3>

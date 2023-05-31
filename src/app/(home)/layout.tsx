@@ -1,10 +1,9 @@
-import React, { useState } from "react";
-import './globals.css'
+import React from "react";
+import '../globals.css'
 import { Inter } from 'next/font/google'
-import SideNav from '@/components/SideNav';
-import Link from "next/link";
-import './style.css';
-import { withRouter } from 'next/router'
+import Footer from "@/components/Footer";
+import SideNav from "@/components/SideNav";
+import HomeHeader from "@/components/HomeHeader";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,33 +24,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const header = (
-    <header className="lg:pb-6 mb-8">
-      <div className="mx-auto lg:max-w-4xl">
-        <div className="lg:rounded-bl-md lg:rounded-br-md bg-green-700 py-4 px-6 text-cream flex">
-          <Link href="/">
-            <img className="mr-4" src="/images/circle.svg" alt="circle" width={26} height={26} />
-          </Link>
-          <Link className="flex-1" href="/">
-            <h1 className="font-semibold">Christopher Stevens</h1>
-          </Link>
-          <h2 className="pl-6 font-light max-sm:hidden text-cream">Worlds to explore. Worlds to create.</h2>
-        </div>
-      </div>
-      <div className="headerSpace"></div>
-    </header>
-  );
-
-  const footer = (
-    <footer className="border-t border-cream mt-6 py-6">
-      <p>
-        <Link className="text-cream hover:underline" href="/">
-          &copy; Christopher Stevens
-        </Link>
-      </p>
-    </footer>
-  );
-
   return (
     <html lang="en">
       <body className={
@@ -62,8 +34,8 @@ export default function RootLayout({
         lg:bg-[url('/images/header-background-1280.png')]
         xl:bg-[url('/images/header-background-1536.png')]
         bg-no-repeat
-        bg-top`}>
-        {header}
+        bg-top h-full`}>
+        <HomeHeader />
         <div className="mx-auto lg:max-w-4xl py-8 lg:rounded-md drop-shadow-2xl px-6 lg:px-0">
           <div className="flex">
             <SideNav className="flex-none w-48 max-sm:hidden" />
@@ -71,7 +43,7 @@ export default function RootLayout({
               {children}
             </div>
           </div>
-          {footer}
+          <Footer />
         </div>
       </body>
     </html>

@@ -49,9 +49,8 @@ const Post = (props: PostProps) => {
   
   return (
     <>
-      <div className="mb-6">
-        <h1 className={`text-2xl text-creamcicle ${robertoSlab.className}`}>{post.data.title}</h1>
-        <p className="text-cream mt-2">{post.data.date}</p>
+      <div className="4">
+        <h1 className={`text-2xl text-creamcicle mb-4 ${robertoSlab.className}`}>{post.data.title}</h1>
       </div>
       <article className="prose mb-4 post p-4 rounded-md shadow-md bg-cream" style={{ maxWidth: 'inherit' }}>
         <ReactMarkdown
@@ -64,6 +63,7 @@ const Post = (props: PostProps) => {
         >
           {post.content}
         </ReactMarkdown>
+        <p className="text-dirt">Posted: {post.data.date}</p>
       </article>
       {<PreviousNextPosts {...post} />}
       {tagNav}

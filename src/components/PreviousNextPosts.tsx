@@ -42,7 +42,7 @@ const PreviousNextPosts = (props: matter.GrayMatterFile<string>) => {
 
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
         {previousPost && (
           <PostPreview {...previousPost} />
         )}

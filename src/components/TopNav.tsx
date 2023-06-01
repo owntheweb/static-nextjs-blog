@@ -3,7 +3,7 @@ import Link from "next/link";
 const TopNav = () => {  
   return (
     <div className="mx-auto lg:max-w-4xl">
-      <nav className="lg:rounded-bl-md lg:rounded-br-md bg-green-700 py-4 px-6 text-cream flex">
+      <nav className="lg:rounded-bl-md lg:rounded-br-md bg-green-700 p-4 text-cream flex">
         <Link href="/">
           <img className="mr-4" src="/images/circle.svg" alt="circle" width={26} height={26} />
         </Link>

@@ -4,6 +4,7 @@ import { slugifyTag, getAllPostTags, getSortedTags } from "./utils/tags";
 import { GeneralComponentProps } from "./model/GeneralComponentProps";
 import { PostMetadata } from "./model/PostMetadata";
 import { Roboto_Slab } from 'next/font/google';
+import Social from "./Social";
 
 const robertoSlab = Roboto_Slab({ subsets: ['latin'] });
 
@@ -46,16 +47,11 @@ const SideNav = ({ className }: GeneralComponentProps) => {
   return (
     <nav role="navigation" className={`${className}`}>
       <h3 className={`text-2xl text-creamcicle mb-2 ${robertoSlab.className}`}>Connect</h3>
-      <ul className="mb-6">
-        <li><Link className="text-white hover:underline" href="https://linkedin.com/in/interactiveguru/">LinkedIn</Link></li>
-        <li><Link className="text-white hover:underline" href="https://github.com/owntheweb">GitHub</Link></li>
-        <li><Link className="text-white hover:underline" href="https://twitter.com/owntheweb">Twitter</Link></li>
-        <li><Link className="text-white hover:underline" href="/email">Email</Link></li>
-      </ul>
+      <Social />
 
       <h3 className={`text-2xl text-creamcicle mb-2 ${robertoSlab.className}`}>Posts</h3>
       
-      <ul className="mb-6">
+      <ul className="mb-4">
         {groupedSortedYears.map( yearAndCount => {
           return(
             <li>
@@ -69,7 +65,7 @@ const SideNav = ({ className }: GeneralComponentProps) => {
       </ul>
       
       <h3 className={`text-2xl text-creamcicle mb-2 ${robertoSlab.className}`}>Topics</h3>
-      <ul className="mb-6">
+      <ul className="mb-4">
         {sortedTags && sortedTags.map((tagCount: [string, number]) => {
           return(
             <li>

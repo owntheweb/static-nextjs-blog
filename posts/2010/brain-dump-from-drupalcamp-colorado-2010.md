@@ -12,7 +12,9 @@ tags:
   - Drupal
   - life
 ---
-![drupalcamp](/images/drupalcamp.gif) Image from [drupalcampcolorado.org](http://drupalcampcolorado.org) website
+![drupalcamp](/images/drupalcamp.gif)
+
+Image from [drupalcampcolorado.org](http://drupalcampcolorado.org) website
 
 Over 300 people attended [Drupalcamp Colorado](http://drupalcampcolorado.org/) over the June 26-27 weekend, including myself and Space Foundation co-worker Luciana. For a mere $30 admission fee (unless waiting untill the last second), Drupal developers, designers, enthusiasts, and interested newcomers met for sessions, networking, and some pretty darn good food (Don't forget the free beer provided by [Volacci](http://www.volacci.com/) Saturday evening!).
 

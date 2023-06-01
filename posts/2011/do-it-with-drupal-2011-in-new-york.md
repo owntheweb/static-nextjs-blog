@@ -13,15 +13,15 @@ tags:
   - Space Foundation
   - Times Square
 ---
-[![Times Square in New York](/images/newYorkTimesSquare.jpg)](/sites/default/files/blog/blog/wp-content/uploads/2011/10/newYorkTimesSquare.jpg)
+[![Times Square in New York](/images/newYorkTimesSquare.jpg)](/images/newYorkTimesSquare.jpg)
 
 The Space Foundation supported my coworker designer/developer Luciana and I in a trip to New York to attend Do It with Drupal October 11 - 14, 2011, organized by the Drupal training experts [Lullabot](http://www.lullabot.com/). Previously attending the [2009 event](http://www.christopherstevens.cc/blog/2009/12/14/do-it-with-drupal-seminar-in-new-orleans/), this was something I was highly looking forward to revisiting.
 
-[![New York City subway](/images/newYorkSubway.jpg)](/sites/default/files/blog/blog/wp-content/uploads/2011/10/newYorkSubway.jpg)
+[![New York City subway](/images/newYorkSubway.jpg)](/images/newYorkSubway.jpg)
 
 New York was amazing and overwhelming. It was quite disorienting, even dizzying at first, especially since I had some ear fluid buildup as a result from the flight (very odd, sure you wanted to know). Outlook improved quickly after food, rest and jumping on the subway to re-connect with a college friend who lived in the area. I had a chance to meet his wife and their very cute new baby girl! I'm extremely happy for them and the visit even chiseled on my heart regarding the whole having kids topic (oh no!).
 
-[![Earl Miles gives a session about Semantic Views](/images/earlMilesSemanticViews.jpg)](/sites/default/files/blog/blog/wp-content/uploads/2011/10/earlMilesSemanticViews.jpg)
+[![Earl Miles gives a session about Semantic Views](/images/earlMilesSemanticViews.jpg)](/images/2011/10/earlMilesSemanticViews.jpg)
 
 The Do It with Drupal conference was three days of action packed Drupal goodness. I had a chance to network and have fun with other web developers with similar goals and challenges. The session tracks were full of great topics I was highly interested in including some great case studies where we were able to take a peek inside the workings of successful websites. I was also able to interact with some of the top Drupal gurus, quickly ironing out burning questions I was struggling with. On the flip side, what I learned sparked new burning questions (that's how it works, right?).
 

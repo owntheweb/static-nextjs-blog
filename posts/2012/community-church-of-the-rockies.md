@@ -1,7 +1,7 @@
 ---
 title: Community Church of the Rockies
 type: Project
-date: '2012-01-01'
+date: '2012-01-03'
 previewImage: /images/ccrFeature.jpg
 tags:
   - custom theme

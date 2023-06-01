@@ -152,11 +152,15 @@ Thousands of modules are available for download at [drupal.org](http://www.drupa
 
 What did I miss? Additional feedback from Drupalers is welcome!
 
-![Canada talk at Pat Obrian's](/images/patobrians.jpg) Photo by [Todd Holden](http://www.twitter.com/todddevice)
+![Canada talk at Pat Obrian's](/images/patobrians.jpg)
+
+Photo by [Todd Holden](http://www.twitter.com/todddevice)
 
 I did get a little time late nights to hang out in the French Quarter area with fellow Drupalers. I learned a lot about Canada (curling fights, [radio3.cbc.ca](http://radio3.cbc.ca/), and Corner Gas)! It turns out that designer/developers in Sweeden have the same client challenges we have in the US. New Orleans also has a local drink called the "hurricane". It tastes awful anywhere you go, but their local beers are great!
 
-![Fritzels](/images/fritzels.jpg) Photo by [Todd Holden](http://www.twitter.com/todddevice)
+![Fritzels](/images/fritzels.jpg)
+
+Photo by [Todd Holden](http://www.twitter.com/todddevice)
 
 One location I visited two nights in a row was Fritzel's European Jazz Pub. They played live "traditional" jazz from 1920's and earlier. I was purely amazed by the talent there, and recommend it to everyone! It knocked my socks off.
 

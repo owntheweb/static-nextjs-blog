@@ -5,7 +5,7 @@ import { PostMetadata } from '../model/PostMetadata';
 const sortPostMetadata = (unsortedPostMetadata: PostMetadata[]): PostMetadata[] => {
   let sortedPostMetadata: PostMetadata[] = [...unsortedPostMetadata];
 
-  return sortedPostMetadata.sort((a: any, b: any) => {
+  return sortedPostMetadata.sort((a: PostMetadata, b: PostMetadata) => {
     return new Date(b.date).getTime() - new Date(a.date).getTime();
   });
 }

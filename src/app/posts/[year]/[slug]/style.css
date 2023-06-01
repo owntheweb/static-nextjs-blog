@@ -6,4 +6,44 @@
   margin-top: 0;
 }
 
-/* TODO: markdown prose overrides */
+.prose :where(img):not(:where([class~="not-prose"] *)) {
+  margin-bottom: inherit;
+}
+
+.prose :where(h2):not(:where([class~="not-prose"] *)) {
+  font-weight: inherit;
+  color: var(--tw-prose-headings);
+  font-family: '__Roboto_Slab_35304a', '__Roboto_Slab_Fallback_35304a';
+  font-style: normal;
+}
+
+.prose :where(h3):not(:where([class~="not-prose"] *)) {
+  font-weight: inherit;
+  color: var(--tw-prose-headings);
+  font-family: '__Roboto_Slab_35304a', '__Roboto_Slab_Fallback_35304a';
+  font-style: normal;
+}
+
+.prose :where(pre):not(:where([class~="not-prose"] *)) {
+  overflow-x: scroll;
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;
+}
+
+.prose p:empty:has(img),
+.prose p:has(img:first-child) {
+  background-color: #FFF;
+  text-align: center;
+}
+
+.prose p:empty:has(img) img,
+.prose p:has(img:first-child) img {
+  margin: 0 auto;
+}
+
+.prose :where(ul > li):not(:where([class~="not-prose"] *))::marker {
+  color: rgb(145 118 100);
+}

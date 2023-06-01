@@ -38,7 +38,7 @@ export default function YearPosts(props: YearPostsProps) {
 
   return (
     <>
-      <div className="mb-6">
+      <div className="mb-4">
         <h1 className={`text-2xl text-creamcicle ${robertoSlab.className}`}>Posts: {props.params.year}</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">

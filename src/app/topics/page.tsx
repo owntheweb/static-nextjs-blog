@@ -30,7 +30,7 @@ export default function Posts() {
 
   return (
     <>
-      <div className="mb-6">
+      <div className="mb-4">
         <h1 className={`text-2xl text-creamcicle ${robertoSlab.className}`}>Topics</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

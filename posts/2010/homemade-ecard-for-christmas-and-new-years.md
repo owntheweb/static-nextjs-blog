@@ -8,4 +8,6 @@ tags:
   - new year
   - life
 ---
-[![Happy New Year from the Squirrels!](/images/christmasSquirrels.jpg)](http://www.christopherstevens.cc/christmas) I made a homemade Flash Christmas and New Years Day eCard for family and friends. A version of this was also sent by the Space Foundation. [link archived]
+![Happy New Year from the Squirrels!](/images/christmasSquirrels.jpg)
+
+I made a homemade Flash Christmas and New Years Day eCard for family and friends. A version of this was also sent by the Space Foundation. [link archived]

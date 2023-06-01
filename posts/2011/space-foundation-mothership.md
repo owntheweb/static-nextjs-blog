@@ -20,10 +20,6 @@ tags:
 
 Archived
 
-### Link
-
-[http://www.spacefoundation.org](http://www.spacefoundation.org)
-
 ### Roles
 
 Co-designer/developer/project wrangler

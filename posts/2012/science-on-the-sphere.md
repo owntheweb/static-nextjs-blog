@@ -13,7 +13,9 @@ tags:
   - Science On a Sphere
   - Space Foundation
 ---
-![Wonders of the Universe Courses at the Space Foundation Visitors Center featuring Science On a Sphere](/images/wondersOfTheUniverse.jpg) Credit: [Space Foundation](http://www.spacefoundation.org) - Check out photo galleries [here](http://www.spacefoundation.org/media/photo-galleries).
+![Wonders of the Universe Courses at the Space Foundation Visitors Center featuring Science On a Sphere](/images/wondersOfTheUniverse.jpg)
+
+Credit: Space Foundation
 
 Thanks to a very generous donation from Northrop Grumman, the [Space Foundation](http://www.spacefoundation.org) was able to install [Science On a Sphere® (SOS)](http://www.sos.noaa.gov/What_is_SOS/index.html) as part of the new Northrop Grumman Science Center, in the continuously growing Space Foundation Visitors Center. SOS is a six-foot diameter sphere that hangs from the ceiling, projected on from all sides that people can walk around and view science (Earth, near-live weather, flight paths, moon phases, Jupiter and 350+ other datasets) on the sphere!
 

@@ -12,7 +12,15 @@ tags:
   - Pikes Peak
   - MapBox
 ---
-After quite a bit of research, great Linux madness, and a couple gray hairs, I was able to install a map rendering server from scratch and start generating cool maps. The one pictured above is of my neighborhood in Colorado Springs, Colorado. Memorial Park and its lake can be seen to the bottom right. ![Colorado Springs Blue Map](/images/coloradoSpringsMap2b.png) Inspired by [Development Seed](http://developmentseed.org/)'s [DC Nightvision](http://demo.mapbox.com/dc-nightvision.html) theme, I designed an 'SF Nightvision' theme in blue (from Space Foundation's color pallet). The map was generated using [Mapnik](http://mapnik.org/) and [mapnik-utils](http://code.google.com/p/mapnik-utils/) such as [Cascadenik](https://github.com/mapnik/Cascadenik/wiki/Cascadenik) (making styling more manageable to work with), and [OpenStreetMap](http://www.openstreetmap.org/) data for the roads, trails, lakes, etc. ![Pikes Peak Hiking Trail with Contours](/images/pikesPeakMapb.png) In addition to OpenStreetMap data, contour lines were drawn using elevation data provided by the [Earth Resources Observation and Science (EROS) Center](http://eros.usgs.gov), originating from the [Shuttle Radar Topography Mission (STRM)](http://www2.jpl.nasa.gov/srtm/). Pikes Peak can be seen above with a hiking trail leading up to it (just a short hike right?), and a road on the other side.
+After quite a bit of research, great Linux madness, and a couple gray hairs, I was able to install a map rendering server from scratch and start generating cool maps. The one pictured above is of my neighborhood in Colorado Springs, Colorado. Memorial Park and its lake can be seen to the bottom right.
+
+![Colorado Springs Blue Map](/images/coloradoSpringsMap2b.png)
+
+Inspired by [Development Seed](http://developmentseed.org/)'s [DC Nightvision](http://demo.mapbox.com/dc-nightvision.html) theme, I designed an 'SF Nightvision' theme in blue (from Space Foundation's color pallet). The map was generated using [Mapnik](http://mapnik.org/) and [mapnik-utils](http://code.google.com/p/mapnik-utils/) such as [Cascadenik](https://github.com/mapnik/Cascadenik/wiki/Cascadenik) (making styling more manageable to work with), and [OpenStreetMap](http://www.openstreetmap.org/) data for the roads, trails, lakes, etc.
+
+![Pikes Peak Hiking Trail with Contours](/images/pikesPeakMapb.png)
+
+In addition to OpenStreetMap data, contour lines were drawn using elevation data provided by the [Earth Resources Observation and Science (EROS) Center](http://eros.usgs.gov), originating from the [Shuttle Radar Topography Mission (STRM)](http://www2.jpl.nasa.gov/srtm/). Pikes Peak can be seen above with a hiking trail leading up to it (just a short hike right?), and a road on the other side.
 
 ### It came from space!
 
@@ -20,7 +28,15 @@ After quite a bit of research, great Linux madness, and a couple gray hairs, I w
 
 ### Uses for Custom Maps
 
-Custom maps like this can be used to add great visual impact to websites. Nothing cuts 'blah, another Google map' like 'wow! where did that come from?'. Equally or more importantly the ability to generate maps using custom data allows people to further map [earthquakes](http://developmentseed.org/blog/2010/jan/29/post-earthquake-map-tiles-haiti), [snowfall](http://developmentseed.org/blog/2009/nov/05/snow-cover-hillshade-maps-winter-afghanistan), [crime levels](http://mike.teczno.com/notes/oakland-crime-maps/XI.html), and [flasxseed](http://www.nass.usda.gov/Charts_and_Maps/Crops_County/fx-pl.asp) (some people like to know). The sky is the limit, unless you start mapping galaxies.... ![Eve Online galactic map](/images/eveMapSample2.png) Like this one! This is the first mapping endeavor I went after, thinking it would be simpler to map a fictitious galaxy for [Eve Online](https://secure.eveonline.com/ft/?aid=106839) first before a full blown Earth map. ![Eve Online Map closer](/images/eveMapSample1.png) Of course it ended up being just a couple steps away from a Colorado Springs map as I had to generate custom 'shapefiles', get a map server running and stay within a world boundary I didn't understand to get a system I didn't understand designed to render world stuff I didn't understand to render a galaxy instead. At least I understand a lot more now regarding how it all works.
+Custom maps like this can be used to add great visual impact to websites. Nothing cuts 'blah, another Google map' like 'wow! where did that come from?'. Equally or more importantly the ability to generate maps using custom data allows people to further map [earthquakes](http://developmentseed.org/blog/2010/jan/29/post-earthquake-map-tiles-haiti), [snowfall](http://developmentseed.org/blog/2009/nov/05/snow-cover-hillshade-maps-winter-afghanistan), [crime levels](http://mike.teczno.com/notes/oakland-crime-maps/XI.html), and [flasxseed](http://www.nass.usda.gov/Charts_and_Maps/Crops_County/fx-pl.asp) (some people like to know). The sky is the limit, unless you start mapping galaxies....
+
+![Eve Online galactic map](/images/eveMapSample2.png)
+
+Like this one! This is the first mapping endeavor I went after, thinking it would be simpler to map a fictitious galaxy for [Eve Online](https://secure.eveonline.com/ft/?aid=106839) first before a full blown Earth map.
+
+![Eve Online Map closer](/images/eveMapSample1.png)
+
+Of course it ended up being just a couple steps away from a Colorado Springs map as I had to generate custom 'shapefiles', get a map server running and stay within a world boundary I didn't understand to get a system I didn't understand designed to render world stuff I didn't understand to render a galaxy instead. At least I understand a lot more now regarding how it all works.
 
 ### What am I generating custom maps for specifically?
 

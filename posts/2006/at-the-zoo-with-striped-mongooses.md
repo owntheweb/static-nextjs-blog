@@ -8,4 +8,8 @@ tags:
   - Denver
   - Colorado
 ---
-![Striped Mongooses at the Denver Zoo](/images/20060308-stripedMongooses.jpg) Amanda and I took a trip to the Denver Zoo! I decided not to take the camera as the zoo is one of those over-photographed locations where everything is out of reach. I did manage to get a picture of the striped mongooses near the entrance using my camera phone. They were my favorite! We had a good time, and spent a good 5 hours exploring roughly 700 different species advertised in the zoo map.
+![Striped Mongooses at the Denver Zoo](/images/20060308-stripedMongooses.jpg)
+
+Amanda and I took a trip to the Denver Zoo! I decided not to take the camera as the zoo is one of those over-photographed locations where everything is out of reach. I did manage to get a picture of the striped mongooses near the entrance using my camera phone. They were my favorite!
+
+We had a good time, and spent a good 5 hours exploring roughly 700 different species advertised in the zoo map.

@@ -2,12 +2,13 @@ import matter from "gray-matter";
 import { PostMetadata } from "./model/PostMetadata";
 import { getPostMetadata } from "./utils/posts";
 import PostPreview from "./PostPreview";
+import { slugifyTag } from "./utils/tags";
 
 const PreviousNextPosts = (props: matter.GrayMatterFile<string>) => {
 
   // Thanks GPT-4!
   const getPreviousPost = (current: PostMetadata, sortedPosts: PostMetadata[]): PostMetadata | null => {
-    const currentIndex = sortedPosts.findIndex(post => post.date === current.date);
+    const currentIndex = sortedPosts.findIndex(post => post.slug === current.slug && post.date === current.date);
     
     if (currentIndex === -1 || currentIndex + 1 >= sortedPosts.length) {
       return null;
@@ -18,7 +19,7 @@ const PreviousNextPosts = (props: matter.GrayMatterFile<string>) => {
   
   // Thanks GPT-4!
   const getNextPost = (current: PostMetadata, sortedPosts: PostMetadata[]): PostMetadata | null => {
-    const currentIndex = sortedPosts.findIndex(post => post.date === current.date);
+    const currentIndex = sortedPosts.findIndex(post => post.slug === current.slug && post.date === current.date);
   
     if (currentIndex <= 0) {
       return null;
@@ -31,7 +32,7 @@ const PreviousNextPosts = (props: matter.GrayMatterFile<string>) => {
   const currentPostMetadata:PostMetadata = {
     title: props.data.title,
     date: props.data.date,
-    slug: props.data.slug,
+    slug: slugifyTag(props.data.title),
     previewImage: props.data.previewImage,
     type: props.data.type,
     tags: props.data.tags,
@@ -42,7 +43,7 @@ const PreviousNextPosts = (props: matter.GrayMatterFile<string>) => {
 
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
         {previousPost && (
           <PostPreview {...previousPost} />
         )}

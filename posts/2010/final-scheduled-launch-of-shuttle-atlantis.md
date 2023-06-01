@@ -42,11 +42,13 @@ That night the team attended industry receptions to show the Foundation's suppor
 I spent a lot of time with the team, trying 'floofy' tropical drinks that Florida is known for (in moderation of course), and watched Roz, our satellite office guru in Florida and her significant other Adrian greet almost everyone there by name! One thing that I've noticed is that the space industry is very tight knit, almost like a family. People work together across all the companies to achieve common goals, and cross paths often at events everywhere.
 
 ![Space Foundation team on launch day](/images/spacefoundationteam.jpg)
+
 Photo taken by Rick Sanford
 
 The Space Foundation team on launch day!
 
 ![Chris at Countdown Clock](/images/chrisatlantiscountdown.jpg)
+
 Photo taken by Rick Sanford
 
 Here I am at the closest spot available to the general public to see a launch at the Apollo / Saturn V Center (only NASA officials get any closer). The launch pad to my right is where Atlantis launched. The pad to the left is where future launches are aimed to take place. Notice the three large towers there. Those were placed to provide better lightning protection for launching shuttles. No one wants a massive hydrogen filled tank to be struck by lightning!

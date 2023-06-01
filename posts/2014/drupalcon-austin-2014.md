@@ -14,7 +14,9 @@ tags:
 ---
 ![Downtown Austin, Texas - Rock n Roll Saved My Black Heart and Soul](/images/IMG_20140603_222404b.jpg)
 
-![DrupalCon Drone Photo](/images/crowd.jpg) DrupalCon Austin drone group photo taken by [Michael Schmid](https://twitter.com/Schnitzel)
+![DrupalCon Drone Photo](/images/crowd.jpg)
+
+DrupalCon Austin drone group photo taken by [Michael Schmid](https://twitter.com/Schnitzel)
 
 With many thanks to the [Space Foundation](http://www.spacefoundation.org/), I had a chance to join a record breaking 3,400 web people for a week at DrupalCon Austin 2014! While there are many Drupal related events throughout the year around the world, DrupalCon is the BIG event, reuniting developers world wide to share ideas, work out challenges and propel cyberspace-related endeavors for the better.
 
@@ -86,7 +88,9 @@ I couldn't help but notice several parallels between the Drupal community's even
 
 I think the major differences were dress code, average age, technical focus and some formalities.
 
-![Opening Keynote](/images/criticalTissues.jpg) Git watches as Captain Over-Engineering's minions wrap Dries in "critical tissues" during a pre-keynote skit.
+![Opening Keynote](/images/criticalTissues.jpg)
+
+Git watches as Captain Over-Engineering's minions wrap Dries in "critical tissues" during a pre-keynote skit.
 
 One of the biggest contrasts between Space Symposium and DrupalCon is how things get started. Space Symposium kicks off with an Opening Ceremony, showcasing performing arts, a general industry overview and recognizing accomplishments in space-related endeavors with prestigious awards. DrupalCon seems to really kick off with "pre-opening" humor, celebrating frustrations in the community with a skit and/or song (this year both), followed by a community overview and call to arms.
 
@@ -104,7 +108,9 @@ Overall, I observed some potential enhancements to bring over to Space Symposium
 
 #### Kalabox
 
-[![Kalabox Interface](/images/kalabox.jpg)](http://www.kalamuna.com/products/kalabox) I was so happy to know that my Kalabox happiness was maximal.
+[![Kalabox Interface](/images/kalabox.jpg)](http://www.kalamuna.com/products/kalabox)
+
+I was so happy to know that my Kalabox happiness was maximal.
 
 With [Kalabox](http://www.kalamuna.com/products/kalabox), it only took me a few minutes today to install a local and remote dev environment, mixing "VirtualBox and Vagrant into its hot bubbling cauldron of Deep Dark Magic" (and don't forget about Git). I missed the session on this, but man, it's cool. With more experimentation, this has the potential to enhance my team's development workflow. More information is available [here](http://www.kalamuna.com/products/kalabox). You can also support this project on [Kickstarter](bit.ly/kalabox2).
 
@@ -144,7 +150,9 @@ If only I had a picture...
 
 #### Fun Was Had
 
-![Trivia Night](/images/triviaNight.jpg) Photo taken by [Michael Schmid](https://twitter.com/Schnitzel)
+![Trivia Night](/images/triviaNight.jpg)
+
+Photo taken by [Michael Schmid](https://twitter.com/Schnitzel)
 
 Most activities ended with trivia night (followed by additional core development sprints the next day). Fun and tough, I joined forces with other Colorado participants competing for small prizes in a series of quiz rounds. We didn't place first. We didn't place last either! :D
 

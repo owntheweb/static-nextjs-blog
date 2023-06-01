@@ -20,9 +20,7 @@ At the early stage of planning, site activity hasn't quite picked up yet (althou
 - [How do I create a node without leaving a page, using JavaScript?](#how-do-i-create-a-node-without-leaving-a-page-using-javascript)
 - [How do I refresh a view on a page, without refreshing the entire page?](#how-do-i-refresh-a-view-on-a-page-without-refreshing-the-entire-page)
 - [What's the best way to bulk import predefined users into a Drupal website, with accounts and profiles?](#whats-the-best-way-to-bulk-import-predefined-users-into-a-drupal-website-with-accounts-and-profiles)
-
- 
-
+  
 ### How do I take full control over breadcrumbs on very large Drupal websites?
 
 [Menu Breadcrumb](http://drupal.org/project/menu_breadcrumb) is a great place to _start_. It was used on [NationalSpaceSymposium.org](http://www.nationalspacesymposium.org) in conjunction with the [Auto Menu](http://drupal.org/project/automenu) module (creating disabled links under parent links) to keep breadcrumbs consistent with every content type and parent pages. _However_, after a year of additions the primary menu editing page looks like this:
@@ -35,27 +33,26 @@ A better solution for large websites used in the new idea site makes use of [Cus
 
 The 'Home' breadcrumb that Drupal likes to place in content no matter what, causes some inconsistency issues when working with Custom Breadcrumbs module. I couldn't seem to get rid of 'Home', no matter what. For example, you can specify a custom home link in Custom Breadcrumbs, but Drupal will still show 'Home' before that sometimes. While using Custom Breadcrumbs to create a new default home link ("What's missing?" in my case), Here's a quick function placed in template.php that rips out the default breadcrumb:
 
-\[cc lang="php"\] function your\_theme\_name\_breadcrumb($breadcrumb) { for($i=0; $iHome<') > -1) { array\_splice($breadcrumb, $i, 1); } } if(count($breadcrumb) > 0) { $breadcrumbString = '
-
-'. implode(' » ', $breadcrumb) .'
-
-'; } else { $breadcrumbString = ''; } return $breadcrumbString; } \[/cc\]
-
- 
+```
+[this code didn't survive one of the blog data migrations...]
+```
 
 ### How do I create a node without leaving a page, using JavaScript?
 
 The idea website has a form (seen above) that lets people rapid fire ideas on their mind without leaving the page. It breaks the rules of traditional Drupal websites where people are expected to visit a node creation form on its own page. This was achieved by producing a custom module. Don't panic, as it's a great custom module to start with if you're new at Drupal module development. I won't get into the gritty details here, but recommend reading [this fine post](http://acquia.com/blog/migrating-drupal-way-part-i-creating-node) on how to create a node using php, and [this excellent read](http://drupal.org/node/121997) on JavaScript/Drupal interaction.
-
- 
-
 ### How do I refresh a view on a page, without refreshing the entire page?
 
 In the case of the idea website, I had two block views that needed refreshing after an idea was submitted, to show the newly added ideas. [This link](http://groups.drupal.org/node/32650) shed some light on the topic. It's actually pretty simple! Triggering the following javascript will refresh a view, without refreshing a full page (look at page source code to figure out view\_display\_id):
 
-\[cc lang="javascript"\] $.get('/views/ajax/?view\_name=view\_name\_visible\_on\_views\_list\_page&view\_display\_id=block\_1&view\_args=', function(data) { var refreshResult = Drupal.parseJson(data); $('div.view-id-idea\_lists').html(refreshResult.display); }); \[/cc\]
-
- 
+```
+$.get(
+  "/views/ajax/?view_name=view_name_visible_on_views_list_page&view_display_id=block_1&view_args=",
+  function (data) {
+    var refreshResult = Drupal.parseJson(data);
+    $("div.view-id-idea_lists").html(refreshResult.display);
+  }
+);
+```
 
 ### What's the best way to bulk import predefined users into a Drupal website, with accounts and profiles?
 

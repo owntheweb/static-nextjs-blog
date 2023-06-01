@@ -10,7 +10,7 @@ tags:
   - life
   - Space Foundation
 ---
-![Eat Well and Prosper](/images/thanksgiving.jpg)
+![Eat Well and Prosper](/images/thanksgiving2.jpg)
 
 ### Status
 

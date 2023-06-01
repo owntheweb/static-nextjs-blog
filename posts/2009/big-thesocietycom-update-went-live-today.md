@@ -8,4 +8,6 @@ tags:
   - Scott Berkley
   - The Society
 ---
-![TheSociety.com Website Updates](/images/societyscreen.jpg) The Society pushed a large updated to TheSociety.com today. The biggest updates include a revised navigation scheme lead by The Society Co-Founder Scott Berkley, two new products ("The Global Bundle", and "Personal Service Package") lead by Co-Founder Mike McFadden, lots of help everywhere from Mark Goebel and Joseph Sobin, and several visual updates, content additions, and functional tweaks handled myself. For before and after shots, and more details about this update, [read this post](/posts/2009/preview-of-thesocietycom-design-updates).
+![TheSociety.com Website Updates](/images/societyscreen.jpg)
+
+The Society pushed a large updated to TheSociety.com today. The biggest updates include a revised navigation scheme lead by The Society Co-Founder Scott Berkley, two new products ("The Global Bundle", and "Personal Service Package") lead by Co-Founder Mike McFadden, lots of help everywhere from Mark Goebel and Joseph Sobin, and several visual updates, content additions, and functional tweaks handled myself.

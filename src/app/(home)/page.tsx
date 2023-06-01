@@ -1,6 +1,9 @@
 import { getPostMetadata, getPostContent } from '@/components/utils/posts';
 import PostPreview from '@/components/PostPreview';
 import Link from 'next/link';
+import { Roboto_Slab } from 'next/font/google';
+
+const robertoSlab = Roboto_Slab({ subsets: ['latin'] });
 
 /*
 // TODO: Fill metadata in referencing:
@@ -19,17 +22,14 @@ export default function Home() {
   const postPreviews = postMetadata.slice(1, 5).map(post => (
     <PostPreview key={post.slug} {...post} />
   ));
-
-  const year = new Date(postMetadata[0].date).getFullYear();
-  const latestPostContent = getPostContent(year, postMetadata[0].slug);
   
   return (
     <>
-      <h3 className="text-2xl text-creamcicle mb-4">Recent Posts</h3>
+      <h3 className={`text-2xl text-creamcicle mb-4 ${robertoSlab.className}`}>Recent Posts</h3>
 
       {topPostPreview}
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
         {postPreviews}
       </div>
 

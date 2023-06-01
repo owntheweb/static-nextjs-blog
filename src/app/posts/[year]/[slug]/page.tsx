@@ -6,6 +6,9 @@ import { ImageMetadata } from '@/components/model/ImageMetadata';
 import { getContentImageMetadata, getSizedImage } from '@/components/utils/image';
 import './style.css';
 import PreviousNextPosts from '@/components/PreviousNextPosts';
+import { Roboto_Slab } from 'next/font/google';
+
+const robertoSlab = Roboto_Slab({ subsets: ['latin'] });
 
 
 // TODO: Define generated image sizes in nextjs config when design is ready
@@ -47,7 +50,7 @@ const Post = (props: PostProps) => {
   return (
     <>
       <div className="mb-6">
-        <h1 className="text-2xl text-creamcicle">{post.data.title}</h1>
+        <h1 className={`text-2xl text-creamcicle ${robertoSlab.className}`}>{post.data.title}</h1>
         <p className="text-cream mt-2">{post.data.date}</p>
       </div>
       <article className="prose mb-4 post p-4 rounded-md shadow-md bg-cream" style={{ maxWidth: 'inherit' }}>

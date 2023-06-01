@@ -42,21 +42,6 @@ const PreviousNextPosts = (props: matter.GrayMatterFile<string>) => {
 
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {previousPost && (
-          <h3 className="hidden lg:visible text-2xl mb-2 text-creamcicle">Previous Post</h3>
-        )}
-        {!previousPost && (
-          <h3 className="hidden lg:visible text-2xl mb-2 text-creamcicle">The Beginning...</h3>
-        )}
-        {nextPost && (
-          <h3 className="hidden lg:visible text-2xl mb-2 text-creamcicle">Next Post</h3>
-        )}
-        {!nextPost && (
-          <h3 className="hidden lg:visible text-2xl mb-2 text-creamcicle">The Future Awaits...</h3>
-        )}
-      </div>
-      
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
         {previousPost && (
           <PostPreview {...previousPost} />

@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import { getPostMetadata } from '@/components/utils/posts';
 import { getAllPostTags, getSortedTags, slugifyTag } from '@/components/utils/tags';
+import { Roboto_Slab } from 'next/font/google';
+
+const robertoSlab = Roboto_Slab({ subsets: ['latin'] });
 
 
 export const metadata = {
@@ -19,18 +22,16 @@ export default function Posts() {
 
   const tagGrid = sortedTags.map(tag => {
     return (
-      <div className="border border-slate-300 p-4 rounded-md shadow-sm bg-white">
-        <Link href={`/topics/${slugifyTag(tag[0])}`}>
-          <h2 className="text-cream hover:underline mb-4">{tag[0]} ({tag[1]})</h2>
-        </Link>
-      </div>
+      <Link href={`/topics/${slugifyTag(tag[0])}`} className="post-preview border block p-4 rounded-md shadow-md hover:bg-white">
+        <h2 className="text-green-700 hover:underline">{tag[0]} ({tag[1]})</h2>
+      </Link>
     );
   });
 
   return (
     <>
       <div className="mb-6">
-        <h1 className="text-2xl text-creamcicle">Topics</h1>
+        <h1 className={`text-2xl text-creamcicle ${robertoSlab.className}`}>Topics</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {tagGrid}

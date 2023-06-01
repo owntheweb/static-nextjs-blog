@@ -1,3 +1,7 @@
+.post-col {
+  max-width: 44rem;
+}
+
 .post {
   background-color: #f8f2e3;
 }
@@ -10,18 +14,13 @@
   margin-bottom: inherit;
 }
 
-.prose :where(h2):not(:where([class~="not-prose"] *)) {
-  font-weight: inherit;
-  color: var(--tw-prose-headings);
-  font-family: '__Roboto_Slab_35304a', '__Roboto_Slab_Fallback_35304a';
-  font-style: normal;
-}
-
+.prose :where(h2):not(:where([class~="not-prose"] *)),
 .prose :where(h3):not(:where([class~="not-prose"] *)) {
   font-weight: inherit;
   color: var(--tw-prose-headings);
   font-family: '__Roboto_Slab_35304a', '__Roboto_Slab_Fallback_35304a';
   font-style: normal;
+  margin-top: 0;
 }
 
 .prose :where(pre):not(:where([class~="not-prose"] *)) {

@@ -48,7 +48,7 @@ const Post = (props: PostProps) => {
   </section>;
   
   return (
-    <>
+    <div className="post-col">
       <div className="4">
         <h1 className={`text-2xl text-creamcicle mb-4 ${robertoSlab.className}`}>{post.data.title}</h1>
       </div>
@@ -67,7 +67,7 @@ const Post = (props: PostProps) => {
       </article>
       {<PreviousNextPosts {...post} />}
       {tagNav}
-    </>
+    </div>
   )
 };
 

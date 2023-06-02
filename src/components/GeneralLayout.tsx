@@ -14,11 +14,11 @@ const GeneralLayout = ({
     <html lang="en">
       <body className={
         `${inter.className}
-        bg-[url('/images/header-sec-background-640.png')]
-        sm:bg-[url('/images/header-sec-background-768.png')]
-        md:bg-[url('/images/header-sec-background-1024.png')]
-        lg:bg-[url('/images/header-sec-background-1280.png')]
-        xl:bg-[url('/images/header-sec-background-1536.png')]
+        bg-[url('/images/header-sec-background-640.jpg')]
+        sm:bg-[url('/images/header-sec-background-768.jpg')]
+        md:bg-[url('/images/header-sec-background-1024.jpg')]
+        lg:bg-[url('/images/header-sec-background-1280.jpg')]
+        xl:bg-[url('/images/header-sec-background-1536.jpg')]
         bg-no-repeat
         bg-top h-full`}>
         <GeneralHeader />

@@ -1,5 +1,5 @@
 ---
-title: 'The Space Report: The Authoritative Guide to Space Activity'
+title: 'The Space Report Online'
 type: Project
 date: '2016-08-01'
 previewImage: /images/the-space-report.jpg

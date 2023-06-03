@@ -2,12 +2,10 @@ import Link from 'next/link';
 import { getPostMetadata } from '@/components/utils/posts';
 import PostPreview from '@/components/PostPreview';
 import { Roboto_Slab } from 'next/font/google';
+import { Metadata, ResolvingMetadata } from 'next';
+import { addBaseUrl, makeMetadata } from '@/components/utils/headerMeta';
 
 const robertoSlab = Roboto_Slab({ subsets: ['latin'] });
-
-export const metadata = {
-  title: 'Posts'
-}
 
 interface YearPostsParams {
   year: number,
@@ -15,6 +13,26 @@ interface YearPostsParams {
 
 interface YearPostsProps {
   params: YearPostsParams,
+}
+
+export async function generateMetadata(
+  params: any,
+): Promise<Metadata> {
+  const year = params.params.year;
+  const title = `Posts: ${year} | Christopher Stevens`
+  const description = `Follow the adventures of Christopher stevens in the year, ${year}.`
+  const contentUrl = addBaseUrl(`/posts/${year}`);
+
+  return makeMetadata({
+    title: title,
+    description: description,
+    openGraph: {
+      title: title,
+      description: description,
+      images: [addBaseUrl('/images/ai-me.jpg')],
+      url: contentUrl,
+    },
+  });
 }
 
 export const generateStaticParams = async () => {

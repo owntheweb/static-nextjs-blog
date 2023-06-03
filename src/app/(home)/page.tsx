@@ -2,17 +2,16 @@ import { getPostMetadata, getPostContent } from '@/components/utils/posts';
 import PostPreview from '@/components/PostPreview';
 import Link from 'next/link';
 import { Roboto_Slab } from 'next/font/google';
+import { Metadata, ResolvingMetadata } from 'next';
+import { addBaseUrl, makeMetadata } from '@/components/utils/headerMeta';
 
 const robertoSlab = Roboto_Slab({ subsets: ['latin'] });
 
-/*
-// TODO: Fill metadata in referencing:
-// https://nextjs.org/docs/app/api-reference/functions/generate-metadata
-export const metadata = {
-  title: 'This is a blog',
-  description: 'Let\'s get this thing started.',
+export async function generateMetadata(
+  params: any,
+): Promise<Metadata> {
+  return makeMetadata({});
 }
-*/
 
 export default function Home() {
   const postMetadata = getPostMetadata(true);

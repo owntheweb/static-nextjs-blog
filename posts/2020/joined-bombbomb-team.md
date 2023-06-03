@@ -4,9 +4,8 @@ type: Project
 date: '2020-06-01'
 previewImage: /images/before-bombbomb-after.jpg
 tags:
-  - Angular
-  - Polaris Alpha
-  - Parsons
+  - BombBomb
+  - life
 ---
 ![a fancy UI](/images/before-bombbomb-after.jpg)
 

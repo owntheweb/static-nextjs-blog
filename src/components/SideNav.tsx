@@ -40,7 +40,7 @@ const SideNav = ({ className }: GeneralComponentProps) => {
   
   // tags/topics nav
   const targetSinceDate = new Date();
-  targetSinceDate.setFullYear(targetSinceDate.getFullYear() - 1);
+  targetSinceDate.setFullYear(targetSinceDate.getFullYear() - 5);
   const allPostTags = getAllPostTags(postMetadata, targetSinceDate);
   const sortedTags = getSortedTags(allPostTags, 10);
 

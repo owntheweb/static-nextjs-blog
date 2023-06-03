@@ -3,11 +3,29 @@ import { getPostMetadata } from '@/components/utils/posts';
 import PostPreview from '@/components/PostPreview';
 import { slugifyTag } from '@/components/utils/tags';
 import { Roboto_Slab } from 'next/font/google';
+import { Metadata, ResolvingMetadata } from 'next';
+import { addBaseUrl, makeMetadata } from '@/components/utils/headerMeta';
 
 const robertoSlab = Roboto_Slab({ subsets: ['latin'] });
 
-export const metadata = {
-  title: 'Posts'
+export async function generateMetadata(
+  params: any,
+): Promise<Metadata> {
+  const topic = params.params.tag;
+  const title = `Topics: ${topic} | Christopher Stevens`
+  const description = `Follow the adventures of Christopher stevens for the topic, ${topic}`
+  const contentUrl = addBaseUrl(`/posts/${slugifyTag(topic)}`);
+
+  return makeMetadata({
+    title: title,
+    description: description,
+    openGraph: {
+      title: title,
+      description: description,
+      images: [addBaseUrl('/images/ai-me.jpg')],
+      url: contentUrl,
+    },
+  });
 }
 
 interface TagPostParams {

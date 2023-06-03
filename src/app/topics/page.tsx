@@ -2,12 +2,28 @@ import Link from 'next/link';
 import { getPostMetadata } from '@/components/utils/posts';
 import { getAllPostTags, getSortedTags, slugifyTag } from '@/components/utils/tags';
 import { Roboto_Slab } from 'next/font/google';
+import { Metadata, ResolvingMetadata } from 'next';
+import { addBaseUrl, makeMetadata } from '@/components/utils/headerMeta';
 
 const robertoSlab = Roboto_Slab({ subsets: ['latin'] });
 
+export async function generateMetadata(
+  params: any,
+): Promise<Metadata> {
+  const title = `Topics | Christopher Stevens`
+  const description = `Follow the adventures of Christopher stevens.`
+  const contentUrl = addBaseUrl(`/topics`);
 
-export const metadata = {
-  title: 'Topics'
+  return makeMetadata({
+    title: title,
+    description: description,
+    openGraph: {
+      title: title,
+      description: description,
+      images: [addBaseUrl('/images/ai-me.jpg')],
+      url: contentUrl,
+    },
+  });
 }
 
 export default function Posts() {

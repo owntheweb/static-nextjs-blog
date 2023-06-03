@@ -7,18 +7,8 @@ import { getContentImageMetadata, getSizedImage } from '@/components/utils/image
 import './style.css';
 import PreviousNextPosts from '@/components/PreviousNextPosts';
 import { Roboto_Slab } from 'next/font/google';
-
-const robertoSlab = Roboto_Slab({ subsets: ['latin'] });
-
-
-// TODO: Define generated image sizes in nextjs config when design is ready
-
-export const generateStaticParams = async () => {
-  const posts = getPostMetadata(true);
-  return posts.map(post => ({
-    slug: post.slug
-  }));
-};
+import { Metadata, ResolvingMetadata } from 'next';
+import { addBaseUrl, getDescriptionFromMarkdown, makeMetadata } from '@/components/utils/headerMeta';
 
 interface PostParams {
   slug: string,
@@ -28,6 +18,43 @@ interface PostParams {
 interface PostProps {
   params: PostParams,
 }
+
+export async function generateMetadata(
+  params: any, 
+): Promise<Metadata> {
+  const year = params.params.year;
+  const slug = params.params.slug;
+  const contentUrl = addBaseUrl(`/posts/${year}/${slug}`);
+  const contentGrayMatter = getPostContent(year, slug);
+  const contentImages = getContentImageMetadata(contentGrayMatter.content)
+    .map(image => image.src)
+    .map(src => addBaseUrl(src));
+  const description = getDescriptionFromMarkdown(contentGrayMatter.content);
+  const title = `${contentGrayMatter.data.title} | Christopher Stevens`;
+ 
+  return makeMetadata({
+    title: contentGrayMatter.data.title,
+    description: description,
+    keywords: [...contentGrayMatter.data.tags],
+    openGraph: {
+      title: contentGrayMatter.data.title,
+      description: description,
+      images: [...contentImages],
+      url: contentUrl,
+    },
+  });
+}
+
+const robertoSlab = Roboto_Slab({ subsets: ['latin'] });
+
+// TODO: Define generated image sizes in nextjs config when design is ready
+
+export const generateStaticParams = async () => {
+  const posts = getPostMetadata(true);
+  return posts.map(post => ({
+    slug: post.slug
+  }));
+};
 
 const Post = (props: PostProps) => {  
   const slug = props.params.slug;

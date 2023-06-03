@@ -29,6 +29,51 @@ body {
 }
 */
 
+html {
+  height: 100vh;
+  overflow: hidden;
+}
+
 body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
   background-color: #3e2127;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  perspective: 1px;
+  transform-style: preserve-3d;
+}
+
+.parallaxContent {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.parallaxContent::before {
+  content:"";
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  transform: translateZ(-1px) scale(2);
+  background-repeat: no-repeat;
+
+  /* 
+  TODO: need media queries for each size,
+  unsure if I like this effect here for now, more lag, home page overlap contrast issues
+  set aside in branch
+  Original for reference:
+  <body className={
+    `${inter.className}
+    bg-[url('/images/header-background-768.jpg')]
+    md:bg-[url('/images/header-background-1024.jpg')]
+    lg:bg-[url('/images/header-background-1280.jpg')]
+    xl:bg-[url('/images/header-background-1536.jpg')]
+    bg-no-repeat
+    bg-top h-full`
+  }>
+  */
+  background: url("/images/header-background-1536.jpg") top;
 }

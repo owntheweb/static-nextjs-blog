@@ -19,6 +19,8 @@ Working in a museum setting, I was looking for a way to turn a Raspberry Pi into
 
 Thanks to some wonderful sources listed below, getting started was pretty straight forward. Here's the quick combined step-by step.
 
+[this didn't migrate well, nor relevant today (was the bee's knees a decade ago [check this out](https://github.com/balena-labs-projects/balena-dash) instead)]
+
 ### Sources
 
 *   [Open Tech Guides: Auto Login and Auto Start in Raspberry Pi](https://www.opentechguides.com/how-to/article/raspberry-pi/5/raspberry-pi-auto-start.html)

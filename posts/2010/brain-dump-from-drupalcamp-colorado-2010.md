@@ -16,7 +16,7 @@ tags:
 
 Image from [drupalcampcolorado.org](https://drupalcampcolorado.org) website
 
-Over 300 people attended [Drupalcamp Colorado](https://drupalcampcolorado.org/) over the June 26-27 weekend, including myself and Space Foundation co-worker Luciana. For a mere $30 admission fee (unless waiting untill the last second), Drupal developers, designers, enthusiasts, and interested newcomers met for sessions, networking, and some pretty darn good food (Don't forget the free beer provided by [Volacci](https://www.volacci.com/) Saturday evening!).
+Over 300 people attended [Drupalcamp Colorado] *-link archived-* over the June 26-27 weekend, including myself and Space Foundation co-worker Luciana. For a mere $30 admission fee (unless waiting untill the last second), Drupal developers, designers, enthusiasts, and interested newcomers met for sessions, networking, and some pretty darn good food (Don't forget the free beer provided by [Volacci](https://www.volacci.com/) Saturday evening!).
 
 I feel the event was totally worth attending. It was a chance to poll others on their development issues, help each other out, and speak the same language for a weekend. Here's some takeaways of interest that helped me out a ton:
 
@@ -30,7 +30,7 @@ I'm sure there's several additional modules discussed in sessions that I didn't 
 
 **[Flag](https://drupal.org/project/flag)** Flag was used to "flag" or "star" events I wanted to attend in my Drupalcamp Colorado schedule. I list it here because it will be a perfect addition to Space Foundation event schedules, making them personalized.
 
-**[jQuery UI](https://drupal.org/project/jquery_ui)** Adding jQuery UI to Drupal allows the ability to add great JavaScript controlled tabs, accordion menus, and other elements that would be more complicated without the module. More information about jQuery UI can be fount [here](https://jqueryui.com/). A great example showcased in [Ken Woodworth](https://twitter.com/kenwoodworth)'s session, 'Enhancing Drupal Interfaces with JavaScript and Flash', is [Adaptive Learning Mechanism](https://www.adaptationlearning.net/). Check out the accordion menu on the right of the home page.
+**[jQuery UI](https://drupal.org/project/jquery_ui)** Adding jQuery UI to Drupal allows the ability to add great JavaScript controlled tabs, accordion menus, and other elements that would be more complicated without the module. More information about jQuery UI can be fount [here](https://jqueryui.com/). A great example showcased in [Ken Woodworth] *-link archived-*'s session, 'Enhancing Drupal Interfaces with JavaScript and Flash', is [Adaptive Learning Mechanism](https://www.adaptationlearning.net/). Check out the accordion menu on the right of the home page.
 
 **[jQuery Update](https://drupal.org/project/jquery_update)** On a related note, jQuery Update does what it says. It updates the Drupal built-in version of jQuery to a newer version. The newer version is required for many jQuery widgets and Drupal modules out there.
 
@@ -82,7 +82,7 @@ I'm sure there's several additional modules discussed in sessions that I didn't 
 
 ### Additional Interesting Resources
 
-Recommended Book: [Pro Drupal Development](https://www.drupalbook.com/code-drupal-like-a-pro) by John VanDyk
+Recommended Book: [Pro Drupal Development] *-link archived-* by John VanDyk
 
 Chat: IRC #drupal-colorado for Colorado Drupal discussions
 
@@ -96,7 +96,7 @@ Drupal Forum: [https://drupal.org/forum](https://drupal.org/forum)
 
 Your Local Drupal Users Group (search [https://groups.drupal.org](https://groups.drupal.org/) and [https://www.meetup.com](https://www.meetup.com))
 
-Quote of wisdom: "Drupal is free like kittens are free" --posted on Twitter by [Miles France](https://twitter.com/protitude)
+Quote of wisdom: "Drupal is free like kittens are free" --posted on Twitter by [Miles France] *-link archived-*
 
 Words that scared me: "PCI compliance" (It's good to be scared about that though)
 

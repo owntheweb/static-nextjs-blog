@@ -16,7 +16,7 @@ tags:
 
 ![DrupalCon Drone Photo](/images/crowd.jpg)
 
-DrupalCon Austin drone group photo taken by [Michael Schmid](https://twitter.com/Schnitzel)
+DrupalCon Austin drone group photo taken by [Michael Schmid] *-link archived-*
 
 With many thanks to the [Space Foundation](https://www.spacefoundation.org/), I had a chance to join a record breaking 3,400 web people for a week at DrupalCon Austin 2014! While there are many Drupal related events throughout the year around the world, DrupalCon is the BIG event, reuniting developers world wide to share ideas, work out challenges and propel cyberspace-related endeavors for the better.
 
@@ -52,7 +52,7 @@ Wolfgang Ziegler gave a great overview of Drupal 8's Entity API ([watch it here]
 
 One area I'd like to focus on for upcoming Space Foundation projects is the customers' purchasing experience. It's also the scariest topic as it involves PCI compliance, transfer and/or storage of personal information, user accounts, all involving much more attention and responsibility. But this is not a reason to avoid such things, especially with increased ROI potential. With a vision to have users experience seamless purchases, a login area, purchase history, profiles and a way to keep people engaged after purchases, I want to go there!
 
-Short term, I found some ways to better connect our current systems post-purchase for basic user accounts to be created using custom module and database exports (omitting the bulk of personal info). Long term, I found a [great white paper](https://drupalpcicompliance.org) on how to work through PCI compliance requirements via a Drupal site. I also met some people that could help with a more robust set of solutions for contacts, emails, payments, etc. that keep our sites connected but not storing all the personal stuff (oh man, plenty of discussions to be had everywhere soon!). It was great to have so many people with similar challenges and solutions together in one place, not so accessible outside of an event like DrupalCon.
+Short term, I found some ways to better connect our current systems post-purchase for basic user accounts to be created using custom module and database exports (omitting the bulk of personal info). Long term, I found a [great white paper] *-link archived-* on how to work through PCI compliance requirements via a Drupal site. I also met some people that could help with a more robust set of solutions for contacts, emails, payments, etc. that keep our sites connected but not storing all the personal stuff (oh man, plenty of discussions to be had everywhere soon!). It was great to have so many people with similar challenges and solutions together in one place, not so accessible outside of an event like DrupalCon.
 
 #### Drupal Commerce
 
@@ -60,7 +60,7 @@ I sat in on a session on how to take donations and online subscriptions via Drup
 
 ### Website Security
 
-Serving as a web server administrator recently (in addition to development, database management, website building, designer and even logo designer lately - the life of many non-profit web people), I felt there was still more I needed to know about securing the stack from bottom up. Two sessions attended were very enlightening if not a touch sobering, kicking some things I hadn't thought about into gear. This also sparked some discussions with other companies such as [Black Mesh](https://www.blackmesh.com/), [Acquia](https://www.acquia.com/) and [Pantheon](https://www.getpantheon.com/) about value-added hosting services in this area for the future, freeing me up to focus more on user experience and design.
+Serving as a web server administrator recently (in addition to development, database management, website building, designer and even logo designer lately - the life of many non-profit web people), I felt there was still more I needed to know about securing the stack from bottom up. Two sessions attended were very enlightening if not a touch sobering, kicking some things I hadn't thought about into gear. This also sparked some discussions with other companies such as [Black Mesh] *-link archived-*, [Acquia](https://www.acquia.com/) and [Pantheon](https://www.getpantheon.com/) about value-added hosting services in this area for the future, freeing me up to focus more on user experience and design.
 
 ![web server security](/images/security2.jpg)
 
@@ -76,7 +76,7 @@ An intranet or extranet to unite organization functions has been on the plate si
 
 ![Mike Potter, Phase2](/images/phase2.jpg)
 
-I had a chance to meet with Mike Potter with Phase2, developer lead for [Atrium 2](https://openatrium.com/#!/), an intranet Drupal distribution. Now, I've tried to use the first Atrium. It was marketed very well and rather difficult to extend (might have been simpler to start from scratch). However, Atrium 2 is much more Drupal-like, with some starting modules and configuration that makes it quicker to get things going. I'm excited to give it another go.
+I had a chance to meet with Mike Potter with Phase2, developer lead for [Atrium 2] *-link archived-*, an intranet Drupal distribution. Now, I've tried to use the first Atrium. It was marketed very well and rather difficult to extend (might have been simpler to start from scratch). However, Atrium 2 is much more Drupal-like, with some starting modules and configuration that makes it quicker to get things going. I'm excited to give it another go.
 
 ### Project Requirements Gathering
 
@@ -100,7 +100,7 @@ Both Space Symposium and DrupalCon feature exhibitors, with lots of ideas and bu
 
 ![Mechanical Bull Ride](/images/bull.jpg)
 
-One thing you won't find at Space Symposium is a mechanical bull (they'll have a cool space module on display instead, some making espresso or fresh baked cookies). At DrupalCon, [azri](https://azrisolutions.com/) provided a mechanical bull for a chance to win an iPad for longest ride... I'll have to see if we can add one of these to the Space Foundation booth at Symposium. ;)
+One thing you won't find at Space Symposium is a mechanical bull (they'll have a cool space module on display instead, some making espresso or fresh baked cookies). At DrupalCon, [azri] *-link archived-* provided a mechanical bull for a chance to win an iPad for longest ride... I'll have to see if we can add one of these to the Space Foundation booth at Symposium. ;)
 
 Overall, I observed some potential enhancements to bring over to Space Symposium and maybe a few things to bring to the next DrupalCon. ;)
 
@@ -120,7 +120,7 @@ I learned some interesting bits from Mark Stanislav (he gave a session after we 
 
 #### Membership Management
 
-I see memberships of different kinds being managed on Space Foundation websites soon. To that thought, I felt that the [Membership Entity](https://drupal.org/project/membership_entity) module, developed by Colorado's [Monarch Digital](https://www.monarchdigital.com/blog/2014-03-17/announcing-membership-entity-contributed-module-drupal) has a lot of potential in dealing with membership complexities.
+I see memberships of different kinds being managed on Space Foundation websites soon. To that thought, I felt that the [Membership Entity](https://drupal.org/project/membership_entity) module, developed by Colorado's [Monarch Digital] *-link archived-* has a lot of potential in dealing with membership complexities.
 
 ### Personal Highlights
 
@@ -136,7 +136,7 @@ I feel that DrupalCon's best payoff was the ability to meet with all sorts of pe
 
 #### Joined the Drupal Association
 
-Not being a major contributor code-wise just yet (although watch for an awesome module contribution coming soon), I felt the need the contribute in others ways. Joining the [Drupal Association](https://assoc.drupal.org/home) was a start.
+Not being a major contributor code-wise just yet (although watch for an awesome module contribution coming soon), I felt the need the contribute in others ways. Joining the [Drupal Association] *-link archived-* was a start.
 
 #### Explored Downtown Austin
 
@@ -152,7 +152,7 @@ If only I had a picture...
 
 ![Trivia Night](/images/triviaNight.jpg)
 
-Photo taken by [Michael Schmid](https://twitter.com/Schnitzel)
+Photo taken by [Michael Schmid] *-link archived-*
 
 Most activities ended with trivia night (followed by additional core development sprints the next day). Fun and tough, I joined forces with other Colorado participants competing for small prizes in a series of quiz rounds. We didn't place first. We didn't place last either! :D
 

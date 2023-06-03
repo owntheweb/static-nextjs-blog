@@ -108,7 +108,100 @@ const fileContent = fs.readFileSync(file, 'utf8');
 
 ### Update
 
-I was having issues with Axios and switched things up a bit. The root cause of issues though was a missing `User-Agent` resulting in frequent 403 errors. I may have been able to use the solution with a tweak. Most functionality remains in place.
+I was having issues with Axios and switched things up a bit. The root cause of issues though was a missing `User-Agent` resulting in frequent 403 errors. I may have been able to use the solution with a tweak. Most functionality remains in place. I also noticed that it added the CSV headers to the end of the file. I removed those in the generated csv file as it was good enough for my use!
 
 ## Assignment 2
 
+A csv file named broken_links.csv contains rows of broken blog links. Using Node.js, parse the data in the csv file. Then, use the data to open Markdown files listed in the csv file and replace the broken Markdown links with altered text. save updated content over the existing markdown files.
+
+Example broken_links.csv file content:
+```
+../posts/2010/final-scheduled-launch-of-shuttle-atlantis.md,https://2010.nationalspacesymposium.org/media/symposium-videos,ENOTFOUND
+../posts/2010/successful-26th-national-space-symposium.md,https://2010.nationalspacesymposium.org/media/symposium-videos,ENOTFOUND
+```
+
+The first column is the markdown file that contains one or more broken links. The second column is the broken url. The third column is a status code that can be ignored.
+
+Example markdown content with a broken link:
+```
+Here is a sentence with a [broken link here](https://2010.nationalspacesymposium.org/media/symposium-videos).
+```
+
+This example would be replaced with:
+```
+Here is a sentence with a [broken link here] *-link archived-*.
+```
+
+Thank you for giving it a try. Do you understand?
+
+## API request: https://api.openai.com/v1/chat/completions
+
+```
+{
+  "model": "gpt-4",
+  "messages": [
+      {
+          "role": "assistant",
+          "content": "web developer"
+      },
+      {
+          "role": "user",
+          "content": "A csv file named broken_links.csv contains rows of broken blog links. Using Node.js, parse the data in the csv file. Then, use the data to open Markdown files listed in the csv file and replace the broken Markdown links with altered text. save updated content over the existing markdown files.\r\n\r\nExample broken_links.csv file content:\r\n```\r\n..\/posts\/2010\/final-scheduled-launch-of-shuttle-atlantis.md,https:\/\/2010.nationalspacesymposium.org\/media\/symposium-videos,ENOTFOUND\r\n..\/posts\/2010\/successful-26th-national-space-symposium.md,https:\/\/2010.nationalspacesymposium.org\/media\/symposium-videos,ENOTFOUND\r\n```\r\n\r\nThe first column is the markdown file that contains one or more broken links. The second column is the broken url. The third column is a status code that can be ignored.\r\n\r\nExample markdown content with a broken link:\r\n```\r\nHere is a sentence with a [broken link here](https:\/\/2010.nationalspacesymposium.org\/media\/symposium-videos).\r\n```\r\n\r\nThis example would be replaced with:\r\n```\r\nHere is a sentence with a [broken link here] *-link archived-*.\r\n```\r\n\r\nThank you for giving it a try. Do you understand?"
+      }
+  ],
+  "temperature": 0.9,
+  "user": "user-example-to-monitor-for-abuse"
+}
+```
+
+## Response
+
+Yes, I understand the task. I will provide you a Node.js script to read the broken_links.csv file, find the broken links in the specified Markdown files, replace them with the altered text, and save the updated content over the existing Markdown files. Here's the script:
+
+```javascript
+const fs = require('fs');
+const path = require('path');
+const csvParser = require('csv-parser');
+
+const brokenLinksFile = 'broken_links.csv';
+
+// Function to update markdown files
+function updateMarkdownFile(filePath, brokenUrl) {
+    const fileContent = fs.readFileSync(filePath, 'utf8');
+    const linkRegex = new RegExp(`(\\[.*?\\])\\(${brokenUrl}\\)`, 'g');
+    const updatedContent = fileContent.replace(linkRegex, '$1 *-link archived-*');
+    
+    fs.writeFileSync(filePath, updatedContent);
+    console.log(`Updated broken link in ${filePath}`);
+}
+
+// Parse the CSV file and update markdown files
+fs.createReadStream(brokenLinksFile)
+    .pipe(csvParser({ separator: ',' }))
+    .on('data', (row) => {
+        if (row && row[0] && row[1]) {
+            updateMarkdownFile(path.join(__dirname, row[0]), row[1]);
+        }
+    })
+    .on('end', () => {
+        console.log('Finished updating markdown files');
+    });
+```
+
+To run the script, install the csv-parser package by running `npm install csv-parser`. Then, create a Node.js file (e.g., fix_broken_links.js) with the above content and run the script with `node fix_broken_links.js`. Make sure the broken_links.csv file is in the same directory as the script.
+
+This script assumes that the broken_links.csv file is using a comma (,) as the separator. If it's using a different separator, update the separator in the `csvParser({ separator: ',' })` line accordingly.
+
+## Personal Thoughts
+
+This successfully archived 135 old broken links in my blog! I only needed make a couple of minor tweaks:
+
+```
+.pipe(csvParser({ separator: ',' }))
+```
+to
+```
+.pipe(csvParser({ separator: ',', headers: false })) 
+```
+
+I didn't specify that there were no headers in the file, so any human may have made the same mistake?

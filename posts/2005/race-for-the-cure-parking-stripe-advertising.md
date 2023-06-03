@@ -43,4 +43,4 @@ The amount of people at the race was amazing! I have never seen so many people i
 
 Cheerleaders and fans encouraged racers at the finish line. I knew that the printed stripes left an impact when I was pulling them off the street. Several racers helped clean up, and took stripes home with them. The stripes served as a symbol that they could remember the race by. Because of this, I feel that Parking Stripe Advertising should be used for future fundraiser events.
 
-Using the stripes leaves a positive impression. Parking Stripe Advertising official website: [www.parkingstripe.com](https://www.parkingstripe.com/)
+Using the stripes leaves a positive impression. Parking Stripe Advertising official website: [www.parkingstripe.com] *-link archived-*

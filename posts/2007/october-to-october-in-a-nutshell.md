@@ -25,13 +25,13 @@ This website featured a custom back end for uploading and sharing files with cli
 
 ![Bud Light Rock Paper Scissors website screenshot](/images/budweiser.jpeg)
 
-Bud Light Rock Paper Scissors - [www.budlightrps.com](https://www.budlightrps.com)
+Bud Light Rock Paper Scissors - [www.budlightrps.com] *-link archived-*
 
 Design by Dmitri Wood, talking hand and functionality by myself, this design guided contest winners and employees to desired destinations in a fun way.
 
 ![Parking Stripe Advertising website screenshot](/images/parkingStripe07.jpeg)
 
-Parking Stripe Advertising - [www.parkingstripe.com](https://www.parkingstripe.com)
+Parking Stripe Advertising - [www.parkingstripe.com] *-link archived-*
 
 I had the opportunity to redesign the logo and look of Parking Stripe Advertising. Past revisions of this website can be seen [here](https://www.christopherstevens.cc/?p=12). I ended my 4 year position with Commotion as Intern -> Director of Web Development -> Media Director, in September. I couldn't refuse the job upgrade offer from The Society of Leisure Enthusiasts. So far the job has been a positive change in different aspects.
 

@@ -11,7 +11,7 @@ The society evolves. So does thesociety.com! Now that [The Society of Leisure En
 
 ![The Society of Leisure Enthusiasts First Home Page Publish](/images/societyHome1.jpeg)
 
-The first publish of [thesociety.com](https://www.thesociety.com) home page was a start. More focus was placed on functionality than design. This is what the home page looked like when I was hired as part of the web design and development team. Development and design was managed and produced by [Cicada](https://www.cicada.us/). Developments of varying features such as news and search engine tools were created by [Dave Gullo](https://www.snowboards-for-sale.com).
+The first publish of [thesociety.com](https://www.thesociety.com) home page was a start. More focus was placed on functionality than design. This is what the home page looked like when I was hired as part of the web design and development team. Development and design was managed and produced by [Cicada] *-link archived-*. Developments of varying features such as news and search engine tools were created by [Dave Gullo] *-link archived-*.
 
 ![The Society of Leisure Enthusiasts Second Home Page Publish](/images/societyHome2.jpeg)
 

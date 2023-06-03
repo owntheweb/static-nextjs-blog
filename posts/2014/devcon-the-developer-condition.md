@@ -754,6 +754,6 @@ document.write('<script src=' +
 
 ### What's Next?
 
-After some time where my mail was being stolen (they caught the crazy lady) and my car window was shot out with a bb-gun, then my car door was destroyed with a poorly attempted break-in... then some drunk guy and his buddy were kicking my car and others for no logical reason (thanks neighbor for terrorizing them), I want to build a motion detecting security camera system. [Raspberry Pi](https://www.raspberrypi.org) has a lot of community support for building [something like this](https://simpledev.webs.com/apps/blog/) on the cheap. After that I can see getting more creative and fun with electronics in other ways.
+After some time where my mail was being stolen (they caught the crazy lady) and my car window was shot out with a bb-gun, then my car door was destroyed with a poorly attempted break-in... then some drunk guy and his buddy were kicking my car and others for no logical reason (thanks neighbor for terrorizing them), I want to build a motion detecting security camera system. [Raspberry Pi](https://www.raspberrypi.org) has a lot of community support for building [something like this] *-link archived-* on the cheap. After that I can see getting more creative and fun with electronics in other ways.
 
 Maybe I'll make something with more processing 'mmph' using the [BeagleBone Black](https://beagleboard.org/black). Do you have any thoughts on high powered tiny computers/SBCs?

@@ -19,10 +19,10 @@ function updateMarkdownFile(filePath, brokenUrl) {
 
 // Parse the CSV file and update markdown files
 fs.createReadStream(brokenLinksFile)
-    .pipe(csvParser({ separator: ',' }))
+    .pipe(csvParser({ separator: ',', headers: false }))
     .on('data', (row) => {
         if (row && row[0] && row[1]) {
-            updateMarkdownFile(path.join(__dirname, row[0]), row[1]);
+          updateMarkdownFile(path.join(__dirname, row[0]), row[1]);
         }
     })
     .on('end', () => {

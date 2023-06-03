@@ -27,7 +27,7 @@ Developer/designer
 
 ### Additional Credits
 
-Much thanks goes to the [Away Foundation](https://www.theawayfoundation.org/) for pointing me in the right direction, providing starter code samples and support. Original imagery for Mars and the Milky Way background originally produced by NASA, ESA and others (full sources noted in [this script](https://github.com/spacefoundation/mars-poi-kiosk/blob/master/PointsOfInterest.as)).
+Much thanks goes to the [Away Foundation] *-link archived-* for pointing me in the right direction, providing starter code samples and support. Original imagery for Mars and the Milky Way background originally produced by NASA, ESA and others (full sources noted in [this script](https://github.com/spacefoundation/mars-poi-kiosk/blob/master/PointsOfInterest.as)).
 
 ### Purpose
 
@@ -39,4 +39,4 @@ Add value and interactivity to the Space Foundation Discovery Center visitor exp
 
 ### Additional Information
 
-View a related news brief at the Space Foundation website [here](https://www.spacefoundation.org/media/news-briefs/space-foundation-summer-discovery-features-mars-rovers-and-robots-june-11-15-0).
+View a related news brief at the Space Foundation website [here] *-link archived-*.

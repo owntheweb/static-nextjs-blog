@@ -20,11 +20,11 @@ Contacts who receive the card may scan it with their smart phone camera using a 
 
 QR Codes (abbreviation for Quick Response Codes) are a ‘2D code’ scan-able by newer camera phones and dedicated barcode scanners. Being popular in Japan for several years, popularity has spread around the world and is now vastly growing in popularity in the United States.
 
-QR codes may contain many types of information including web addresses, contact information, events, SMS messages, wi-fi networks and just plain text. The Space Foundation uses them on the business cards to launch a mobile web page with contact info and social media links. The Space Foundation marketing team is also employing QR Codes in magazine ads, print campaigns, [and websites](https://2011.nationalspacesymposium.org/mobile-features) to promote the use of mobile websites.
+QR codes may contain many types of information including web addresses, contact information, events, SMS messages, wi-fi networks and just plain text. The Space Foundation uses them on the business cards to launch a mobile web page with contact info and social media links. The Space Foundation marketing team is also employing QR Codes in magazine ads, print campaigns, [and websites] *-link archived-* to promote the use of mobile websites.
 
 ### Space Foundation Stylized/"Vanity" QR Codes
 
-In my honest opinion QR Codes are fun yet UGLY. When I heard that the Space Foundation was going to use them on business cards, I did a lot of experimenting to see if I could bend the rules and make the code stay on-brand. [Other people were trying it](https://www.beqrious.com/show/custom-qr-code-design), so it seamed reasonable.
+In my honest opinion QR Codes are fun yet UGLY. When I heard that the Space Foundation was going to use them on business cards, I did a lot of experimenting to see if I could bend the rules and make the code stay on-brand. [Other people were trying it] *-link archived-*, so it seamed reasonable.
 
 The result was an approved stylized or "vanity" QR Code featuring rounded edges, Space Foundation coloring, and the logo globe as registration marks for a more branded high-tech look. The code was tested successfully by several volunteers around the office who had smartphones to play with. Now the Space Foundation is using this QR style for everything that a mobile phone user can benefit from.
 

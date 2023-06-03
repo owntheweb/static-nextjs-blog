@@ -26,7 +26,7 @@ Lead web developer/designer
 
 ### Additional Credits
 
-Music by [Elephante](https://www.songchimp.com/elephante-shake-the-earth/download). Concept by web developer/designer Brian McCarrie with design support. International Space Station graphic courtesy of NASA.
+Music by [Elephante] *-link archived-*. Concept by web developer/designer Brian McCarrie with design support. International Space Station graphic courtesy of NASA.
 
 ### Purpose
 

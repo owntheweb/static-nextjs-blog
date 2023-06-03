@@ -30,4 +30,4 @@ Contributed thousands of new polygons and edits to OpenStreetMap. Created custom
 
 ### Additional Information
 
-This 45x45" map print is for sale at: [https://goo.gl/KlSTBA](https://goo.gl/KlSTBA)
+This 45x45" map print is for sale at: [https://goo.gl/KlSTBA] *-link archived-*

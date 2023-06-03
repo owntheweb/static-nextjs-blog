@@ -81,6 +81,6 @@ In addition to personal time spent on this project, extra special thanks goes to
 
 ### Space Foundation Is Hiring!
 
-[Space Foundation is hiring a web developer/designer](https://www.spacefoundation.org/about/employment-opportunities)
+[Space Foundation is hiring a web developer/designer] *-link archived-*
 
 Disclaimer: Views and statements contained in this personal blog do not express the views of the Space Foundation.

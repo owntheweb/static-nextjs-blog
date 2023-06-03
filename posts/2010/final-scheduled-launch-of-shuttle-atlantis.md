@@ -15,11 +15,11 @@ tags:
 ---
 ![Final Scheduled Launch of Shuttle Atlantis](/images/finalscheduledatlantislaunch.jpg)
 
-The Space Foundation sent a delegation of employees including myself to see Shuttle Atlantis launch, a beautiful success without delay. First launched in 1985, this was the shuttle's 32nd and final scheduled launch. Atlantis was the first shuttle to dock with Mir station, and the last to service the Hubble telescope recently (On a side note, the Space Foundation awarded the Hubble repair team at National Space Symposium. Check out the video [here](https://2010.nationalspacesymposium.org/media/symposium-videos)).
+The Space Foundation sent a delegation of employees including myself to see Shuttle Atlantis launch, a beautiful success without delay. First launched in 1985, this was the shuttle's 32nd and final scheduled launch. Atlantis was the first shuttle to dock with Mir station, and the last to service the Hubble telescope recently (On a side note, the Space Foundation awarded the Hubble repair team at National Space Symposium. Check out the video [here] *-link archived-*).
 
 ![Jack Swigert Statue in Denver International Airport](/images/jackswigertstatue.jpg)
 
-Spending a short while in Denver International Airport, I passed by the Jack Swigert statue in Concourse B. Jack Swigert was a huge contributor to the Space Foundation, and also the one who the Foundation named the new Jack Swigert Aerospace Academy after (grand opening blog post [here](https://www.christopherstevens.cc/blog/2009/08/27/jack-swigert-aerospace-academy-grand-opening/)).
+Spending a short while in Denver International Airport, I passed by the Jack Swigert statue in Concourse B. Jack Swigert was a huge contributor to the Space Foundation, and also the one who the Foundation named the new Jack Swigert Aerospace Academy after (grand opening blog post [here] *-link archived-*).
 
 ![Cocoa Beach](/images/cocoabeachsunrise.jpg)
 

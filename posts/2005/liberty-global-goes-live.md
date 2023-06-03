@@ -8,7 +8,7 @@ tags:
 ---
 ![Liberty Global website screenshot](/images/20050628-lgiScreen.jpg)
 
-[https://www.lgi.com](https://www.lgi.com/)
+[https://www.lgi.com] *-link archived-*
 
 Liberty Media International and UnitedGlobalCom have merged to form the world's largest broadband company now called Liberty Global. They serve many countries outside of the United States.
 

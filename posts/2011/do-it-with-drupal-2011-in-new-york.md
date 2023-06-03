@@ -15,7 +15,7 @@ tags:
 ---
 [![Times Square in New York](/images/newYorkTimesSquare.jpg)](/images/newYorkTimesSquare.jpg)
 
-The Space Foundation supported my coworker designer/developer Luciana and I in a trip to New York to attend Do It with Drupal October 11 - 14, 2011, organized by the Drupal training experts [Lullabot](https://www.lullabot.com/). Previously attending the [2009 event](https://www.christopherstevens.cc/blog/2009/12/14/do-it-with-drupal-seminar-in-new-orleans/), this was something I was highly looking forward to revisiting.
+The Space Foundation supported my coworker designer/developer Luciana and I in a trip to New York to attend Do It with Drupal October 11 - 14, 2011, organized by the Drupal training experts [Lullabot](https://www.lullabot.com/). Previously attending the [2009 event] *-link archived-*, this was something I was highly looking forward to revisiting.
 
 [![New York City subway](/images/newYorkSubway.jpg)](/images/newYorkSubway.jpg)
 
@@ -31,7 +31,7 @@ Keeping in mind that there are multiple ways to prepare a plate of spaghetti, He
 
 ### Q: How do I add dilithium crystals and warp engines to my website? (translation: increase performance and scalability)
 
-A: [Nathan Haug](https://www.lullabot.com/about/team/nate-haug) gave a great presentation on how to make a website deliver content quickly and handle a LOT of traffic without breaking a sweat, running out of bandwidth before the server CPU gets tired (and what to do to prevent running out of bandwidth if traffic is that high). Some notes taken from his presentation which can be downloaded from [here](https://2011.doitwithdrupal.com/2011/sessions/performance-and-scalability) (my notes are super abbreviated: I totally recommend watching the video at drupalize.me when it is available).
+A: [Nathan Haug](https://www.lullabot.com/about/team/nate-haug) gave a great presentation on how to make a website deliver content quickly and handle a LOT of traffic without breaking a sweat, running out of bandwidth before the server CPU gets tired (and what to do to prevent running out of bandwidth if traffic is that high). Some notes taken from his presentation which can be downloaded from [here] *-link archived-* (my notes are super abbreviated: I totally recommend watching the video at drupalize.me when it is available).
 
 *   Common culprits for website performance:
     *   Statistics module (comes with core, try using Google Analytics instead)
@@ -48,9 +48,9 @@ A: [Nathan Haug](https://www.lullabot.com/about/team/nate-haug) gave a great pre
 *   Steps that can be taken to improve performance/scalability:
     *   Enable page caching at admin->settings->performance with a cache lifetime of five minutes (even one minute can help!)
     *   Disable modules that are not needed.
-    *   Optimize software (e.g. use [Pressflow](https://pressflow.org/), a 100% compatible replacement for Drupal core - I'm skeptical but will be trying it out for sure and looks VERY well maintained and up-to-date with Drupal changes.)
+    *   Optimize software (e.g. use [Pressflow] *-link archived-*, a 100% compatible replacement for Drupal core - I'm skeptical but will be trying it out for sure and looks VERY well maintained and up-to-date with Drupal changes.)
     *   Try [Boost](https://drupal.org/project/boost) module, caching requests as static HTML files (quick and easy)
-    *   Make use of [APC (Another PHP Cache)](https://pecl.php.net/package/APC)
+    *   Make use of [APC (Another PHP Cache)] *-link archived-*
     
     *   Reduces disk access when parsing PHP files by keeping parsed files in memory
     *   Recommended shm\_size = 128M setting in php.ini to fit all of Drupal in memory
@@ -91,7 +91,7 @@ Results: For my personal needs, it looks like I could go from X (not sharing) re
 
 A: I wanted to know how our production compared to other teams out there and if we needed to step up our game or are undermanned or over-committing in some way.
 
-I attended a case study on [Energy.gov](https://energy.gov/), a website that currently fits the scale and complexity of an upcoming phase of SpaceFoundation.org (soon they will be bigger as they're merging 100's of sites!). Four core developers with up to ten contracted developers (flex, as needed) developed the site in roughly five months, two months being time for discovery. Beautiful site! It was great to see some of the inner workings that made this website come to life.
+I attended a case study on [Energy.gov] *-link archived-*, a website that currently fits the scale and complexity of an upcoming phase of SpaceFoundation.org (soon they will be bigger as they're merging 100's of sites!). Four core developers with up to ten contracted developers (flex, as needed) developed the site in roughly five months, two months being time for discovery. Beautiful site! It was great to see some of the inner workings that made this website come to life.
 
 Other case study websites had closely sized teams. Speaking to other attendees however, there were a lot of smaller teams handling bigger websites. I noticed this especially with education based teams and a few freelancers.
 
@@ -140,7 +140,7 @@ A: This was a rather complicated topic I'm working out. There's a chance I might
 
 A: Mobile was a BIG theme at Do It With Drupal 2011. I attended keynotes and sessions covering different aspects of mobile including where mobile is at in general today, trends, and even how to start integrating Drupal with mobile apps.
 
-Notes from [Jeffrey Zeldman](https://www.zeldman.com/)'s opening keynote (Jeffrey Zeldman is known as the "king of web standards" - slides available [here](https://dl.dropbox.com/u/108006/1011zeldman.pdf)):
+Notes from [Jeffrey Zeldman](https://www.zeldman.com/)'s opening keynote (Jeffrey Zeldman is known as the "king of web standards" - slides available [here] *-link archived-*):
 
 *   Content is a design problem, and our designs are becoming hostile to content.
 *   The more we make content hostile, the more people take content into their own hands.
@@ -151,7 +151,7 @@ Notes from [Jeffrey Zeldman](https://www.zeldman.com/)'s opening keynote (Jeffre
 *   **Good web design starts with content. Design is topping of the content cake.**
 *   **Design is hard when you don't know the content.**
 *   The "This content is best view with...." days are over.
-*   "[Progressive enhancement is a universal smart default](https://easy-readers.net/)"
+*   "[Progressive enhancement is a universal smart default] *-link archived-*"
 *   People doing well have a **mobile strategy**, may get by with a **small screen strategy**.
 *   **Responsive web design** is design that responds and adapts to different screen sizes and situations, designed not only for the desktop experience, but also other devices: progressive design taken to the next level.
 *   Small screens force us to put the user first (no room for all that extra crap).
@@ -163,7 +163,7 @@ Key notes from [Jeff Robbins](https://www.lullabot.com/about/team/jeff-robbins)'
 *   Jeff gave the example of the wifi lamp, a lamp that changes color based on some condition like weather change or number of website visitors. No clicking!
 *   Accessibility isn't just about blind users, but perhaps sighted users who are driving down the highway.
 
-Notes from [Josh Clark](https://globalmoxie.com/index.shtml)'s keynote, "Mobile Context Is a Myth" (This guy tweeted his presentation in real time WHOA! - slides available [here](https://globalmoxie.com/jhc/prez/mobile-context-myth.pdf)):
+Notes from [Josh Clark] *-link archived-*'s keynote, "Mobile Context Is a Myth" (This guy tweeted his presentation in real time WHOA! - slides available [here] *-link archived-*):
 
 *   Mobile isn't always on the run. It's also on the couch.
 *   Don't take out features on a mobile app, otherwise people are likely to leave the mobile version to swim around the huge version (or not swim at all).
@@ -199,7 +199,7 @@ Notes from [Josh Clark](https://globalmoxie.com/index.shtml)'s keynote, "Mobile 
 
 ### Q: How are other web developers going about making mobile apps?
 
-A: I've been experimenting with [Appcelerator](https://www.appcelerator.com/)'s [Titanium Studio](https://www.appcelerator.com/products/titanium-studio/) to develop cross-platform (Droid/iPhone) apps, pulling in data from a custom Drupal based JSON feeds with mild success (lots to share soon on this!). It looks like [Sumit Kataria](https://sumitk.net/) (developer of the DIWD app), [Greg Dunlap](https://nodeone.se/om-nodeone/manniskorna/greg-dunlap) (leading Drupal 8 initiative) and others were on the same track with their sessions (I heard someone was using PhoneGap for their apps, but I could never get this to work for me). It was fun to continue experimenting and get detailed feedback on some of the challenges I've been having with Titanium. The biggest gem of advice I received from Sumit was to start with the iPhone app, then apply an extra 10% of work to get it working in Android. I've been going the opposite direction since I own a Droid phone and have been running into walls that I can see resolved already. In regards to Titanium Studio, there was not a lot of code sharing. Greg Dunlap's pantsquare website may have some examples soon. In the meantime, there's a great "Kitchen Sink" app available that demonstrates a lot of functionality.
+A: I've been experimenting with [Appcelerator](https://www.appcelerator.com/)'s [Titanium Studio](https://www.appcelerator.com/products/titanium-studio/) to develop cross-platform (Droid/iPhone) apps, pulling in data from a custom Drupal based JSON feeds with mild success (lots to share soon on this!). It looks like [Sumit Kataria](https://sumitk.net/) (developer of the DIWD app), [Greg Dunlap] *-link archived-* (leading Drupal 8 initiative) and others were on the same track with their sessions (I heard someone was using PhoneGap for their apps, but I could never get this to work for me). It was fun to continue experimenting and get detailed feedback on some of the challenges I've been having with Titanium. The biggest gem of advice I received from Sumit was to start with the iPhone app, then apply an extra 10% of work to get it working in Android. I've been going the opposite direction since I own a Droid phone and have been running into walls that I can see resolved already. In regards to Titanium Studio, there was not a lot of code sharing. Greg Dunlap's pantsquare website may have some examples soon. In the meantime, there's a great "Kitchen Sink" app available that demonstrates a lot of functionality.
 
 ### Q: How do I connect my Drupal website to my mobile app?
 
@@ -260,7 +260,7 @@ Migrate was discussed by \[Karren\] in her D6 to D7 migration session as one of 
 [Migrate Extras](https://drupal.org/project/migrate_extras)  
 Migrate Extras module gives the Migrate module more mmph. It extends support for additional modules such as CCK. Notes: Migrate + Migrate Extras doesn't cover everything if migrating from D6 to D7. Views 2 does not have a migrate path (you'll need to recreate your views). User profiles and Content Profile also don't have a migration path (I see fun database fun ahead for me personally, ouch!). For more information, check out \[Karren's\] session titled \[Drupal 6 -> 7\] at drupallize.me.
 
-[Open Atrium](https://openatrium.com/)  
+[Open Atrium] *-link archived-*  
 Open Atrium is an entire Drupal distribution produced by \[Phase II\] that focusses on being deployed as an Intranet. It's cool. I've been using it personally to keep track of things. I also LOVE the website design put into this project and project website.
 
 [Panels](https://drupal.org/project/panels)  
@@ -269,7 +269,7 @@ Panels allows for the creation of custom layouts using a drag and drop interface
 [Panels Everywhere](https://drupal.org/project/panels_everywhere)  
 Panels Everywhere replaces Drupal's default blocks system with advanced panels features. I'm not sure how this works yet but from what I heard it makes block-like administration more fluid the the often clunky feeling blocks page (imaging dragging blocks around after you have 30+ blocks! - lots of scrolling).
 
-[PressFlow](https://pressflow.org/)  
+[PressFlow] *-link archived-*  
 This is an entire replacement for Drupal Core 6. It's optimized for performance, completely API compatible and with its history of staying up to date at almost the same rate as Drupal 6, I want to give it a try… of course now we're moving to Drupal 7 soon so I'm curious how PressFlow will evolve.
 
 [Profile Migrate](https://drupal.org/project/profile_migrate)  

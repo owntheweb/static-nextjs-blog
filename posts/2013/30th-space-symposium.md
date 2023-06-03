@@ -35,4 +35,4 @@ Provide customer information and promote registration for the Space Foundation's
 
 ### Highlighted Features
 
-Responsive mobile-friendly design, custom Google Translate integration, media sync with main Space Foundation website, [pricing calculator](https://www.spacesymposium.org/register/fees-tickets-policies), IP->geo-located welcome flag, greater customer focus
+Responsive mobile-friendly design, custom Google Translate integration, media sync with main Space Foundation website, [pricing calculator] *-link archived-*, IP->geo-located welcome flag, greater customer focus

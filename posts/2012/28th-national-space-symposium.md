@@ -28,7 +28,7 @@ Every year the Space Foundation strives to make the event the consistent premier
 
 ![automated scrolling screens](/images/auomatedScreens.jpg)
 
-This was my third "NSS". My primary part in the action was digital, making sure people could see what was going on (live scrolling agenda seen above), where it was going on, and where to get free food (very important!). This was executed through development of the National Space Symposium website (built with [Drupal](https://www.drupal.org)) maintained by several Space Foundation team members and designed by my co-web developer/designer, Luciana.
+This was my third "NSS". My primary part in the action was digital, making sure people could see what was going on (live scrolling agenda seen above), where it was going on, and where to get free food (very important!). This was executed through development of the National Space Symposium website (built with [Drupal] *-link archived-*) maintained by several Space Foundation team members and designed by my co-web developer/designer, Luciana.
 
 A new mobile app was developed by Raytheon (with live data and nagging provided on my end). A new calendar (iCal) feed let people add the agenda to most mobile devices and calendar programs. Agenda and special announcement presentations were created and shown in multiple areas of The Broadmoor. I was also in charge of other items behind the scenes such as the second version of the "Space Foundation Seat Master", a web-app helping in the process of seating hundreds of people at five dining events.
 
@@ -36,7 +36,7 @@ This year was quite a bit different for me compared to previous years. I was abl
 
 ![Bill Nye, Executive Director, The Planetary Society](/images/billNye.jpg)
 
-I had a chance to meet some AMAZING people this year. While helping with meal seating at one of the events, Neil deGrasse Tyson stopped by (who was GREAT at the [opening keynote](https://www.spacefoundation.org/media/videos/dr-neil-degrasse-tyson-launch-keynote-28th-national-space-symposium)). We shook hands and had a great casual conversation.
+I had a chance to meet some AMAZING people this year. While helping with meal seating at one of the events, Neil deGrasse Tyson stopped by (who was GREAT at the [opening keynote] *-link archived-*). We shook hands and had a great casual conversation.
 
 I also had a chance to meet Bill Nye (above), who sparked much inspiration while growing up through his energetic TV show, now doing great things as Executive Director of the [Planetary Society](https://www.planetary.org/) (and who knows - maybe the Planetary Society will team up with the Space Foundation sometime soon. The two organizations have some excellent educational and awareness goals in common). There were also astronauts, generals, and other Earth shakers who stopped by the Space Foundation booth for a visit.
 
@@ -46,7 +46,7 @@ Credit: Space Foundation.
 
 Every year the exhibit center changes up and there's always new things to see (great for creative inspiration as well). This year in addition to seeing a new huge and bright exhibit space, I personally enjoyed seeing the [Kansas Cosmosphere & Space Center's](https://www.cosmo.org/) Soviet space artifacts. Kansas Cosmosphere loaned the artifacts to the Space Foundation to be shown in our upcoming visitors center for a while.
 
-Seen above is a Soviet Lunokhod model (left). Two of these unmanned rovers explored the moon in the early 1970's, returning pictures and lots of scientific data to Earth. Luna 16 Robotic Probe (right - half-scale model) was part of the first Soviet lunar sample return mission, following the Apollo 11 and 12 missions. There was also a cool Sokol space suit on display, designed for wearing in the shuttle in case of accidental decompression (same use as the orange suits U.S. astronauts use today). More information is available [here](https://www.spacefoundation.org/media/press-releases/soviet-space-artifacts-kansas-cosmosphere-loaned-space-foundation).
+Seen above is a Soviet Lunokhod model (left). Two of these unmanned rovers explored the moon in the early 1970's, returning pictures and lots of scientific data to Earth. Luna 16 Robotic Probe (right - half-scale model) was part of the first Soviet lunar sample return mission, following the Apollo 11 and 12 missions. There was also a cool Sokol space suit on display, designed for wearing in the shuttle in case of accidental decompression (same use as the orange suits U.S. astronauts use today). More information is available [here] *-link archived-*.
 
 ![NOAA: Science on a Sphere](/images/scienceOnASphere.jpg)
 
@@ -54,7 +54,7 @@ Credit: [NASA / GSFC](https://map.gsfc.nasa.gov/media/070971/index.html)
 
 NASA gave a special Science On a Sphere (SOS)® demonstration to HM Elizabeth II, Queen of England and her husband, HRH Prince Phillip, the Duke of Edinburgh, and other members of the Royal Family on Tuesday, May 8, 2007. A huge Space Foundation announcement at the Symposium was a hearty $375,000 donation made by Northrop Grumman. The donation is being used to build a science center and teaching lab. It will include [Science On a Sphere](https://sos.noaa.gov/) (example above), a huge globe projected on from multiple angles showing multiple simulations suitable on a sphere (weather patterns, planets, etc. - I would love to build a simulation of my own on this thing!).
 
-A teaching facility will be included for STEM education programs and for community outreach. More information is available [here](https://www.spacefoundation.org/media/press-releases/northrop-grumman-create-science-center-space-foundation-headquarters).
+A teaching facility will be included for STEM education programs and for community outreach. More information is available [here] *-link archived-*.
 
 ![Amanda and Chris on the moon](/images/onTheMoon.jpg)
 

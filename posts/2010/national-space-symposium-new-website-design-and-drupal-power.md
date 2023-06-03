@@ -22,9 +22,9 @@ To be honest, everyone at the Space Foundation had an important role in getting 
 
 Thanks to the awesome team members who are passionate about this, I'm able to focus on building features and new projects instead of worrying about what word is missing on some page. Progress!
 
-[NationalSpaceSymposium.org](https://spacesymposium.org) is the Space Foundation's first Drupal website, initially developed by [eye9design](https://eye9design.com/) last year, and revamped in-house this year. Other Space Foundation websites developed this year include [Space Foundation Education Programs](https://www.spacefoundation.org/education), [Strategic Space Symposium](https://www.strategicspacesymposium.org), and the [Global Space Development Summit](https://www.globalspacesummit.org).
+[NationalSpaceSymposium.org](https://spacesymposium.org) is the Space Foundation's first Drupal website, initially developed by [eye9design](https://eye9design.com/) last year, and revamped in-house this year. Other Space Foundation websites developed this year include [Space Foundation Education Programs](https://www.spacefoundation.org/education), [Strategic Space Symposium] *-link archived-*, and the [Global Space Development Summit] *-link archived-*.
 
-A new website is expected soon to replace the current [Space Certification](https://www.spaceconnection.org) program, and soon the [Space Foundation](https://www.spacefoundation.org) website itself. The National Space Symposium event has me very excited. This will be my first year attending/assisting with the event, with about 8,000+ people expected to attend this year.
+A new website is expected soon to replace the current [Space Certification] *-link archived-* program, and soon the [Space Foundation](https://www.spacefoundation.org) website itself. The National Space Symposium event has me very excited. This will be my first year attending/assisting with the event, with about 8,000+ people expected to attend this year.
 
 At the office I hear stories of how I won't sleep for three eventful days and nights, followed by days of not getting out of bed, and well worth every ache and pain! Awesome. The National Space Symposium website isn't 'finished' yet (is any website ever finished?). We have plans to add several features, garnishes, and polishes to the site this year, followed by large leaps next year. 
 

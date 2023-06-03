@@ -17,7 +17,7 @@ Interrupted Sinusoidal projection produced from equiangular image of Jupiter fou
 
 ### Install GDAL
 
-Install [GDAL](http://www.gdal.org/) (Geospatial Data Abstraction Library), downloading it from [here](http://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries). This library comes with some great command line tools used to work with raster geospatial data formats. Installation and usage varies per OS. I used a Mac for this example.
+Install [GDAL](https://www.gdal.org/) (Geospatial Data Abstraction Library), downloading it from [here](https://trac.osgeo.org/gdal/wiki/DownloadingGdalBinaries). This library comes with some great command line tools used to work with raster geospatial data formats. Installation and usage varies per OS. I used a Mac for this example.
 
 ### Download a Favorite ECE Image
 
@@ -25,7 +25,7 @@ Install [GDAL](http://www.gdal.org/) (Geospatial Data Abstraction Library), down
 
 Equatorial Cylindrical Equidistant (ECE) images are a popular projection format used and shared by scientists and cartographers. While other projections could be used, I found the ECE format to be convenient, especially with after creating content for [Science On a Sphere](/blog/2012/12/18/science-on-the-sphere), which displays this format on a large globe hanging from a ceiling.
 
-Here are a couple quick links that have ECE images available to play with: [NOAA's Science On a Sphere website](http://sos.noaa.gov/Datasets/index.html) Several datasets are available containing ECE images for download (FTP links). Check credits and get permission as needed if redistributing data. [JHT's Planetary Pixel Emporium](http://planetpixelemporium.com/planets.html) This guy combined lots of data and personal painting touches to create several beautiful looking maps all available in one convenient location.
+Here are a couple quick links that have ECE images available to play with: [NOAA's Science On a Sphere website](https://sos.noaa.gov/Datasets/index.html) Several datasets are available containing ECE images for download (FTP links). Check credits and get permission as needed if redistributing data. [JHT's Planetary Pixel Emporium](https://planetpixelemporium.com/planets.html) This guy combined lots of data and personal painting touches to create several beautiful looking maps all available in one convenient location.
 
 ### Determine Number of Segments
 

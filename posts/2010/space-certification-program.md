@@ -13,7 +13,7 @@ tags:
 
 ### Status
 
-Assimilated and merged into the [Space Foundation website](http://www.spacefoundation.org).
+Assimilated and merged into the [Space Foundation website](https://www.spacefoundation.org).
 
 ### Roles
 

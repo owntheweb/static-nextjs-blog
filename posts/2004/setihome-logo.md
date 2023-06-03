@@ -15,7 +15,7 @@ Active
 
 ### Link
 
-[http://setiathome.berkeley.edu](http://setiathome.berkeley.edu)
+[https://setiathome.berkeley.edu](https://setiathome.berkeley.edu)
 
 ### Roles
 

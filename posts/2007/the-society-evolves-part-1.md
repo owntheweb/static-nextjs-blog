@@ -7,11 +7,11 @@ tags:
   - The Society
   - PHP
 ---
-The society evolves. So does thesociety.com! Now that [The Society of Leisure Enthusiasts](http://thesociety.com) website is in beta, pressure increases to improve all aspects of the website and features. Helpful feedback from property owners, vacation rental managers, travelers, and fellow enthusiasts of leisure has helped the online vacation rental website change for the better.
+The society evolves. So does thesociety.com! Now that [The Society of Leisure Enthusiasts](https://thesociety.com) website is in beta, pressure increases to improve all aspects of the website and features. Helpful feedback from property owners, vacation rental managers, travelers, and fellow enthusiasts of leisure has helped the online vacation rental website change for the better.
 
 ![The Society of Leisure Enthusiasts First Home Page Publish](/images/societyHome1.jpeg)
 
-The first publish of [thesociety.com](http://www.thesociety.com) home page was a start. More focus was placed on functionality than design. This is what the home page looked like when I was hired as part of the web design and development team. Development and design was managed and produced by [Cicada](http://www.cicada.us/). Developments of varying features such as news and search engine tools were created by [Dave Gullo](http://www.snowboards-for-sale.com).
+The first publish of [thesociety.com](https://www.thesociety.com) home page was a start. More focus was placed on functionality than design. This is what the home page looked like when I was hired as part of the web design and development team. Development and design was managed and produced by [Cicada](https://www.cicada.us/). Developments of varying features such as news and search engine tools were created by [Dave Gullo](https://www.snowboards-for-sale.com).
 
 ![The Society of Leisure Enthusiasts Second Home Page Publish](/images/societyHome2.jpeg)
 
@@ -21,4 +21,4 @@ The second home page publish since my start at The Society was my first experien
 
 The upcoming publish will look much like this! Design rules begin to bend. A three step process for finding vacation rentals and surrounding activities has been added. An interactive map allows users to browse content by location. Two columns are used instead of three to reduce confusion. Dynamic features are modified to be more consistent with each other
 
- An increased focus on The Society's community has been increased. More changes like this will continue as [The Society](http://www.thesociety.com) evolves!
+ An increased focus on The Society's community has been increased. More changes like this will continue as [The Society](https://www.thesociety.com) evolves!

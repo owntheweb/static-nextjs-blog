@@ -14,6 +14,6 @@ Away from the city! Amanda and I left Denver for Estes Park, Colorado for the we
 
 ![Bear Lake](/images/bearLake.jpeg)
 
-Bear Lake was one of our stops in Rocky Mountain National Park. We also took a trail to some falls. We never made to the falls, but found a great place to hang out and enjoy the view for a while. We stayed at a bed and breakfast called [Mountain Shadows](http://mountainshadowsbb.com/). The experience was much better than what the website portrays (maybe I'm just being a tough web guy). I highly recommend it to others.
+Bear Lake was one of our stops in Rocky Mountain National Park. We also took a trail to some falls. We never made to the falls, but found a great place to hang out and enjoy the view for a while. We stayed at a bed and breakfast called [Mountain Shadows](https://mountainshadowsbb.com/). The experience was much better than what the website portrays (maybe I'm just being a tough web guy). I highly recommend it to others.
 
 Other activities included some light shopping in the touristy town of Estes Park, watching people get chased by Elk on the streets, wine tasting, and doing nothing at all. Now I'm back. Time to work!

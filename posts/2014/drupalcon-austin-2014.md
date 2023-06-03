@@ -18,7 +18,7 @@ tags:
 
 DrupalCon Austin drone group photo taken by [Michael Schmid](https://twitter.com/Schnitzel)
 
-With many thanks to the [Space Foundation](http://www.spacefoundation.org/), I had a chance to join a record breaking 3,400 web people for a week at DrupalCon Austin 2014! While there are many Drupal related events throughout the year around the world, DrupalCon is the BIG event, reuniting developers world wide to share ideas, work out challenges and propel cyberspace-related endeavors for the better.
+With many thanks to the [Space Foundation](https://www.spacefoundation.org/), I had a chance to join a record breaking 3,400 web people for a week at DrupalCon Austin 2014! While there are many Drupal related events throughout the year around the world, DrupalCon is the BIG event, reuniting developers world wide to share ideas, work out challenges and propel cyberspace-related endeavors for the better.
 
 For me personally, DrupalCon was a great place to meet with individuals to tackle some development concepts, shop around for improved hosting options, get fresh ideas on how to manage online transactions, fill in security gaps and discover things I never knew to look for. I feel that the event will pay itself off quickly as I head back to work with new contacts, tools and ideas.
 
@@ -33,7 +33,7 @@ When should I start migrating everything over to Drupal 8? This was the big loom
 In short: A lot, for the better (in my opinion). Here are some of the high level differences:
 
 *   Inline editing - my co-workers will enjoy clicking on what they want to edit and simply edit without going to a separate edit page.
-*   More secure - templates are created with [Symfony](http://symfony.com/)/[Twig](https://drupal.org/node/2008464), preventing PHP in templates which increases security big time, and creating a standard way to access databases and such (correct me if I'm wrong on any of that)
+*   More secure - templates are created with [Symfony](https://symfony.com/)/[Twig](https://drupal.org/node/2008464), preventing PHP in templates which increases security big time, and creating a standard way to access databases and such (correct me if I'm wrong on any of that)
 *   Improved data modeling tools - more robust ways to access everything when developing
 *   More built-in field types like link, phone, date, email, entity reference
 *   Lots of "killer modules" used in Drupal 7 built-in to Drupal 8 - Do more to start without the need to install lots of modules right away
@@ -52,7 +52,7 @@ Wolfgang Ziegler gave a great overview of Drupal 8's Entity API ([watch it here]
 
 One area I'd like to focus on for upcoming Space Foundation projects is the customers' purchasing experience. It's also the scariest topic as it involves PCI compliance, transfer and/or storage of personal information, user accounts, all involving much more attention and responsibility. But this is not a reason to avoid such things, especially with increased ROI potential. With a vision to have users experience seamless purchases, a login area, purchase history, profiles and a way to keep people engaged after purchases, I want to go there!
 
-Short term, I found some ways to better connect our current systems post-purchase for basic user accounts to be created using custom module and database exports (omitting the bulk of personal info). Long term, I found a [great white paper](http://drupalpcicompliance.org) on how to work through PCI compliance requirements via a Drupal site. I also met some people that could help with a more robust set of solutions for contacts, emails, payments, etc. that keep our sites connected but not storing all the personal stuff (oh man, plenty of discussions to be had everywhere soon!). It was great to have so many people with similar challenges and solutions together in one place, not so accessible outside of an event like DrupalCon.
+Short term, I found some ways to better connect our current systems post-purchase for basic user accounts to be created using custom module and database exports (omitting the bulk of personal info). Long term, I found a [great white paper](https://drupalpcicompliance.org) on how to work through PCI compliance requirements via a Drupal site. I also met some people that could help with a more robust set of solutions for contacts, emails, payments, etc. that keep our sites connected but not storing all the personal stuff (oh man, plenty of discussions to be had everywhere soon!). It was great to have so many people with similar challenges and solutions together in one place, not so accessible outside of an event like DrupalCon.
 
 #### Drupal Commerce
 
@@ -60,7 +60,7 @@ I sat in on a session on how to take donations and online subscriptions via Drup
 
 ### Website Security
 
-Serving as a web server administrator recently (in addition to development, database management, website building, designer and even logo designer lately - the life of many non-profit web people), I felt there was still more I needed to know about securing the stack from bottom up. Two sessions attended were very enlightening if not a touch sobering, kicking some things I hadn't thought about into gear. This also sparked some discussions with other companies such as [Black Mesh](http://www.blackmesh.com/), [Acquia](http://www.acquia.com/) and [Pantheon](https://www.getpantheon.com/) about value-added hosting services in this area for the future, freeing me up to focus more on user experience and design.
+Serving as a web server administrator recently (in addition to development, database management, website building, designer and even logo designer lately - the life of many non-profit web people), I felt there was still more I needed to know about securing the stack from bottom up. Two sessions attended were very enlightening if not a touch sobering, kicking some things I hadn't thought about into gear. This also sparked some discussions with other companies such as [Black Mesh](https://www.blackmesh.com/), [Acquia](https://www.acquia.com/) and [Pantheon](https://www.getpantheon.com/) about value-added hosting services in this area for the future, freeing me up to focus more on user experience and design.
 
 ![web server security](/images/security2.jpg)
 
@@ -76,7 +76,7 @@ An intranet or extranet to unite organization functions has been on the plate si
 
 ![Mike Potter, Phase2](/images/phase2.jpg)
 
-I had a chance to meet with Mike Potter with Phase2, developer lead for [Atrium 2](http://openatrium.com/#!/), an intranet Drupal distribution. Now, I've tried to use the first Atrium. It was marketed very well and rather difficult to extend (might have been simpler to start from scratch). However, Atrium 2 is much more Drupal-like, with some starting modules and configuration that makes it quicker to get things going. I'm excited to give it another go.
+I had a chance to meet with Mike Potter with Phase2, developer lead for [Atrium 2](https://openatrium.com/#!/), an intranet Drupal distribution. Now, I've tried to use the first Atrium. It was marketed very well and rather difficult to extend (might have been simpler to start from scratch). However, Atrium 2 is much more Drupal-like, with some starting modules and configuration that makes it quicker to get things going. I'm excited to give it another go.
 
 ### Project Requirements Gathering
 
@@ -84,7 +84,7 @@ I totally recommend [this session](https://www.youtube.com/watch?v=mImo1WbcLyw&f
 
 ### DrupalCon vs. Space Symposium
 
-I couldn't help but notice several parallels between the Drupal community's event, [DrupalCon](https://austin2014.drupal.org), and the space industry's event run by the Space Foundation, the [Space Symposium](http://www.spacesymposium.org) (I did my part in the latter). They were similar in a lot of ways, and also an alternate reality to each other. Both share the interest of getting people together to unite and get work done. Both are organized by an independent non-profit. Both happened on a similar schedule, with extra events happening Monday until grandiose events Monday evening. Both had sessions, exhibitors and side business meetings, etc. Both had very diverse participants and both inspired me a lot.
+I couldn't help but notice several parallels between the Drupal community's event, [DrupalCon](https://austin2014.drupal.org), and the space industry's event run by the Space Foundation, the [Space Symposium](https://www.spacesymposium.org) (I did my part in the latter). They were similar in a lot of ways, and also an alternate reality to each other. Both share the interest of getting people together to unite and get work done. Both are organized by an independent non-profit. Both happened on a similar schedule, with extra events happening Monday until grandiose events Monday evening. Both had sessions, exhibitors and side business meetings, etc. Both had very diverse participants and both inspired me a lot.
 
 I think the major differences were dress code, average age, technical focus and some formalities.
 
@@ -100,7 +100,7 @@ Both Space Symposium and DrupalCon feature exhibitors, with lots of ideas and bu
 
 ![Mechanical Bull Ride](/images/bull.jpg)
 
-One thing you won't find at Space Symposium is a mechanical bull (they'll have a cool space module on display instead, some making espresso or fresh baked cookies). At DrupalCon, [azri](http://azrisolutions.com/) provided a mechanical bull for a chance to win an iPad for longest ride... I'll have to see if we can add one of these to the Space Foundation booth at Symposium. ;)
+One thing you won't find at Space Symposium is a mechanical bull (they'll have a cool space module on display instead, some making espresso or fresh baked cookies). At DrupalCon, [azri](https://azrisolutions.com/) provided a mechanical bull for a chance to win an iPad for longest ride... I'll have to see if we can add one of these to the Space Foundation booth at Symposium. ;)
 
 Overall, I observed some potential enhancements to bring over to Space Symposium and maybe a few things to bring to the next DrupalCon. ;)
 
@@ -108,11 +108,11 @@ Overall, I observed some potential enhancements to bring over to Space Symposium
 
 #### Kalabox
 
-[![Kalabox Interface](/images/kalabox.jpg)](http://www.kalamuna.com/products/kalabox)
+[![Kalabox Interface](/images/kalabox.jpg)](https://www.kalamuna.com/products/kalabox)
 
 I was so happy to know that my Kalabox happiness was maximal.
 
-With [Kalabox](http://www.kalamuna.com/products/kalabox), it only took me a few minutes today to install a local and remote dev environment, mixing "VirtualBox and Vagrant into its hot bubbling cauldron of Deep Dark Magic" (and don't forget about Git). I missed the session on this, but man, it's cool. With more experimentation, this has the potential to enhance my team's development workflow. More information is available [here](http://www.kalamuna.com/products/kalabox). You can also support this project on [Kickstarter](bit.ly/kalabox2).
+With [Kalabox](https://www.kalamuna.com/products/kalabox), it only took me a few minutes today to install a local and remote dev environment, mixing "VirtualBox and Vagrant into its hot bubbling cauldron of Deep Dark Magic" (and don't forget about Git). I missed the session on this, but man, it's cool. With more experimentation, this has the potential to enhance my team's development workflow. More information is available [here](https://www.kalamuna.com/products/kalabox). You can also support this project on [Kickstarter](bit.ly/kalabox2).
 
 #### Two-Factor Authentication
 
@@ -120,7 +120,7 @@ I learned some interesting bits from Mark Stanislav (he gave a session after we 
 
 #### Membership Management
 
-I see memberships of different kinds being managed on Space Foundation websites soon. To that thought, I felt that the [Membership Entity](https://drupal.org/project/membership_entity) module, developed by Colorado's [Monarch Digital](http://www.monarchdigital.com/blog/2014-03-17/announcing-membership-entity-contributed-module-drupal) has a lot of potential in dealing with membership complexities.
+I see memberships of different kinds being managed on Space Foundation websites soon. To that thought, I felt that the [Membership Entity](https://drupal.org/project/membership_entity) module, developed by Colorado's [Monarch Digital](https://www.monarchdigital.com/blog/2014-03-17/announcing-membership-entity-contributed-module-drupal) has a lot of potential in dealing with membership complexities.
 
 ### Personal Highlights
 

@@ -39,6 +39,6 @@ public/images/next-image-export-optimizer-hashes.json
 public/images/nextImageExportOptimizer*
 
 #CSV import artifacts
-csvImport/node_modules
-csvImport/importData
-csvImport/output
+importTools/node_modules
+importTools/importData
+importTools/output

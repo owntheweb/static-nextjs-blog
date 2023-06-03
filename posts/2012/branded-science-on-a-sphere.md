@@ -26,4 +26,4 @@ Blender Full-Dome Blender add-on by [Benjamin Waller](https://github.com/Benni-c
 
 ### Purpose
 
-Add value to Space Foundation's Science On a Sphere installation. Set the tone and prepare visitors for a great [Science On a Sphere®](http://sos.noaa.gov/What_is_SOS/index.html) presentation.
+Add value to Space Foundation's Science On a Sphere installation. Set the tone and prepare visitors for a great [Science On a Sphere®](https://sos.noaa.gov/What_is_SOS/index.html) presentation.

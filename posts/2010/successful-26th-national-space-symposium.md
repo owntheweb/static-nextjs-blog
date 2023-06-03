@@ -21,7 +21,7 @@ Photo taken by Bonnie Grihalva
 
 Amanda joined me for the 26h National Space Symposium kickoff, the opening ceremony. We were greeted by the Imperial forces (hired by the Space Foundation this year for crowd control). Opening music was performed by Barrage, followed by announcements and a brief overview of the space industry this year by Space Foundation CEO, Elliot Pulham.
 
-Three awards were awarded; the Alan Shepard Technology in Education Award presented to Mr. Allen V. Robnett, the Space Achievement Award presented to the Hubble Space Telescope Repair Mission Team, and the John L. "Jack" Swigert, Jr., Award for Space Exploration, presented to the Lunar Crater Observation and Sensing Satellite (LCROSS) mission team. You can watch the videos of these awards being given [here](http://2010.nationalspacesymposium.org/media/symposium-videos).
+Three awards were awarded; the Alan Shepard Technology in Education Award presented to Mr. Allen V. Robnett, the Space Achievement Award presented to the Hubble Space Telescope Repair Mission Team, and the John L. "Jack" Swigert, Jr., Award for Space Exploration, presented to the Lunar Crater Observation and Sensing Satellite (LCROSS) mission team. You can watch the videos of these awards being given [here](https://2010.nationalspacesymposium.org/media/symposium-videos).
 
 ![Kids complete circuits](/images/spacefoundationboothkids.jpg)
 
@@ -35,7 +35,7 @@ Many kids, and kids at heart alike participated as they wandered by. The boxes a
 
 ![What's in the box?](/images/whatsinthebox.jpg)
 
-Teachers and students from Galileo, a science and math focused middle school in Colorado Springs, helped at the Space Foundation booth. Galileo participants were also joined by teachers and students from the Jack Swigert Aerospace Academy, a public STEM/aerospace focused middle school that the Space Foundation helped launch in conjunction with District 11. They did an excellent job in engaging visitors, and it was great to see some familiar faces (I [drove some of the teachers up a mountain](http://www.christopherstevens.cc/blog/2009/08/15/space-foundation-education-trip-to-pikes-peak/) for post-grad education training with the Space Foundation).
+Teachers and students from Galileo, a science and math focused middle school in Colorado Springs, helped at the Space Foundation booth. Galileo participants were also joined by teachers and students from the Jack Swigert Aerospace Academy, a public STEM/aerospace focused middle school that the Space Foundation helped launch in conjunction with District 11. They did an excellent job in engaging visitors, and it was great to see some familiar faces (I [drove some of the teachers up a mountain](https://www.christopherstevens.cc/blog/2009/08/15/space-foundation-education-trip-to-pikes-peak/) for post-grad education training with the Space Foundation).
 
 ![Student Tours](/images/studentsroundscreen.jpg)
 
@@ -83,7 +83,7 @@ A great fireworks show accompanied by Mannheim Steamroller music made for a grea
 
 Photo taken by Luciana Mendes
 
-One of the final events for the Symposium was the Space Technology Hall of Fame Dinner. This is also where Leonard Nimoy (Star Trek's Spock) accepted the Lifetime Achievement Award, and gave a great speech (Check out the video [here](http://2010.nationalspacesymposium.org/media/symposium-videos)). I enjoyed hearing about the history of his life and how he ended up where he did (will have to check out his terrible early films containing zombies from one of the atmospheric layers).
+One of the final events for the Symposium was the Space Technology Hall of Fame Dinner. This is also where Leonard Nimoy (Star Trek's Spock) accepted the Lifetime Achievement Award, and gave a great speech (Check out the video [here](https://2010.nationalspacesymposium.org/media/symposium-videos)). I enjoyed hearing about the history of his life and how he ended up where he did (will have to check out his terrible early films containing zombies from one of the atmospheric layers).
 
 Afterward, my mind was nearly scrambled eggs, and I had blisters on my blisters. I felt that suits were not the thing to wear for quite some time moving forward (I like to be casual). However I felt satisfied that the event was a success, and was amazed at all that was accomplished by all the Space Foundation team. I joined others at the Golden Bee for a couple beers and chicken pot pie to celebrate. Others attended the celebration of new generation initiatives where there was some great dancing to be had (some dark beer and little movement as possible was ideal for me hah).
 

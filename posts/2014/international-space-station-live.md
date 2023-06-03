@@ -22,7 +22,7 @@ Developer/designer
 
 ### Additional Credits
 
-Near-live cloud texture provided by [xplanetclouds.com](http://xplanetclouds.com/). Live video streams courtesy of NASA. ISS TLE data provided by [wheretheiss.at](http://xplanetclouds.com/). ISS positions calculated by [satellite-js](https://github.com/shashwatak/satellite-js).
+Near-live cloud texture provided by [xplanetclouds.com](https://xplanetclouds.com/). Live video streams courtesy of NASA. ISS TLE data provided by [wheretheiss.at](https://xplanetclouds.com/). ISS positions calculated by [satellite-js](https://github.com/shashwatak/satellite-js).
 
 ### Purpose
 

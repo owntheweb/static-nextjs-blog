@@ -27,4 +27,4 @@ Showcase the benefits of space technology and awareness of the Space Certificati
 
 ### Additional Information
 
-Learn more about the Space Foundation's Space Certification Program [here](http://spacefoundation.org/programs/space-certification) and the Space Technology Hall of Fame [here](http://spacefoundation.org/programs/space-technology-hall-fame).
+Learn more about the Space Foundation's Space Certification Program [here](https://spacefoundation.org/programs/space-certification) and the Space Technology Hall of Fame [here](https://spacefoundation.org/programs/space-technology-hall-fame).

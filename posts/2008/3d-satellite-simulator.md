@@ -21,7 +21,7 @@ Developer
 
 ### Additional Credits
 
-Data provided by [Space-Track](https://www.space-track.org/auth/login). Basic orbital mechanics courtesy of [AMSAT-UK](http://amsat-uk.org/) (note: original math links no longer active). Math converted into something usable in Flash with much help from various math experts. Special thanks to [Sandy 3D](https://code.google.com/p/sandy/) team for making a pixel class for showing 3D positions.
+Data provided by [Space-Track](https://www.space-track.org/auth/login). Basic orbital mechanics courtesy of [AMSAT-UK](https://amsat-uk.org/) (note: original math links no longer active). Math converted into something usable in Flash with much help from various math experts. Special thanks to [Sandy 3D](https://code.google.com/p/sandy/) team for making a pixel class for showing 3D positions.
 
 ### Purpose
 

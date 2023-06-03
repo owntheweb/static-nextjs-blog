@@ -14,7 +14,7 @@ tags:
 
 ### Status
 
-Assimilated and merged into the [Space Foundation website](http://www.spacefoundation.org/education)
+Assimilated and merged into the [Space Foundation website](https://www.spacefoundation.org/education)
 
 ### Roles
 

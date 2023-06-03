@@ -22,7 +22,7 @@ Here is the World Prodigy Visitors Center. After being hurled through the atmosp
 
 ![Entry Room](/images/20050822-inside.jpg)
 
-The main entry features a geo tracking guest book. The website tries to locate visitors using their ip address, and places their dot on the map for other visitors to see. This component of the website is completed. Give it a try! You can leave your mark at [http://www.treetrip.com/geoip/earth2.html](http://www.treetrip.com/geoip/earth2.html).
+The main entry features a geo tracking guest book. The website tries to locate visitors using their ip address, and places their dot on the map for other visitors to see. This component of the website is completed. Give it a try! You can leave your mark at [https://www.treetrip.com/geoip/earth2.html](https://www.treetrip.com/geoip/earth2.html).
 
 ![Round Doors](/images/20050822-roundDoor.jpg)
 

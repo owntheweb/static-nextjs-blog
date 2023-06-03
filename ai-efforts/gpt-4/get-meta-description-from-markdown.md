@@ -86,4 +86,59 @@ This script will parse the given Markdown content and return the first two sente
 
 ## Personal Thoughts
 
-✅ Great response. That worked well enough and saved a chunk of time. Regex hurts my brain.
+✅ Great response. That worked well enough and saved a chunk of time. Regex hurts my brain. 
+
+One revision to mix in as links were getting stripped with their text, making some of the descriptions not make as much sense:
+
+Write a javascript function that parses a Markdown text, removing urls while keeping the link text in place. Here is starting code to work from:
+
+```javascript
+const removeLinks = markup => {
+  // remove link urls here while maintaining link text.
+}
+
+const markup = 'Hello. There is a link [here](https://somewebsite.com) that needs removed, yet the text "here" will remain.';
+
+const noLinksText = removeLinks(markup);
+```
+
+```
+
+{
+  "model": "gpt-4",
+  "messages": [
+      {
+          "role": "assistant",
+          "content": "web developer"
+      },
+      {
+          "role": "user",
+          "content": "Write a javascript function that parses a Markdown text, removing urls while keeping the link text in place. Here is starting code to work from:\n\n```javascript\r\nconst removeLinks = markup => {\n  \/\/ remove link urls here while maintaining link text.\n}\n\nconst markup = 'Hello. There is a link [here](https:\/\/somewebsite.com) that needs removed, yet the text \"here\" will remain.';\n\nconst noLinksText = removeLinks(markup);\n```"
+      }
+  ],
+  "temperature": 0.9,
+  "user": "user-example-to-monitor-for-abuse"
+}
+```
+
+## Response
+
+You can use a regular expression to match the Markdown links and replace them with only the link text. Here's a modified version of the `removeLinks` function that achieves this:
+
+```javascript
+const removeLinks = markup => {
+  // Remove link URLs while maintaining link text.
+  return markup.replace(/\[([^\]]+)\]\([^\)]+\)/g, (match, linkText) => linkText);
+}
+
+const markup = 'Hello. There is a link [here](https://somewebsite.com) that needs removed, yet the text "here" will remain.';
+
+const noLinksText = removeLinks(markup);
+console.log(noLinksText);
+```
+
+This regex will match any text inside square brackets followed by text inside parentheses. It captures the text inside the square brackets as a group and replaces the whole match with the captured group, effectively removing the URL while keeping the link text in place.
+
+## Personal Thoughts
+
+It's just what I needed.

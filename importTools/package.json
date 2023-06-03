@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "axios": "^1.4.0",
+    "fast-csv": "^4.3.6",
+    "follow-redirects": "^1.15.2"
+  }
+}

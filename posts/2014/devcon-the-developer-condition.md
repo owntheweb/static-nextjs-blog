@@ -15,13 +15,13 @@ When inquiring about the developer condition, refer to the DEVCON Status system.
 
 ![DEVCON front and back](/images/devcon-front-back.jpg)
 
-In an effort to learn some basic electronics, start to figure out the [Arduino](http://arduino.cc/) microprocessor, solder for the first time and make something FUN, this "finished" piece now sits in front of my office informing all who stop by of the "developer condition".
+In an effort to learn some basic electronics, start to figure out the [Arduino](https://arduino.cc/) microprocessor, solder for the first time and make something FUN, this "finished" piece now sits in front of my office informing all who stop by of the "developer condition".
 
 This was also my first attempt at making a creative project _outside_ of the rectangular computer screen, still powered by the internet I love. Sometimes I feel like I'm tied to virtual realities. This was a chance to make something more physical.
 
 ![DEVCON graphic overlay](/images/devcon-overlay.gif)
 
-The DEVCON Status system was inspired by the United States Armed Forces _[defense readiness condition (DEFCON)](http://en.wikipedia.org/wiki/DEFCON)_, where DEFCON 5 is a "low readiness" state and DEFCON 1 would mean that nuclear war is eminent. While DEVCON uses a reversed numbering system (bigger numbers = bigger problems!) per personal preference, it follows a similar idea of broadcasting a status in a standardized way. DEVCON conveys peace, love and creative ideas happening in the developer team to websites being down or the toilet paper supply being depleted. There's also a DEVCON PARTY status reserved for times of grand celebrations.
+The DEVCON Status system was inspired by the United States Armed Forces _[defense readiness condition (DEFCON)](https://en.wikipedia.org/wiki/DEFCON)_, where DEFCON 5 is a "low readiness" state and DEFCON 1 would mean that nuclear war is eminent. While DEVCON uses a reversed numbering system (bigger numbers = bigger problems!) per personal preference, it follows a similar idea of broadcasting a status in a standardized way. DEVCON conveys peace, love and creative ideas happening in the developer team to websites being down or the toilet paper supply being depleted. There's also a DEVCON PARTY status reserved for times of grand celebrations.
 
 ![DEVCON Arduino and other components](/images/devcon-parts.jpg)
 
@@ -29,15 +29,15 @@ The DEVCON Status system was inspired by the United States Armed Forces _[defens
 
 I used a lot of helper components to make this project fun and quick for a newbie like myself:
 
-*   Arduino (an [older one](http://arduino.cc/en/Main/ArduinoBoardDuemilanove), was sitting in a box for a year or more)
-*   [BlinkM MaxM](http://thingm.com/products/blinkm-maxm/)
+*   Arduino (an [older one](https://arduino.cc/en/Main/ArduinoBoardDuemilanove), was sitting in a box for a year or more)
+*   [BlinkM MaxM](https://thingm.com/products/blinkm-maxm/)
 *   Ethernet Shield (the one I found was way old, maybe look into [this one](https://www.sparkfun.com/products/9026) \[caution: may use different pins?\])
 *   Prototype shield for soldering it all together ([this one](https://www.sparkfun.com/products/7914) should work)
 *   Bipolar stepper motor (I used an [oversized, overpowered one](https://www.sparkfun.com/products/9238), will buy a [small one](https://www.sparkfun.com/products/10551) next time)
 *   [EasyDriver](https://www.sparkfun.com/products/10267) stepper motor driver
 *   [Pezio speaker/buzzer](https://www.sparkfun.com/products/7950) (or speaker, but I soldered the speaker wrong then tore it apart! The buzzer was handy.)
 *   100 Ohm resister for buzzer
-*   A nice enclosure I found at Radio Shack ([this one](http://www.radioshack.com/product/index.jsp?productId=2062285) could be it)
+*   A nice enclosure I found at Radio Shack ([this one](https://www.radioshack.com/product/index.jsp?productId=2062285) could be it)
 *   Soldering equipment
 *   Hot glue holds it all together in the enclosure.
 
@@ -54,7 +54,7 @@ The code merges several helpful examples that helped me get going. Here it is al
  * Combines several libraries and examples, customized to communicate
  *     the ""developer condition"" :D
  *
- * 2014, Christopher Stevens, http://christopherstevens.cc
+ * 2014, Christopher Stevens, https://christopherstevens.cc
  */
  
 ////////////////////////
@@ -72,7 +72,7 @@ The code merges several helpful examples that helped me get going. Here it is al
  * Note: This sketch sends to the I2C ""broadcast"" address of 0, 
  *       so all BlinkMs on the I2C bus will respond.
  *
- * 2008, Tod E. Kurt, ThingM, http://thingm.com/
+ * 2008, Tod E. Kurt, ThingM, https://thingm.com/
  */
 
 #include ""Wire.h""
@@ -241,7 +241,7 @@ void setupMotor() {
 /*
   Web client
  
- This sketch connects to a website (http://www.google.com)
+ This sketch connects to a website (https://www.google.com)
  using an Arduino Wiznet Ethernet shield. 
  
  Circuit:
@@ -255,7 +255,7 @@ void setupMotor() {
  DEVCON add-ons by Christopher Stevens
  
  Lots of stuff taken from:
- http://bildr.org/2011/06/arduino-ethernet-client/
+ https://bildr.org/2011/06/arduino-ethernet-client/
  
  */
 
@@ -369,7 +369,7 @@ TimedAction checkStatusAction = TimedAction(5000,checkStatus);
 
 This example code is in the public domain.
  
- http://arduino.cc/en/Tutorial/Tone
+ https://arduino.cc/en/Tutorial/Tone
  
  */
  #include ""pitches.h""
@@ -495,7 +495,7 @@ void loop() {
 
 ![DEVCON PARTY](/images/devcon-party.jpg)
 
-On the server side, there's a basic admin page that sets the status from anywhere there is an internet connection (actually created this a LONG time ago before getting into the hardware while playing with [Foundation](http://foundation.zurb.com/)). The status is saved to a text file that the Android reads and parses.
+On the server side, there's a basic admin page that sets the status from anywhere there is an internet connection (actually created this a LONG time ago before getting into the hardware while playing with [Foundation](https://foundation.zurb.com/)). The status is saved to a text file that the Android reads and parses.
 
 ```
 <?php
@@ -750,10 +750,10 @@ document.write('<script src=' +
 *   A few times throughout the day, the device reverts to the startup idle status, then quickly returns to the current status (interesting).
 *   It would be nice to write the current motor step to memory for recovery if the system gets shut off. Otherwise, it starts pointing to the wrong status when you turn it back on and you have to manually turn the pointer to its first condition.
 *   When turning it on, sometimes it doesn't connect to the internet and the reset button needs to be pressed once or twice to get it going (after that, it's great)
-*   If I were to produce this again, I'd recommend using a wireless [Arduino Yun](http://arduino.cc/en/Main/ArduinoBoardYun) as the wireless connection is built into the Arduino (less bulk and one less wire, perhaps more reliable?)
+*   If I were to produce this again, I'd recommend using a wireless [Arduino Yun](https://arduino.cc/en/Main/ArduinoBoardYun) as the wireless connection is built into the Arduino (less bulk and one less wire, perhaps more reliable?)
 
 ### What's Next?
 
-After some time where my mail was being stolen (they caught the crazy lady) and my car window was shot out with a bb-gun, then my car door was destroyed with a poorly attempted break-in... then some drunk guy and his buddy were kicking my car and others for no logical reason (thanks neighbor for terrorizing them), I want to build a motion detecting security camera system. [Raspberry Pi](http://www.raspberrypi.org) has a lot of community support for building [something like this](http://simpledev.webs.com/apps/blog/) on the cheap. After that I can see getting more creative and fun with electronics in other ways.
+After some time where my mail was being stolen (they caught the crazy lady) and my car window was shot out with a bb-gun, then my car door was destroyed with a poorly attempted break-in... then some drunk guy and his buddy were kicking my car and others for no logical reason (thanks neighbor for terrorizing them), I want to build a motion detecting security camera system. [Raspberry Pi](https://www.raspberrypi.org) has a lot of community support for building [something like this](https://simpledev.webs.com/apps/blog/) on the cheap. After that I can see getting more creative and fun with electronics in other ways.
 
-Maybe I'll make something with more processing 'mmph' using the [BeagleBone Black](http://beagleboard.org/black). Do you have any thoughts on high powered tiny computers/SBCs?
+Maybe I'll make something with more processing 'mmph' using the [BeagleBone Black](https://beagleboard.org/black). Do you have any thoughts on high powered tiny computers/SBCs?

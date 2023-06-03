@@ -15,11 +15,11 @@ tags:
 ---
 ![Final Scheduled Launch of Shuttle Atlantis](/images/finalscheduledatlantislaunch.jpg)
 
-The Space Foundation sent a delegation of employees including myself to see Shuttle Atlantis launch, a beautiful success without delay. First launched in 1985, this was the shuttle's 32nd and final scheduled launch. Atlantis was the first shuttle to dock with Mir station, and the last to service the Hubble telescope recently (On a side note, the Space Foundation awarded the Hubble repair team at National Space Symposium. Check out the video [here](http://2010.nationalspacesymposium.org/media/symposium-videos)).
+The Space Foundation sent a delegation of employees including myself to see Shuttle Atlantis launch, a beautiful success without delay. First launched in 1985, this was the shuttle's 32nd and final scheduled launch. Atlantis was the first shuttle to dock with Mir station, and the last to service the Hubble telescope recently (On a side note, the Space Foundation awarded the Hubble repair team at National Space Symposium. Check out the video [here](https://2010.nationalspacesymposium.org/media/symposium-videos)).
 
 ![Jack Swigert Statue in Denver International Airport](/images/jackswigertstatue.jpg)
 
-Spending a short while in Denver International Airport, I passed by the Jack Swigert statue in Concourse B. Jack Swigert was a huge contributor to the Space Foundation, and also the one who the Foundation named the new Jack Swigert Aerospace Academy after (grand opening blog post [here](http://www.christopherstevens.cc/blog/2009/08/27/jack-swigert-aerospace-academy-grand-opening/)).
+Spending a short while in Denver International Airport, I passed by the Jack Swigert statue in Concourse B. Jack Swigert was a huge contributor to the Space Foundation, and also the one who the Foundation named the new Jack Swigert Aerospace Academy after (grand opening blog post [here](https://www.christopherstevens.cc/blog/2009/08/27/jack-swigert-aerospace-academy-grand-opening/)).
 
 ![Cocoa Beach](/images/cocoabeachsunrise.jpg)
 
@@ -37,7 +37,7 @@ The mission briefing was very good and helpful. While perhaps a touch long for s
 
 ![Charles Bolden](/images/bolden.jpg)
 
-That night the team attended industry receptions to show the Foundation's support. While still getting used to these kind of events (and working on anti-cave social skills in general), it started a little slow for me. After a beer though, I started to recognize several faces from [National Space Symposium](http://www.nationalspacesymposium.org) and met some cool people. I had the opportunity to shake hands with NASA Administrator, Charles Bolden, who spoke and recognized leaders at the reception. He was very kind to let me take a photo with him, and also just a very genuine guy in general.
+That night the team attended industry receptions to show the Foundation's support. While still getting used to these kind of events (and working on anti-cave social skills in general), it started a little slow for me. After a beer though, I started to recognize several faces from [National Space Symposium](https://spacesymposium.org) and met some cool people. I had the opportunity to shake hands with NASA Administrator, Charles Bolden, who spoke and recognized leaders at the reception. He was very kind to let me take a photo with him, and also just a very genuine guy in general.
 
 I spent a lot of time with the team, trying 'floofy' tropical drinks that Florida is known for (in moderation of course), and watched Roz, our satellite office guru in Florida and her significant other Adrian greet almost everyone there by name! One thing that I've noticed is that the space industry is very tight knit, almost like a family. People work together across all the companies to achieve common goals, and cross paths often at events everywhere.
 
@@ -79,8 +79,8 @@ Fred, Mike, and I agreed that fish was the food to be eaten while in Florida. I 
 
 Fred took great care of us and shared his Florida food wisdom. Being around the area a lot, he knew where the laid back, quality and affordable local restaurants were located. I made it a point to broaden my palette with a different fresh fish each meal. Blackened mahi mahi and tilapia, dolphin scampi, pollok (not to be pronounced as 'Polak' which definately would not fly at all, especially if dining in Poland right?), swordfish, alligator, and frog legs! Mmmm.
 
-At the time of writing there are only two more scheduled launches remaining, period. Be sure to watch launches scheduled for September 16, and tentatively mid-November! More launch info can be viewed on NASA's [Shuttle and Rocket Launch Schedule](http://www.nasa.gov/missions/highlights/schedule.html).
+At the time of writing there are only two more scheduled launches remaining, period. Be sure to watch launches scheduled for September 16, and tentatively mid-November! More launch info can be viewed on NASA's [Shuttle and Rocket Launch Schedule](https://www.nasa.gov/missions/highlights/schedule.html).
 
 The Space Foundation is AWESOME. I'm sincerely thankful and honored that the Foundation sent me to see one of the last shuttle fleet launches, and for the opportunity to get to know the space industry in general a bit better. I'm glad to be back in this wonderful dryish cool weather, and am ready to get back to work!
 
-See the official story about the Space Foundation delegation [here](http://www.spacefoundation.org/news/story.php?id=954).
+See the official story about the Space Foundation delegation [here](https://www.spacefoundation.org/news/story.php?id=954).

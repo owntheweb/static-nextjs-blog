@@ -28,7 +28,7 @@ Before, the hot water was cooled in the cooling ponds before entering the pools 
 
 ![swinging bridge - Hot Springs County State Park](/images/20060727-swingingBridge.jpg)
 
-One of my favorite places in Hot Springs County State Park is the swinging bridge that crosses the terraces. Built in 1916, it was used by the public until 1982 when it was condemned. It was renovated in 1992, and is once again open to the public. [source](http://www.bridgemeister.com/pic.php?pid=17)
+One of my favorite places in Hot Springs County State Park is the swinging bridge that crosses the terraces. Built in 1916, it was used by the public until 1982 when it was condemned. It was renovated in 1992, and is once again open to the public. [source](https://www.bridgemeister.com/pic.php?pid=17)
 
 ![Savanna's 1 year birthday party](/images/20060727-birthday1.jpg)
 

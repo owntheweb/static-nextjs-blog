@@ -15,7 +15,7 @@ tags:
 
 ### PostfulMail PHP Class
 
-Send genuine snail mail letters and postcards using the PostfulMail PHP class ([download below](#download)) and the [Postful.com](http://postful.com) API. Upload images for postcards (jpg, png, gif), documents for letters (html, txt, pdf, doc, rtf, odt), then send mail automatically. Sweet!
+Send genuine snail mail letters and postcards using the PostfulMail PHP class ([download below](#download)) and the [Postful.com](https://postful.com) API. Upload images for postcards (jpg, png, gif), documents for letters (html, txt, pdf, doc, rtf, odt), then send mail automatically. Sweet!
 
 Marketers will tell you that you'll get higher conversion/response rates from direct mail campaigns over email blasts. The conversion (phone call and/or sale) may go even higher when sending dynamic direct mail pieces, using custom photos, customer names target specific information (as is the case with dynamic email campaigns as well). The PostfulMail class puts you in the unique position to send that dynamic mail piece (or static/same for everyone) to everyone you know without leaving your website.
 
@@ -27,9 +27,9 @@ I developed this class with a fascination for Postful.com's mail API. While Post
 
 ### Important Notes
 
-Postful.com's API can be finicky. Efforts were made to relieve the quirks through the PostfulMail PHP class, but it is a VERY good idea to read through Postful.com's API documentation to get into the swing of things: Visit: [http://www.postful.com/developer/guide](http://www.postful.com/developer/guide) Also with postcards, you'll have the best luck if you upload images that are the right dimensions (6" x 4.25").
+Postful.com's API can be finicky. Efforts were made to relieve the quirks through the PostfulMail PHP class, but it is a VERY good idea to read through Postful.com's API documentation to get into the swing of things: Visit: [https://www.postful.com/developer/guide](https://www.postful.com/developer/guide) Also with postcards, you'll have the best luck if you upload images that are the right dimensions (6" x 4.25").
 
-The API scales images funny sometimes, and I think it treats front and back images differently, so be warned! I chose to use 900px wide by 638px high (150 dpi) as it seemed to print nicely while producing little wait time when uploading images. I leave this to your creative judgment. If you want to send test mail and see how things turn out on postful.com without getting charged, sign up for a sandbox acount WITH A **DIFFERENT EMAIL ADDRESS** THAN YOU WANT TO USE WHEN MAILING REAL LETTERS [here](http://www.postful.com/sandbox/signup). Once signed in, you can add fake funds to your account [here](http://www.postful.com/sandbox/account). When you make API requests, you can preview your postcard orders and such [here](http://www.postful.com/order/list).
+The API scales images funny sometimes, and I think it treats front and back images differently, so be warned! I chose to use 900px wide by 638px high (150 dpi) as it seemed to print nicely while producing little wait time when uploading images. I leave this to your creative judgment. If you want to send test mail and see how things turn out on postful.com without getting charged, sign up for a sandbox acount WITH A **DIFFERENT EMAIL ADDRESS** THAN YOU WANT TO USE WHEN MAILING REAL LETTERS [here](https://www.postful.com/sandbox/signup). Once signed in, you can add fake funds to your account [here](https://www.postful.com/sandbox/account). When you make API requests, you can preview your postcard orders and such [here](https://www.postful.com/order/list).
 
 ### Usage
 
@@ -160,4 +160,4 @@ echo $mail->errors;
 
 ### Feedback
 
-This class could use some constructive criticism and love. Please feel free to comment below or send me a message on the [contact page](http://www.christopherstevens.cc/contact.php)! :)
+This class could use some constructive criticism and love. Please feel free to comment below or send me a message on the [contact page](https://www.christopherstevens.cc/contact.php)! :)

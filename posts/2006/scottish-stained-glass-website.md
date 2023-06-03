@@ -14,4 +14,4 @@ The new Scottish Stained Glass website has been published! While taking web advi
 
 The website now owns the term "Scottish Stained Glass" in google searches. Yay! A before picture of the website is coming soon.
 
-Visit [www.scottishstainedglass.com](http://www.scottishstainedglass.com/)
+Visit [www.scottishstainedglass.com](https://www.scottishstainedglass.com/)

@@ -14,11 +14,11 @@ Note: This post is super old and may no longer work.
 
 ![TTS Plugin for TinyMCE](/images/ttsTextEditor1.jpg)
 
-The TTS Plugin for [TinyMCE](http://tinymce.moxiecode.com) is a web based text-to-speech editor that visually formats text with pitch, rate, volume, emphasis, and breaks. It's able to export basic [SSML](http://www.w3.org/TR/speech-synthesis/) (Speech Synthesis Markup Language) accepted by text-to-speech engines such as [Cepstral](http://cepstral.com/) voices, and accepted by web services like [Voice Forge](http://www.voiceforge.com/). **NOTE:** This plugin does not generate audio or communicate directly with text-to-speech engines or services. It simply formats text in a fun visual way and exports SSML that you can figure out what to do with after it leaves the editor. :)
+The TTS Plugin for [TinyMCE](https://tinymce.moxiecode.com) is a web based text-to-speech editor that visually formats text with pitch, rate, volume, emphasis, and breaks. It's able to export basic [SSML](https://www.w3.org/TR/speech-synthesis/) (Speech Synthesis Markup Language) accepted by text-to-speech engines such as [Cepstral](https://cepstral.com/) voices, and accepted by web services like [Voice Forge](https://www.voiceforge.com/). **NOTE:** This plugin does not generate audio or communicate directly with text-to-speech engines or services. It simply formats text in a fun visual way and exports SSML that you can figure out what to do with after it leaves the editor. :)
 
 ### What You Can Do With Exported SSML
 
-Here are examples of audio produced using SSML exported from the TTS plugin as seen in the image above (audio generation techniques may be shared in a future blog post): Audio courtesy of [Voice Forge](http://www.voiceforge.com). From left to right: 'Lawrence', 'TopHat' and 'Kayla'
+Here are examples of audio produced using SSML exported from the TTS plugin as seen in the image above (audio generation techniques may be shared in a future blog post): Audio courtesy of [Voice Forge](https://www.voiceforge.com). From left to right: 'Lawrence', 'TopHat' and 'Kayla'
 
 ### Download TTS Plugin for TinyMCE
 
@@ -26,7 +26,7 @@ While this plugin is not perfect (it gets temperamental with complex formatting 
 
 ### Quick Start Guide
 
-1.  [Download](http://tinymce.moxiecode.com/download/download.php) and unzip the TinyMCE JavaScript library.
+1.  [Download](https://tinymce.moxiecode.com/download/download.php) and unzip the TinyMCE JavaScript library.
 2.  [Download](https://github.com/owntheweb/tinymce-tts/zipball/master) and unzip the TTS Plugin.
 3.  Move the 'tts' folder to tinymce/jscripts/tiny\_mce/plugins/
 4.  Open 'example.htm' in the 'tts' folder for an example of how to configure TinyMCE and the tts plugin.

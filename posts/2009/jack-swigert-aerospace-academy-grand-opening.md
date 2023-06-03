@@ -13,7 +13,7 @@ tags:
 ---
 ![Jack Swigert Areospace Academy](/images/jsaa.gif)
 
-[Jack Swigert Aerospace Academy](http://www.spacefoundation.org/education/content.php?id=802) (JSAA), an aerospace themed middle school in Colorado Springs, Colorado, had their grand opening event yesterday. District 11 partnered with the [Space Foundation](http://www.spacefoundation.org) to make the school a national example to help kids excel in STEM: (Science, Technology, Engineering, and Mathematics). The event was largely covered by the media. (Channel 13's coverage: video no longer available)
+[Jack Swigert Aerospace Academy](https://www.spacefoundation.org/education/content.php?id=802) (JSAA), an aerospace themed middle school in Colorado Springs, Colorado, had their grand opening event yesterday. District 11 partnered with the [Space Foundation](https://www.spacefoundation.org) to make the school a national example to help kids excel in STEM: (Science, Technology, Engineering, and Mathematics). The event was largely covered by the media. (Channel 13's coverage: video no longer available)
 
 ![auditorium](/images/auditorium.jpg)
 

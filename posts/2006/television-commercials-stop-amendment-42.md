@@ -9,7 +9,7 @@ tags:
 ---
 ![Is Nothing Sacred - Moses holds stone tablets while talking to God.](/images/20061004-moses1.jpg)
 
-In two weeks time, Commotion and the Stop Amendment 42 team concepted, approved, scripted, filmed, edited, and shipped two commercials with variations to television stations everywhere. The commercials air on CBS this Thursday night during the popular murder mystery show, CSI. Another big launch is on Monday throughout the Broncos game in Colorado. **View the commercials online at Stop 42's website:** [**http://www.stop42colorado.com**](http://www.stop42colorado.com/)
+In two weeks time, Commotion and the Stop Amendment 42 team concepted, approved, scripted, filmed, edited, and shipped two commercials with variations to television stations everywhere. The commercials air on CBS this Thursday night during the popular murder mystery show, CSI. Another big launch is on Monday throughout the Broncos game in Colorado. **View the commercials online at Stop 42's website:** [**https://www.stop42colorado.com**](https://www.stop42colorado.com/)
 
 Up for vote in Colorado, Amendment 42 will raise the minimum wage for all tipped and non-tipped employees in Denver and Boulder. It also puts the minimum wage increase in the state constitution, raising the minimum wage at a constant rate every year non-stop.
 

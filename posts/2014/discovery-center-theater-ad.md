@@ -17,7 +17,7 @@ Archived (YouTube link still available)
 
 ### Link
 
-[http://youtu.be/Wv7WwvzZr3I](http://youtu.be/Wv7WwvzZr3I)
+[https://youtu.be/Wv7WwvzZr3I](https://youtu.be/Wv7WwvzZr3I)
 
 ### Roles
 

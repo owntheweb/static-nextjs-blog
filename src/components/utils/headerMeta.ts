@@ -6,13 +6,15 @@ const BASE_URL = 'https://interactive.guru';
 
 // Thanks GPT-4
 const getDescriptionFromMarkdown = (markdownString: string) => {
-  // Remove images, links, and heading text
+  // Remove images and heading text
   const stripped = markdownString.replace(/!\[[^\]]*\]\([^)]*\)/g, '')
-    .replace(/\[[^\]]*\]\([^)]*\)/g, '')
     .replace(/(^|\n)#+([^\n]*)/g, '');
 
+  // Remove link URLs while maintaining link text.
+  const linksToTextOnly = stripped.replace(/\[([^\]]+)\]\([^\)]+\)/g, (match, linkText) => linkText);
+
   // Remove formatting
-  const cleaned = stripped.replace(/\*{1,2}([^*]+)\*{1,2}/g, '$1')
+  const cleaned = linksToTextOnly.replace(/\*{1,2}([^*]+)\*{1,2}/g, '$1')
     .replace(/_{1,2}([^_]+)_{1,2}/g, '$1');
 
   // Replace line breaks and extra spaces

@@ -10,9 +10,22 @@ tags:
   - Blender
   - Flash
   - Space Foundation
+slides:
+  - src: '/images/touchOfMars4.jpg'
+    alt: '"A Touch of Mars" Kiosk'
+  - src: '/images/touchOfMars1.jpg'
+    alt: 'A Touch of Mars" Kiosk'
+  - src: '/images/touchOfMars2.jpg'
+    alt: 'A Touch of Mars" Kiosk'
+  - src: '/images/touchOfMars3.jpg'
+    alt: 'A Touch of Mars" Kiosk'
+  - src: '/images/aTouchOfMars5.jpg'
+    alt: 'A Touch of Mars" Kiosk'
+  - src: '/images/aTouchOfMars6.jpg'
+    alt: 'A Touch of Mars" Kiosk'
+  - src: '/images/aTouchOfMars7.jpg'
+    alt: 'A Touch of Mars" Kiosk'
 ---
-!["A Touch of Mars" Kiosk](/images/touchOfMarsTop.jpg)
-
 ### Status
 
 Archived

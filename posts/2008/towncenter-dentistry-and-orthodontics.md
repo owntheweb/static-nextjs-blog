@@ -7,9 +7,12 @@ tags:
   - custom theme
   - WordPress
   - PHP
+slides:
+  - src: '/images/kessler1.jpg'
+    alt: 'TownCenter Dentistry and Orthodontics'
+  - src: '/images/kessler2.jpg'
+    alt: 'TownCenter Dentistry and Orthodontics'
 ---
-![TownCenter Dentistry and Orthodontics](/images/kesslerTop.jpg)
-
 ### Status
 
 Archived

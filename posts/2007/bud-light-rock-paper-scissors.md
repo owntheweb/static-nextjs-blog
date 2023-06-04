@@ -7,9 +7,22 @@ tags:
   - ActionScript
   - Flash
   - Commotion
+slides:
+  - src: '/images/budLightRockPaperScissors1.jpg'
+    alt: 'Bud Light Rock Paper Scissors'
+  - src: '/images/budLightRockPaperScissors2.jpg'
+    alt: 'Bud Light Rock Paper Scissors'
+  - src: '/images/budLightRockPaperScissors3.jpg'
+    alt: 'Bud Light Rock Paper Scissors'
+  - src: '/images/budLightRockPaperScissors4.jpg'
+    alt: 'Bud Light Rock Paper Scissors'
+  - src: '/images/budLightRockPaperScissors5.jpg'
+    alt: 'Bud Light Rock Paper Scissors'
+  - src: '/images/budLightRockPaperScissors6.jpg'
+    alt: 'Bud Light Rock Paper Scissors'
+  - src: '/images/budLightRockPaperScissors7.jpg'
+    alt: 'Bud Light Rock Paper Scissors'
 ---
-![Bud Light Rock Paper Scissors](/images/budLightRockPaperScissorsTop.jpg)
-
 ### Status
 
 Archived

@@ -9,8 +9,22 @@ tags:
   - JavaScript
   - eCard
   - Space Foundation
+slides:
+  - src: '/images/ecard-2014-1.jpg'
+    alt: 'Space Foundation Holiday eCard 2014'
+  - src: '/images/ecard-2014-2.jpg'
+    alt: 'Space Foundation Holiday eCard 2014'
+  - src: '/images/ecard-2014-4.jpg'
+    alt: 'Space Foundation Holiday eCard 2014'
+  - src: '/images/ecard-2014-5.jpg'
+    alt: 'Space Foundation Holiday eCard 2014'
+  - src: '/images/ecard-2014-6.jpg'
+    alt: 'Space Foundation Holiday eCard 2014'
+  - src: '/images/ecard-2014-7.jpg'
+    alt: 'Space Foundation Holiday eCard 2014'
+  - src: '/images/ecard-2014-8.jpg'
+    alt: 'Space Foundation Holiday eCard 2014'
 ---
-![Space Foundation Holiday eCard 2014](/images/ecard-2014-top.jpg)
 
 ### Status
 

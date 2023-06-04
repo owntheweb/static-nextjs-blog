@@ -8,8 +8,15 @@ tags:
   - responsive
   - Twitter Bootstrap
   - Space Foundation
+  - print
+slides:
+  - src: '/images/halloweenBall1.jpg'
+    alt: 'Space and Science Fiction Halloween Ball'
+  - src: '/images/halloweenBall2.jpg'
+    alt: 'Space and Science Fiction Halloween Ball'
+  - src: '/images/halloweenBall3.jpg'
+    alt: 'Space and Science Fiction Halloween Ball'
 ---
-![Space and Science Fiction Halloween Ball](/images/halloweenBallTop.jpg)
 
 ### Status
 

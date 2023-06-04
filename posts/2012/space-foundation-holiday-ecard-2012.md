@@ -8,8 +8,16 @@ tags:
   - Flash
   - eCard
   - Space Foundation
+slides:
+  - src: '/images/holiday1.jpg'
+    alt: 'Space Foundation Holiday eCard 2012'
+  - src: '/images/holday2.jpg'
+    alt: 'Space Foundation Holiday eCard 2012'
+  - src: '/images/holiday3.jpg'
+    alt: 'Space Foundation Holiday eCard 2012'
+  - src: '/images/holiday4.jpg'
+    alt: 'Space Foundation Holiday eCard 2012'
 ---
-![Space Foundation Holiday eCard 2012](/images/holidayTop.jpg)
 
 ### Status
 

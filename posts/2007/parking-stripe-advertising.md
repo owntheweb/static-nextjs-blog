@@ -12,9 +12,20 @@ tags:
   - WordPress
   - Commotion
   - Parking Stripe Advertising
+slides:
+  - src: '/images/parkingStripeAdvertising1.jpg'
+    alt: 'Parking Stripe Advertising'
+  - src: '/images/parkingStripeAdvertising2.jpg'
+    alt: 'Parking Stripe Advertising'
+  - src: '/images/parkingStripe6.jpg'
+    alt: 'Parking Stripe Advertising'
+  - src: '/images/parkingStripe7.jpg'
+    alt: 'Parking Stripe Advertising'
+  - src: '/images/parkingStripe8.jpg'
+    alt: 'Parking Stripe Advertising'
+  - src: '/images/parkingStripe9.jpg'
+    alt: 'Parking Stripe Advertising'
 ---
-![Parking Stripe Advertising](/images/parkingStripeAdvertisingTop.jpg)
-
 ### Status
 
 Archived
@@ -23,7 +34,9 @@ Archived
 
 Web developer/designer
 
-### Original logo and creative direction by Tim Oveson.
+### Additional Credits
+
+Original logo and creative direction by Tim Oveson.
 
 ### Purpose
 

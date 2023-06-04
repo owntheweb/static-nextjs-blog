@@ -13,9 +13,36 @@ tags:
   - print
   - WordPress
   - The Society
+slides:
+  - src: '/images/society1b.jpg'
+    alt: 'The Society of Leisure Enthusiasts'
+  - src: '/images/society1b2.jpg'
+    alt: 'The Society of Leisure Enthusiasts'
+  - src: '/images/society1.jpg'
+    alt: 'The Society of Leisure Enthusiasts'
+  - src: '/images/society2.jpg'
+    alt: 'The Society of Leisure Enthusiasts'
+  - src: '/images/society3.jpg'
+    alt: 'The Society of Leisure Enthusiasts'
+  - src: '/images/society4.jpg'
+    alt: 'The Society of Leisure Enthusiasts'
+  - src: '/images/society5.jpg'
+    alt: 'The Society of Leisure Enthusiasts'
+  - src: '/images/society6.jpg'
+    alt: 'The Society of Leisure Enthusiasts'
+  - src: '/images/societyLogos1.jpg'
+    alt: 'The Society of Leisure Enthusiasts'
+  - src: '/images/societyLogos5.jpg'
+    alt: 'The Society of Leisure Enthusiasts'
+  - src: '/images/societyLogos7.jpg'
+    alt: 'The Society of Leisure Enthusiasts'
+  - src: '/images/societyLogos3.jpg'
+    alt: 'The Society of Leisure Enthusiasts'
+  - src: '/images/societyLogos4.jpg'
+    alt: 'The Society of Leisure Enthusiasts'
+  - src: '/images/societyLogos9.jpg'
+    alt: 'The Society of Leisure Enthusiasts'
 ---
-![The Society of Leisure Enthusiasts](/images/societyTop.jpg)
-
 ### Status
 
 Archived, offline (bought out by another company)

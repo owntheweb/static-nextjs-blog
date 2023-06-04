@@ -9,9 +9,14 @@ tags:
   - NASA
   - ISS
   - Space Foundation
+slides:
+  - src: '/images/iss-1.jpg'
+    alt: 'International Space Station: LIVE!'
+  - src: '/images/iss-2.jpg'
+    alt: 'International Space Station: LIVE!'
+  - src: '/images/iss-4.jpg'
+    alt: 'International Space Station: LIVE!'
 ---
-![International Space Station: LIVE!](/images/iss-top.jpg)
-
 ### Status
 
 Archived

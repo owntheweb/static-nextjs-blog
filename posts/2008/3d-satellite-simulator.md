@@ -8,9 +8,18 @@ tags:
   - Flash
   - Sandy 3D
   - life
+slides:
+  - src: '/images/sat1.jpg'
+    alt: '3D Satellite Simulator'
+  - src: '/images/sat2.jpg'
+    alt: '3D Satellite Simulator'
+  - src: '/images/sat3.jpg'
+    alt: '3D Satellite Simulator'
+  - src: '/images/sat4.jpg'
+    alt: '3D Satellite Simulator'
+  - src: '/images/sat5.jpg'
+    alt: '3D Satellite Simulator'
 ---
-![3D Satellite Simulator](/images/satTop.jpg)
-
 ### Status
 
 Archived

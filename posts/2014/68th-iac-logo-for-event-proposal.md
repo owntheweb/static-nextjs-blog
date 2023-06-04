@@ -6,9 +6,16 @@ previewImage: /images/iac-feature3.jpg
 tags:
   - print
   - Space Foundation
+slides:
+  - src: '/images/iac-1.jpg'
+    alt: '68th IAC Logo (for event proposal)'
+  - src: '/images/iac-2.jpg'
+    alt: '68th IAC Logo (for event proposal)'
+  - src: '/images/iac-keychain.jpg'
+    alt: '68th IAC Logo (for event proposal)'
+  - src: '/images/iac-3.jpg'
+    alt: '68th IAC Logo (for event proposal)'
 ---
-![68th IAC Logo (for event proposal)](/images/iac-1.jpg)
-
 ### Roles
 
 Designer

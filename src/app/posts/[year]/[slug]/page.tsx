@@ -3,12 +3,14 @@ import ReactMarkdown from 'react-markdown';
 import Link from 'next/link';
 import { slugifyTag } from '@/components/utils/tags';
 import { ImageMetadata } from '@/components/model/ImageMetadata';
-import { getContentImageMetadata, getSizedImage } from '@/components/utils/image';
+import { getContentImageMetadata, getImageMetadata, getSizedImage } from '@/components/utils/image';
 import './style.css';
 import PreviousNextPosts from '@/components/PreviousNextPosts';
 import { Roboto_Slab } from 'next/font/google';
 import { Metadata, ResolvingMetadata } from 'next';
 import { addBaseUrl, getDescriptionFromMarkdown, makeMetadata } from '@/components/utils/headerMeta';
+import Slideshow from '@/components/Slideshow';
+import { ImgSrcAlt } from '@/components/model/ImgSrcAlt';
 
 interface PostParams {
   slug: string,
@@ -73,6 +75,15 @@ const Post = (props: PostProps) => {
       })}
     </ul>
   </section>;
+
+  // Normally I would generate the sized images from within the Slideshow component. However, in this static
+  // generated site, the slideshow needs "use client" in order to make use of React state/hooks, killing
+  // items requiring server/markdown lookups. Bring in that dynamic data here instead.
+  const getSlideshow = (images: ImgSrcAlt[]) => {
+    const slideImageMetadata: ImageMetadata[] = images.map(image => getImageMetadata(image.src, image.alt));
+    const slideSizedImages = slideImageMetadata.map(imageMeta => getSizedImage(imageMeta.src, [imageMeta]));
+    return <Slideshow images={slideSizedImages} />
+  }
   
   return (
     <div className="post-col">
@@ -80,6 +91,7 @@ const Post = (props: PostProps) => {
         <h1 className={`text-2xl text-creamcicle mb-4 ${robertoSlab.className}`}>{post.data.title}</h1>
       </div>
       <article className="prose mb-4 post p-4 rounded-md shadow-md bg-cream" style={{ maxWidth: 'inherit' }}>
+        {post?.data?.slides && getSlideshow(post.data.slides)}
         <ReactMarkdown
           components={{
             img: (imgProps) => (

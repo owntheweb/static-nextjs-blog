@@ -10,8 +10,16 @@ tags:
   - print
   - WordPress
   - The Society
+slides:
+  - src: '/images/societyVacationHomesCharity.jpg'
+    alt: 'Vacation Homes for Charity'
+  - src: '/images/societyLogos2.jpg'
+    alt: 'Vacation Homes for Charity'
+  - src: '/images/societyVacationHomesCharity2.jpg'
+    alt: 'Vacation Homes for Charity'
+  - src: '/images/automatedPdf.jpg'
+    alt: 'Vacation Homes for Charity'
 ---
-![Vacation Homes for Charity](/images/societyVacationHomesCharityTop.jpg)
 
 ### Status
 
@@ -19,7 +27,7 @@ Archived, offline (bought out by another company)
 
 ### Roles
 
-Web developer/designer
+Web developer/designer, logo designer
 
 ### Purpose
 

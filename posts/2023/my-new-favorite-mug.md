@@ -3,11 +3,6 @@ title: 'My New Favorite Mug'
 type: Blog
 date: '2023-05-19'
 previewImage: /images/new-favorite-mug.jpg
-slides:
-  - src: "/images/new-favorite-mug.jpg"
-    alt: "elephant kicking Big Red mug"
-  - src: "/images/new-favorite-mug.jpg"
-    alt: "second slide"
 visitorActions:
   - icon: "linkedIn.svg"
     label: "Comment at LinkedIn"

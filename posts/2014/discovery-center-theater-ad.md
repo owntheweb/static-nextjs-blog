@@ -8,9 +8,24 @@ tags:
   - music
   - video
   - Space Foundation
+slides:
+  - src: '/images/theaterAd1.jpg'
+    alt: 'Discovery Center Theater Ad'
+  - src: '/images/theaterAd2.jpg'
+    alt: 'Discovery Center Theater Ad'
+  - src: '/images/theaterAd3.jpg'
+    alt: 'Discovery Center Theater Ad'
+  - src: '/images/theaterAd4.jpg'
+    alt: 'Discovery Center Theater Ad'
+  - src: '/images/theaterAd5.jpg'
+    alt: 'Discovery Center Theater Ad'
+  - src: '/images/theaterAd6.jpg'
+    alt: 'Discovery Center Theater Ad'
+  - src: '/images/theaterAd7.jpg'
+    alt: 'Discovery Center Theater Ad'
+  - src: '/images/theaterAd8.jpg'
+    alt: 'Discovery Center Theater Ad'
 ---
-![Discovery Center Theater Ad](/images/theater-ad-top.jpg)
-
 ### Status
 
 Archived (YouTube link still available)

@@ -11,8 +11,18 @@ tags:
   - responsive
   - Twitter Bootstrap
   - Space Foundation
+slides:
+  - src: '/images/pslf1.jpg'
+    alt: 'Pacific Space Leadership Forum'
+  - src: '/images/pslf1a.jpg'
+    alt: 'Pacific Space Leadership Forum'
+  - src: '/images/pslf2.jpg'
+    alt: 'Pacific Space Leadership Forum'
+  - src: '/images/pslf3.jpg'
+    alt: 'Pacific Space Leadership Forum'
+  - src: '/images/pslf4.jpg'
+    alt: 'Pacific Space Leadership Forum'
 ---
-![Pacific Space Leadership Forum](/images/pslfTop.jpg)
 
 ### Status
 

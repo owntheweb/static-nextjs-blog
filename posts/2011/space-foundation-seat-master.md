@@ -11,8 +11,14 @@ tags:
   - Twilio
   - Space Foundation
   - Space Symposium
+slides:
+  - src: '/images/seatMaster1.jpg'
+    alt: 'Space Foundation "Seat Master"'
+  - src: '/images/seatMasterTools.jpg'
+    alt: 'Space Foundation "Seat Master"'
+  - src: '/images/seatMasterSeated.jpg'
+    alt: 'Space Foundation "Seat Master"'
 ---
-![Space Foundation "Seat Master"](/images/seatMasterTop.jpg)
 
 ### Status
 

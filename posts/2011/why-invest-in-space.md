@@ -6,16 +6,28 @@ previewImage: /images/certSTHOFPosters.jpg
 tags:
   - print
   - Space Foundation
+slides:
+  - src: '/images/image001.jpg'
+    alt: 'Why invest in space?'
+  - src: '/images/image002.jpg'
+    alt: 'Why invest in space?'
+  - src: '/images/image003.jpg'
+    alt: 'Why invest in space?'
+  - src: '/images/image004.jpg'
+    alt: 'Why invest in space?'
+  - src: '/images/image006.jpg'
+    alt: 'Why invest in space?'
+  - src: '/images/healthcareB.jpg'
+    alt: 'Why invest in space?'
 ---
-![Why invest in space?](/images/certSTHOFTop.jpg)
 
 ### Status
 
-Active, revised (branding changed)
+Archived
 
 ### Roles
 
-Lead web developer/designer
+Ggraphic designer
 
 ### Additional Credits
 

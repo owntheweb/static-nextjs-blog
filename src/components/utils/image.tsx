@@ -27,7 +27,7 @@ const getSizedImage = (imgSrc: string, contentImageMetadata: ImageMetadata[]): R
   />;
 }
 
-const getImageMetadata = (src: string, alt: string) => {
+const getImageMetadata = (src: string, alt: string): ImageMetadata => {
   try {
     const { width, height } = sizeOf(`public/${src}`);
     return {

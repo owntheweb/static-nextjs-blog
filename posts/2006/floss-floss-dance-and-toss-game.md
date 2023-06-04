@@ -9,9 +9,26 @@ tags:
   - MySQL
   - PHP
   - Commotion
+slides:
+  - src: '/images/flossFloss1.jpg'
+    alt: 'Floss Floss Dance and Toss Game'
+  - src: '/images/flossFloss2.jpg'
+    alt: 'Floss Floss Dance and Toss Game'
+  - src: '/images/flossFloss3.jpg'
+    alt: 'Floss Floss Dance and Toss Game'
+  - src: '/images/flossFloss4.jpg'
+    alt: 'Floss Floss Dance and Toss Game'
+  - src: '/images/flossFloss5.jpg'
+    alt: 'Floss Floss Dance and Toss Game'
+  - src: '/images/flossFloss6.jpg'
+    alt: 'Floss Floss Dance and Toss Game'
+  - src: '/images/flossFloss7.jpg'
+    alt: 'Floss Floss Dance and Toss Game'
+  - src: '/images/flossFloss8.jpg'
+    alt: 'Floss Floss Dance and Toss Game'
+  - src: '/images/flossFloss9.jpg'
+    alt: 'Floss Floss Dance and Toss Game'
 ---
-![Floss Floss Dance and Toss Game](/images/flossFlossDanceAndTossTop.jpg)
-
 ### Status
 
 Archived

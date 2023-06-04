@@ -13,8 +13,18 @@ tags:
   - Twitter Bootstrap
   - Space Foundation
   - Space Symposium
+slides:
+  - src: '/images/29thSymposium1.jpg'
+    alt: '29th National Space Symposium'
+  - src: '/images/29thSymposiumAttendee.jpg'
+    alt: '29th National Space Symposium'
+  - src: '/images/29thSymposiumSpeaker.jpg'
+    alt: '29th National Space Symposium'
+  - src: '/images/29thSymposiumExhibitCenter.jpg'
+    alt: '29th National Space Symposium'
+  - src: '/images/29thSymposiumSponsors.jpg'
+    alt: '29th National Space Symposium'
 ---
-![29th National Space Symposium](/images/29thNationalTopImage.jpg)
 
 ### Status
 

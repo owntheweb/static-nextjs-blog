@@ -12,8 +12,14 @@ tags:
   - Scrapy
   - Twitter Bootstrap
   - life
+slides:
+  - src: '/images/nemosHome.jpg'
+    alt: "Nemo's Coffee"
+  - src: '/images/nemosMenu.jpg'
+    alt: "Nemo's Coffee"
+  - src: '/images/nemosLocation.jpg'
+    alt: "Nemo's Coffee"
 ---
-![Nemo's Coffee](/images/nemosTop.jpg)
 
 ### Status
 

@@ -13,9 +13,16 @@ tags:
   - PHP
   - Space Foundation
   - Space Symposium
+slides:
+  - src: '/images/infoScreen2.jpg'
+    alt: 'Space Foundation Info Screens'
+  - src: '/images/infoScreen1.jpg'
+    alt: 'Space Foundation Info Screens'
+  - src: '/images/infoScreen3.jpg'
+    alt: 'Space Foundation Info Screens'
+  - src: '/images/infoScreen4.jpg'
+    alt: 'Space Foundation Info Screens'
 ---
-![Space Foundation Info Screens](/images/infoScreensTopImage.jpg)
-
 ### Status
 
 Archived

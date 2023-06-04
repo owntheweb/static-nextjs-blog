@@ -7,9 +7,14 @@ tags:
   - print
   - mural
   - Space Foundation
+slides:
+  - src: '/images/earthMoonMural.jpg'
+    alt: 'Earth and Moon Space Mural'
+  - src: '/images/earth-moon-mural.jpg'
+    alt: 'Earth and Moon Space Mural'
+  - src: '/images/t-shirt-give-me-space.jpg'
+    alt: 'Earth and Moon Space Mural'
 ---
-![Earth and Moon Space Mural](/images/earthMoonTop.jpg)
-
 ### Status
 
 Active
@@ -20,7 +25,7 @@ Designer
 
 ### Additional Credits
 
-Wall mural print large scale print prep and alterations by Lauren Mothersole.
+Wall mural large scale print prep by Lauren Mothersole.
 
 ### Purpose
 

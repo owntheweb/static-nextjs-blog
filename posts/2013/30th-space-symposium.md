@@ -14,9 +14,28 @@ tags:
   - Twitter Bootstrap
   - Space Foundation
   - Space Symposium
+slides:
+  - src: '/images/30thSymposiumSlide2.jpg'
+    alt: '30th Space Symposium'
+  - src: '/images/30thSymposiumBig.jpg'
+    alt: '30th Space Symposium'
+  - src: '/images/30thSymposiumSlide1.jpg'
+    alt: '30th Space Symposium'
+  - src: '/images/30thSymposiumTranslate.jpg'
+    alt: '30th Space Symposium'
+  - src: '/images/pricingCalculator.jpg'
+    alt: '30th Space Symposium'
+  - src: '/images/30thspacesymposium.jpg'
+    alt: '30th Space Symposium'
+  - src: '/images/30th5daysleft.jpg'
+    alt: '30th Space Symposium'
+  - src: '/images/dontmissallthis4.jpg'
+    alt: '30th Space Symposium'
+  - src: '/images/em9Header2.jpg'
+    alt: '30th Space Symposium'
+  - src: '/images/cyber14header.jpg'
+    alt: '30th Space Symposium'
 ---
-![30th Space Symposium](/images/30thSymposium.jpg)
-
 ### Status
 
 Archived

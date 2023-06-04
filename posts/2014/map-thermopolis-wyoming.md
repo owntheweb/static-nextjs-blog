@@ -9,9 +9,18 @@ tags:
   - OpenStreetMap
   - print
   - life
+slides:
+  - src: '/images/thermopolis-1.jpg'
+    alt: 'Map: Thermopolis, Wyoming'
+  - src: '/images/thermopolis-2.jpg'
+    alt: 'Map: Thermopolis, Wyoming'
+  - src: '/images/thermopolis-3.jpg'
+    alt: 'Map: Thermopolis, Wyoming'
+  - src: '/images/thermopolis-4.jpg'
+    alt: 'Map: Thermopolis, Wyoming'
+  - src: '/images/thermopolis-5.jpg'
+    alt: 'Map: Thermopolis, Wyoming'
 ---
-![Map: Thermopolis, Wyoming](/images/thermopolis-top.jpg)
-
 ### Roles
 
 Developer/designer

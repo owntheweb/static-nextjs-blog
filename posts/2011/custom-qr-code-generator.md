@@ -13,9 +13,16 @@ tags:
   - PHP
   - phpqrcode
   - Space Foundation
+slides:
+  - src: '/images/qr1.jpg'
+    alt: 'Custom QR Code Generator'
+  - src: '/images/qr2.jpg'
+    alt: 'Custom QR Code Generator'
+  - src: '/images/qr3.jpg'
+    alt: 'Custom QR Code Generator'
+  - src: '/images/qr4.jpg'
+    alt: 'Custom QR Code Generator'
 ---
-![Custom QR Code Generator](/images/qrTop.jpg)
-
 ### Status
 
 Archived

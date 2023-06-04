@@ -13,9 +13,16 @@ tags:
   - Twitter Bootstrap
   - Space Foundation
   - Space Symposium
+slides:
+  - src: '/images/31stSymposium-s1.jpg'
+    alt: '31st Space Symposium Website'
+  - src: '/images/31stSymposium-s2.jpg'
+    alt: '31st Space Symposium Website'
+  - src: '/images/31stSymposium-s3.jpg'
+    alt: '31st Space Symposium Website'
+  - src: '/images/31stSymposium-s4.jpg'
+    alt: '31st Space Symposium Website'
 ---
-![31st Space Symposium Website](/images/31stSymposium-top.jpg)
-
 ### Status
 
 Archived

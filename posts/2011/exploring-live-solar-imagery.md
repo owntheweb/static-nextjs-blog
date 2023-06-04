@@ -8,6 +8,23 @@ tags:
   - solar- imagery
   - solar weather
   - Space Foundation
+slides:
+  - src: '/images/solar1.jpg'
+    alt: 'Exploring Solar Imagery'
+  - src: '/images/solar2.jpg'
+    alt: 'Exploring Solar Imagery'
+  - src: '/images/solar3.jpg'
+    alt: 'Exploring Solar Imagery'
+  - src: '/images/solar4.jpg'
+    alt: 'Exploring Solar Imagery'
+  - src: '/images/solar5.jpg'
+    alt: 'Exploring Solar Imagery'
+  - src: '/images/solar6.jpg'
+    alt: 'Exploring Solar Imagery'
+  - src: '/images/solar7.jpg'
+    alt: 'Exploring Solar Imagery'
+  - src: '/images/solar8.jpg'
+    alt: 'Exploring Solar Imagery'
 ---
 This project has been archived, no longer grabbing live images from various sources for personal web hosting performance reasons. It now sits in the toolbox for future space endeavors when needed. My CEO dropped off a magazine before the holiday break with an article about monitoring live solar weather. What started as something interesting to read sparked a very fascinating endeavor! As I've enjoyed combining webcam images and other data in the past used Live Devner image/weather, playing with live solar imagery took the excitement out of this world. I wrote a script to start automatically pulling in and archiving 32 live or nearly live solar images from Solar Dynamics Observatory (SDO), NOAA's Space Weather Protection Center (SWPC), Solar and Heliospheric Observatory (SOHO) and Solar TErrestrial RElations Observatory (STEREO). I also built a crude Flash interface (above) to load and play images being collected. The result: HOT.
 

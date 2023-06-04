@@ -14,9 +14,20 @@ tags:
   - Raspberry Pi
   - Space Foundation
   - Space Symposium
+slides:
+  - src: '/images/digital-signs-1.jpg'
+    alt: 'Event Info Screens (v2)'
+  - src: '/images/digital-signs-1b.jpg'
+    alt: 'Event Info Screens (v2)'
+  - src: '/images/digital-signs-2.jpg'
+    alt: 'Event Info Screens (v2)'
+  - src: '/images/digital-signs-3.jpg'
+    alt: 'Event Info Screens (v2)'
+  - src: '/images/digital-signs-4.jpg'
+    alt: 'Event Info Screens (v2)'
+  - src: '/images/digital-signs-3b.jpg'
+    alt: 'Event Info Screens (v2)'
 ---
-![Event Info Screens (v2)](/images/digital-signs-top.jpg)
-
 ### Status
 
 Archived

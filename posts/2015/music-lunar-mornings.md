@@ -2,7 +2,7 @@
 title: 'Music: "Lunar Mornings"'
 type: Project
 date: '2015-04-04'
-previewImage: /images/lunar-mornings-feature.jpg
+previewImage: /images/lunar-mornings-top.jpg
 tags:
   - music
 ---

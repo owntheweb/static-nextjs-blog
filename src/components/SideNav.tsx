@@ -64,7 +64,7 @@ const SideNav = ({ className }: GeneralComponentProps) => {
         </li>
       </ul>
       
-      <h3 className={`text-2xl text-creamcicle mb-2 ${robertoSlab.className}`}>Topics</h3>
+      <h3 className={`text-2xl text-creamcicle mb-2 ${robertoSlab.className}`}>Recent Topics</h3>
       <ul className="mb-4">
         {sortedTags && sortedTags.map((tagCount: [string, number]) => {
           return(

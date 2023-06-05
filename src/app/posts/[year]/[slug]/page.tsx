@@ -11,6 +11,7 @@ import { Metadata, ResolvingMetadata } from 'next';
 import { addBaseUrl, getDescriptionFromMarkdown, makeMetadata } from '@/components/utils/headerMeta';
 import Slideshow from '@/components/Slideshow';
 import { ImgSrcAlt } from '@/components/model/ImgSrcAlt';
+import EmbeddedFrame from '@/components/EmbeddedFrame';
 
 interface PostParams {
   slug: string,
@@ -92,6 +93,13 @@ const Post = (props: PostProps) => {
       </div>
       <article className="prose mb-4 post p-4 rounded-md shadow-md bg-cream" style={{ maxWidth: 'inherit' }}>
         {post?.data?.slides && getSlideshow(post.data.slides)}
+        {post?.data?.embeddedContent && (
+          <EmbeddedFrame
+            title={post?.data?.embeddedContent?.title}
+            url={post?.data?.embeddedContent?.url}
+            height={post?.data?.embeddedContent.height ?? 500}
+          />
+        )}
         <ReactMarkdown
           components={{
             img: (imgProps) => (

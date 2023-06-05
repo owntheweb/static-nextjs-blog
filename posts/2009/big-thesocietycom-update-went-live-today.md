@@ -4,8 +4,6 @@ type: Blog Post
 date: '2009-05-06'
 previewImage: /images/jamesBond.jpg
 tags:
-  - Mike mcFadden
-  - Scott Berkley
   - The Society
 ---
 ![TheSociety.com Website Updates](/images/societyscreen.jpg)

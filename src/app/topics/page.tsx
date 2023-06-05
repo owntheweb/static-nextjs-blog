@@ -38,7 +38,7 @@ export default function Posts() {
 
   const tagGrid = sortedTags.map(tag => {
     return (
-      <Link href={`/topics/${slugifyTag(tag[0])}`} className="post-preview border block p-4 rounded-md shadow-md hover:bg-white">
+      <Link href={`/topics/${slugifyTag(tag[0])}`} className="post-preview border block p-4 rounded-md shadow-md bg-cream hover:bg-white">
         <h2 className="text-green-700 hover:underline">{tag[0]} ({tag[1]})</h2>
       </Link>
     );

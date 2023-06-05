@@ -428,3 +428,119 @@ With these updates, the text should now be typed out properly without overwritin
 # Personal Thoughts
 
 I like the confidence, yet it's still not quite right. It's better though (I see cursor(s))! I'll take it from here as effort will exceed value if I keep asking more questions. :)
+
+EDIT:
+One more time. Let's try a react-specific prompt, less details:
+
+```
+{
+  "model": "gpt-4",
+  "messages": [
+      {
+          "role": "assistant",
+          "content": "web developer"
+      },
+      {
+          "role": "user",
+          "content": "Create a functional React component that uses a typing effect to type out a story. A blinking cursor will be included as the story types out. There will be a max of 40 characters per line. After hitting four lines, the first line will be removed from the visible story. When the story is finished being typed, the cursor will remain at the end of the story. Include an optional delay at the beginning where the cursor is visible, yet typing is paused."
+      }
+  ],
+  "temperature": 0.9,
+  "user": "user-example-to-monitor-for-abuse"
+}
+```
+
+# Response
+
+Here's a functional React component that creates a typing effect with the requirements you provided. This component uses `useState`, `useEffect`, and `useRef` React hooks, and it takes `story` and `initialDelay` as props:
+
+```jsx
+import React, { useState, useEffect, useRef } from 'react';
+
+const TypingEffect = ({ story, initialDelay = 0 }) => {
+  const [text, setText] = useState('');
+  const [cursor, setCursor] = useState(true);
+  const maxCharsPerLine = 40;
+  const maxLines = 4;
+  const typingSpeed = 50;
+
+  const storyRef = useRef(0);
+
+  const blinkCursor = () => {
+    setTimeout(() => setCursor(!cursor), 500);
+  };
+
+  const typeText = () => {
+    if (storyRef.current < story.length) {
+      const char = story[storyRef.current];
+      setText((prevText) => {
+        const lines = prevText.split('\n');
+        if (lines.length === maxLines && char === '\n') {
+          lines.shift();
+        }
+
+        if (char === '\n' || prevText.length === 0 || prevText[prevText.length - 1] === '\n') {
+          lines.push('');
+        }
+
+        if (lines[lines.length - 1].length === maxCharsPerLine) {
+          lines.push('');
+        }
+
+        lines[lines.length - 1] += char;
+        return lines.join('\n');
+      });
+
+      storyRef.current++;
+      setTimeout(typeText, typingSpeed);
+    }
+  };
+
+  useEffect(() => {
+    blinkCursor();
+  }, [cursor]);
+
+  useEffect(() => {
+    setTimeout(typeText, initialDelay);
+  }, []);
+
+  return (
+    <div style={{ whiteSpace: 'pre-wrap' }}>
+      {text}
+      <span style={{ opacity: cursor ? 1 : 0, transition: 'opacity 250ms' }}>|</span>
+    </div>
+  );
+};
+
+export default TypingEffect;
+```
+
+To use this component, simply pass the `story` and `initialDelay` (optional) as props:
+
+```jsx
+import React from 'react';
+import TypingEffect from './TypingEffect';
+
+const App = () => {
+  const story = `
+  This is an example of a story
+  that will be typed out by the
+  TypingEffect component. It
+  can consist of multiple lines.
+  `;
+
+  return (
+    <div>
+      <TypingEffect story={story} initialDelay={1000} />
+    </div>
+  );
+};
+
+export default App;
+```
+
+This example assumes that you have a valid React project set up with proper build tools.
+
+## Personal Thoughts
+
+It was close! I had to remove a couple lines never reached and rearrange a bit. Creating as a react component without a lot of direction made it a bit simpler to work with and may save time in the future when keeping this in mind.

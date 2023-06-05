@@ -9,6 +9,10 @@ tags:
   - MySQL
   - PHP
   - Commotion
+embeddedContent:
+  title: 'Floss Floss Dance and Toss Game'
+  height: 492
+  url: https://www.youtube.com/embed/ACB8LUhlMrs
 slides:
   - src: '/images/flossFloss1.jpg'
     alt: 'Floss Floss Dance and Toss Game'

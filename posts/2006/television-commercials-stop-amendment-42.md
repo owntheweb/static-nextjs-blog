@@ -6,6 +6,10 @@ previewImage: /images/no42.jpg
 tags:
   - Commotion
   - video
+embeddedContent:
+  title: 'Television Commercials: Stop Amendment 42'
+  height: 492
+  url: https://www.youtube.com/embed/u12UK6ro9tE
 ---
 ![Is Nothing Sacred - Moses holds stone tablets while talking to God.](/images/20061004-moses1.jpg)
 

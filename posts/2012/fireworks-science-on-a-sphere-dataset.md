@@ -8,9 +8,11 @@ tags:
   - Python
   - video
   - Space Foundation
+embeddedContent:
+  title: 'Fireworks Science On a Sphere Dataset'
+  height: 378
+  url: https://www.youtube.com/embed/LKvxvrqKlxY
 ---
-![Fireworks Science On a Sphere Dataset](/images/fireworksTop.jpg)
-
 ### Status
 
 Active

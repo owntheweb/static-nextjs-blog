@@ -9,20 +9,12 @@ tags:
   - Python
   - video
   - Space Foundation
-slides:
-  - src: '/images/000838.jpg'
-    alt: 'Branded Science On a Sphere'
-  - src: '/images/000001.jpg'
-    alt: 'Branded Science On a Sphere'
-  - src: '/images/000217.jpg'
-    alt: 'Branded Science On a Sphere'
-  - src: '/images/000506.jpg'
-    alt: 'Branded Science On a Sphere'
-  - src: '/images/000542.jpg'
-    alt: 'Branded Science On a Sphere'
-  - src: '/images/000689.jpg'
-    alt: 'Branded Science On a Sphere'
+embeddedContent:
+  title: 'Branded Science On a Sphere'
+  height: 378
+  url: https://www.youtube.com/embed/bjFm8YZkF0U
 ---
+![image before wrapped around sphere](/images/000838.jpg)
 ### Status
 
 Active

@@ -6,7 +6,6 @@ previewImage: /images/28thFeature.jpg
 tags:
   - Drupal
   - Drupal 6
-  - JSON
   - MySQL
   - PHP
   - Space Foundation

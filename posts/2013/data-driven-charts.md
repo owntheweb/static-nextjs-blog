@@ -6,7 +6,6 @@ previewImage: /images/sfIndexFeature.jpg
 tags:
   - GD
   - jpGraph
-  - JSON
   - PHP
   - Space Foundation
 ---

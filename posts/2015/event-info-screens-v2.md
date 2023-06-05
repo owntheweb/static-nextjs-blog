@@ -7,7 +7,6 @@ tags:
   - Drupal
   - Drupal 7
   - JavaScript
-  - JSON
   - Linux
   - Node.js
   - PHP

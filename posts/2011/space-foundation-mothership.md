@@ -9,7 +9,6 @@ tags:
   - Drupal 7
   - GD
   - ImageMagick
-  - JSON
   - MySQL
   - PHP
   - Space Foundation

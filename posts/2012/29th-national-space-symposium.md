@@ -6,7 +6,6 @@ previewImage: /images/29thNationalFeature.jpg
 tags:
   - Drupal
   - Drupal 7
-  - JSON
   - MySQL
   - PHP
   - responsive

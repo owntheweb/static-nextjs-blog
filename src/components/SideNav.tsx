@@ -40,7 +40,7 @@ const SideNav = ({ className }: GeneralComponentProps) => {
   
   // tags/topics nav
   const targetSinceDate = new Date();
-  targetSinceDate.setFullYear(targetSinceDate.getFullYear() - 5);
+  targetSinceDate.setFullYear(targetSinceDate.getFullYear() - 4);
   const allPostTags = getAllPostTags(postMetadata, targetSinceDate);
   const sortedTags = getSortedTags(allPostTags, 10);
 
@@ -69,7 +69,7 @@ const SideNav = ({ className }: GeneralComponentProps) => {
         {sortedTags && sortedTags.map((tagCount: [string, number]) => {
           return(
             <li>
-              <Link className="text-white hover:underline" href={`/topics/${slugifyTag(tagCount[0])}`}>{tagCount[0]} ({tagCount[1]})</Link>
+              <Link className="text-white hover:underline" href={`/topics/${slugifyTag(tagCount[0])}`}>{tagCount[0]}</Link>
             </li>
           );
         })}

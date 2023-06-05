@@ -1,12 +1,19 @@
-import Link from "next/link";
+"use client"
+
 import './HomeHeaderStyle.css';
 import TopNav from "./TopNav";
+import TypingEffect from "./TypingEffect";
 
 const HomeHeader = () => {  
+  // story by GPT-4
+  const story = 'Chris, a web developer, decided to create a blog that served as a mental card catalogue for his thoughts and experiences. This blog would be an extension of his mind, helping him document and process ideas. Over time, the blog would become a valuable resource for others in the web development community to learn and grow.     --GPT-4 ';
+  
   return (
     <header className="lg:pb-6 mb-8">
       <TopNav />
-      <div className="headerSpace"></div>
+      <div className="headerSpace mx-auto lg:max-w-4xl pt-8 pl-4 invisible md:visible">
+        <TypingEffect story={story} initialDelay={5000} className="text-green-400 drop-shadow-[0_2px_2px_rgba(21,128,61,1.0)]" />
+      </div>
     </header>
   )
 }

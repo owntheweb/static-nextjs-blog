@@ -12,7 +12,11 @@ const HomeHeader = () => {
     <header className="lg:pb-6 mb-8">
       <TopNav />
       <div className="headerSpace mx-auto lg:max-w-4xl pt-8 pl-4 invisible md:visible">
-        <TypingEffect story={story} initialDelay={5000} className="text-green-400 drop-shadow-[0_2px_2px_rgba(21,128,61,1.0)]" />
+        <TypingEffect
+          story={story}
+          className="text-green-400 drop-shadow-[0_3px_3px_rgba(21,128,61,2.0)]"
+          startOnClick={true}
+        />
       </div>
     </header>
   )

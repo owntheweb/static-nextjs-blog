@@ -37,9 +37,15 @@ interface TagPostsProps {
 }
 
 export const generateStaticParams = async () => {
-  const posts = getPostMetadata(true);
-  return posts.map(post => ({
-    tags: post.tags
+  const posts = getPostMetadata(false);
+  const tags: string[] = posts.map(post => post.tags)
+    .flat(2)
+    .sort()
+    .filter(function(item, pos, ary) {
+      return !pos || item != ary[pos - 1];
+  });
+  return tags.map(tag => ({
+    tag: slugifyTag(tag)
   }));
 };
 

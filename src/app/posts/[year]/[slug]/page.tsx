@@ -42,7 +42,7 @@ export async function generateMetadata(
     openGraph: {
       title: contentGrayMatter.data.title,
       description: description,
-      images: [...contentImages],
+      images: [addBaseUrl(contentGrayMatter.data.previewImage)],
       url: contentUrl,
     },
   });
@@ -55,7 +55,8 @@ const robertoSlab = Roboto_Slab({ subsets: ['latin'] });
 export const generateStaticParams = async () => {
   const posts = getPostMetadata(true);
   return posts.map(post => ({
-    slug: post.slug
+    slug: post.slug,
+    year: new Date(post.date).getFullYear().toString(),
   }));
 };
 

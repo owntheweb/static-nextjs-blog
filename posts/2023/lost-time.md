@@ -13,6 +13,8 @@ tags:
 
 While rebuilding this blog after dropping it years ago, I ponder what happened in the last five to six years. It's hard for me to remember what I ate for lunch yesterday (delicious memorable BBQ, the lunch before that though...). While I could scroll through endless likes history on LinkedIn and silly Twitter posts, without a good record of previous happenings to reference, it's been a bit difficult for me to plot a course forward.
 
+UPDATE: After parsing through and relaunching this blog, I'm feeling more refreshed, drawn to continue to grow machine learning skills and keep doing the dev work I love. ❤️
+
 So much change:
 
 - Welcomed a new baby girl to our family
@@ -22,7 +24,7 @@ So much change:
 - Navigated a pandemic with everyone else on the planet
 - Leaped into human-centered video communications
 - Leveled up electronics hobbies
-- Watched my baby girl turn six! 🤯
+- Watched my baby girl turn six!?
 
 For the purpose of continuing to reconnect with myself and others (pandemics man!), I've set off to relaunch the blog. I might even backfill it a bit with music and silly holiday eCard traditions.
 

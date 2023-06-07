@@ -65,7 +65,7 @@ const Post = (props: PostProps) => {
   const contentImageMetadata: ImageMetadata[] = getContentImageMetadata(post.content) ?? [];
 
   const tagNav = <section role="navigation">
-    <h3 className="text-2xl mb-2 text-creamcicle">Topics</h3>
+    <h3 className={`text-2xl mb-2 text-creamcicle ${robertoSlab.className}`}>Topics</h3>
     <ul role="navigation" className="flex flex-wrap">
       {post.data.tags.map((tag: string) => {
         return (

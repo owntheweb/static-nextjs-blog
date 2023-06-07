@@ -2,7 +2,7 @@
 title: 'Blog Relaunch Inspired and Assisted by AI'
 type: Blog
 date: '2023-06-06'
-previewImage: /images/website-design-powered-by-ai.jpg
+previewImage: /images/dude-best-designs-ever.jpg
 tags:
   - Midjourney
   - GPT-4

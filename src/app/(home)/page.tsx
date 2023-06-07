@@ -1,9 +1,9 @@
-import { getPostMetadata, getPostContent } from '@/components/utils/posts';
+import { getPostMetadata } from '@/components/utils/posts';
 import PostPreview from '@/components/PostPreview';
 import Link from 'next/link';
 import { Roboto_Slab } from 'next/font/google';
-import { Metadata, ResolvingMetadata } from 'next';
-import { addBaseUrl, makeMetadata } from '@/components/utils/headerMeta';
+import { Metadata } from 'next';
+import { makeMetadata } from '@/components/utils/headerMeta';
 
 const robertoSlab = Roboto_Slab({ subsets: ['latin'] });
 
@@ -23,7 +23,7 @@ export default function Home() {
   ));
   
   return (
-    <>
+    <div className="max-w-[44rem]">
       <h3 className={`text-2xl text-creamcicle mb-4 ${robertoSlab.className}`}>Recent Posts</h3>
 
       {topPostPreview}
@@ -35,6 +35,6 @@ export default function Home() {
       <div>
         <Link href="/posts" className="hover:underline text-cream">See All Posts</Link>
       </div>
-    </>
+    </div>
   )
 }

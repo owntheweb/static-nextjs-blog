@@ -1,3 +1,25 @@
+## Assignment
+
+I'm running a mysql query that's returning an error. How do I fix it and include a comma delimited list in the subquery?
+
+Query:
+SELECT
+	n.type,
+	n.title,
+	FROM_UNIXTIME (n.created,'%Y-%m-%d') AS yearMonthDay,
+	frb.body_value,
+	(SELECT DISTINCT ttd.name as tag FROM taxonomy_term_data ttd
+	LEFT JOIN field_revision_field_tags frft ON frft.field_tags_tid = ttd.tid
+	WHERE frft.revision_id = n.vid) as tags
+FROM node n
+LEFT JOIN field_revision_body frb ON frb.revision_id = n.vid
+WHERE n.type != 'basic_page'
+AND n.type != 'quote'
+ORDER BY n.type ASC, n.created ASC;
+
+Error:
+SQL Error [1242] [21000]: Subquery returns more than 1 row
+
 ## API request: https://api.openai.com/v1/chat/completions
 
 {

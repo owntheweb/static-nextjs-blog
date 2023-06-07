@@ -1,3 +1,13 @@
+## Assignment
+
+In CSS, how do I select a paragraph containing only an image or a paragraph starting with an image? Here is an example where I'm trying to select the <p> tag:
+
+```
+<p>
+. <img src="/images/image.jpg" alt="an image" />
+</p>
+```
+
 ## API request: https://api.openai.com/v1/chat/completions
 
 ```

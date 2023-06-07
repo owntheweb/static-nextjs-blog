@@ -1,4 +1,4 @@
-## API request: https://api.openai.com/v1/chat/completions
+## Assignment
 
 Why is this line of TypeScript invalid? How do I fix it?\n\n
 
@@ -7,6 +7,9 @@ const firstImage: string = openGraphData?.images?[0] ?? `${BASE_URL}/images/ai-m
 Error:
 ```
 ':' expected.ts(1005)
+```
+
+## API request: https://api.openai.com/v1/chat/completions
 
 ```
 {

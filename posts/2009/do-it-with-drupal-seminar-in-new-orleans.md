@@ -2,7 +2,7 @@
 title: Do It With Drupal Seminar in New Orleans
 type: Blog Post
 date: '2009-12-14'
-previewImage: /images/newOrleans.jpg
+previewImage: /images/neworleans.jpg
 tags:
   - Drupal
   - Space Foundation

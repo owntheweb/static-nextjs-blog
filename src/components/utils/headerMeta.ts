@@ -70,7 +70,6 @@ const makeMetadata = (metaData: Metadata): Metadata => {
     robots: metaData?.robots ?? { index: true, follow: true },
     alternates: metaData?.alternates ?? { canonical: "https://interactive.guru" },
     icons: metaData?.icons ?? [
-      { rel: 'icon', url: '/icon.png' },
       { rel: 'apple-touch-icon', url: '/apple-touch-icon-57x57.png', sizes: '57x57' },
       { rel: 'apple-touch-icon', url: '/apple-touch-icon-114x114.png', sizes: '114x114' },
       { rel: 'apple-touch-icon', url: '/apple-touch-icon-72x72.png', sizes: '72x72' },
@@ -97,7 +96,6 @@ const makeMetadata = (metaData: Metadata): Metadata => {
     },
     formatDetection: metaData?.formatDetection ?? undefined,
     itunes: metaData?.itunes ?? undefined,
-    abstract: metaData?.abstract ?? undefined, // not recommended it seems
     appLinks: metaData?.appLinks ?? undefined,
     archives: metaData?.archives ?? undefined,
     assets: metaData?.assets ?? undefined,

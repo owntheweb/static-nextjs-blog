@@ -20,8 +20,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-markdown": "^8.0.7",
-    "react-social-icons": "^5.15.0",
     "tailwindcss": "3.3.2",
+    "react-social-icons": "ken-salterdiazsolutions/react-social-icons#add-mastodon-icon",
     "typescript": "5.0.4"
   },
   "devDependencies": {

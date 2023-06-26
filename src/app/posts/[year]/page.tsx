@@ -43,7 +43,7 @@ export const generateStaticParams = async () => {
 };
 
 export default function YearPosts(props: YearPostsProps) {
-  const postMetadata = getPostMetadata(false);
+  const postMetadata = getPostMetadata(true);
   
   const postPreviews = postMetadata
     .filter(post => {

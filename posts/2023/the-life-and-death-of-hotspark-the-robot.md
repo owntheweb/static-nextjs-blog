@@ -17,6 +17,7 @@ tags:
   - MongoDB
   - React
   - life
+  - TypeScript
 embeddedContent:
   title: 'The Pi Cast: Windows 11 on Pi, Cohosting Robot, Voice Assistants'
   height: 378

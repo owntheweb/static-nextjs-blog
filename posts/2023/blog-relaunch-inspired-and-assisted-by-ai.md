@@ -13,6 +13,9 @@ tags:
   - ML
   - Runway
   - life
+  - React
+  - 'Next.js'
+  - TypeScript
 slides:
   - src: '/images/new-blog-with-ai1.jpg'
     alt: 'Blog Relaunch Inspired and Assisted by AI'

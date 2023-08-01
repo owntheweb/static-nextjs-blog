@@ -14,7 +14,7 @@ export async function generateMetadata(
   const topic = params.params.tag;
   const title = `Topics: ${topic} | Christopher Stevens`
   const description = `Follow the adventures of Christopher stevens for the topic, ${topic}`
-  const contentUrl = addBaseUrl(`/posts/${slugifyTag(topic)}`);
+  const contentUrl = addBaseUrl(`/topics/${slugifyTag(topic)}`);
 
   return makeMetadata({
     title: title,

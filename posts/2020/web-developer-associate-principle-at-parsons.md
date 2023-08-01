@@ -7,6 +7,7 @@ tags:
   - Angular
   - Polaris Alpha
   - Parsons
+  - JavaScript
 ---
 ![a fancy UI](/images/fancy-ui.jpg)
 

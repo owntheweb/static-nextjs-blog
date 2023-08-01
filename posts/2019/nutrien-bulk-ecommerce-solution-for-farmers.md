@@ -5,9 +5,10 @@ date: '2019-01-15'
 previewImage: /images/nutrien.jpg
 tags:
   - Nutrien
-  - Node.js
+  - 'Node.js'
   - JavaScript
   - green field
+  - React
 ---
 ![Space Foundation website](/images/nutrien.jpg)
 

@@ -35,4 +35,4 @@ A lot of great things happened over three years. Here are my favorite highlights
 
 As pandemic activity settled, a lot had changed with BombBomb's client base, company trajectory and with a company restructuring. This was generally happening with the tech industry as a whole it seemed. As a result, our team shrunk a lot more, triggering a new job search for myself and others.
 
-I move forward with a fondness for BombBomb and its continued focus in re-humanizing communication. I've been using my BombBomb account to connect with potential employers effectively, giving me an edge to cut through the application noise. I'm excited to see BombBomb succeed in its endeavors while I use their service I had the joy of working on in my own future work regularly.
+I move forward with fondness for BombBomb and its continued focus in connecting folks through video. I've been using my BombBomb account to connect with potential employers effectively, potentially giving me an edge to cut through the application noise. I'm excited to see BombBomb succeed in its endeavors while I'll use their service I enjoyed contributing to in my own future work regularly.

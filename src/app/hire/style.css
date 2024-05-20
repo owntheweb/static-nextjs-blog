@@ -1,0 +1,32 @@
+.post {
+    background-color: #f8f2e3;
+}
+
+.prose img {
+    margin-top: 0;
+    margin-bottom: inherit;
+}
+
+.prose h2,
+.prose h3 {
+    font-weight: inherit;
+    color: var(--tw-prose-headings);
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.prose p:empty:has(img),
+.prose p:has(img:first-child) {
+    background-color: #fff;
+    text-align: center;
+}
+
+.prose p:empty:has(img) img,
+.prose p:has(img:first-child) img {
+    margin: 0 auto;
+}
+
+.prose ul > li::marker {
+    color: rgb(145 118 100);
+}

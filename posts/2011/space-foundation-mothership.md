@@ -4,15 +4,17 @@ type: Project
 date: '2011-12-01'
 previewImage: /images/spaceFoundationFeatured.jpg
 tags:
-  - custom theme
-  - Drupal
-  - Drupal 7
-  - GD
-  - ImageMagick
-  - MySQL
-  - PHP
-  - Space Foundation
+    - custom theme
+    - Drupal
+    - Drupal 7
+    - GD
+    - ImageMagick
+    - MySQL
+    - PHP
+    - Space Foundation
+    - API
 ---
+
 ![Space Foundation "Mothership"](/images/spaceFoundationTopImage.jpg)
 
 ### Status

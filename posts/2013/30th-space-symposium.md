@@ -4,38 +4,40 @@ type: Project
 date: '2013-10-11'
 previewImage: /images/30thSpaceSymposiumFeature.jpg
 tags:
-  - custom theme
-  - Drupal
-  - Drupal 7
-  - JavaScript
-  - MySQL
-  - PHP
-  - responsive
-  - Twitter Bootstrap
-  - Space Foundation
-  - Space Symposium
+    - custom theme
+    - Drupal
+    - Drupal 7
+    - JavaScript
+    - MySQL
+    - PHP
+    - responsive
+    - Twitter Bootstrap
+    - Space Foundation
+    - Space Symposium
+    - API
 slides:
-  - src: '/images/30thSymposiumSlide2.jpg'
-    alt: '30th Space Symposium'
-  - src: '/images/30thSymposiumBig.jpg'
-    alt: '30th Space Symposium'
-  - src: '/images/30thSymposiumSlide1.jpg'
-    alt: '30th Space Symposium'
-  - src: '/images/30thSymposiumTranslate.jpg'
-    alt: '30th Space Symposium'
-  - src: '/images/pricingCalculator.jpg'
-    alt: '30th Space Symposium'
-  - src: '/images/30thspacesymposium.jpg'
-    alt: '30th Space Symposium'
-  - src: '/images/30th5daysleft.jpg'
-    alt: '30th Space Symposium'
-  - src: '/images/dontmissallthis4.jpg'
-    alt: '30th Space Symposium'
-  - src: '/images/em9Header2.jpg'
-    alt: '30th Space Symposium'
-  - src: '/images/cyber14header.jpg'
-    alt: '30th Space Symposium'
+    - src: '/images/30thSymposiumSlide2.jpg'
+      alt: '30th Space Symposium'
+    - src: '/images/30thSymposiumBig.jpg'
+      alt: '30th Space Symposium'
+    - src: '/images/30thSymposiumSlide1.jpg'
+      alt: '30th Space Symposium'
+    - src: '/images/30thSymposiumTranslate.jpg'
+      alt: '30th Space Symposium'
+    - src: '/images/pricingCalculator.jpg'
+      alt: '30th Space Symposium'
+    - src: '/images/30thspacesymposium.jpg'
+      alt: '30th Space Symposium'
+    - src: '/images/30th5daysleft.jpg'
+      alt: '30th Space Symposium'
+    - src: '/images/dontmissallthis4.jpg'
+      alt: '30th Space Symposium'
+    - src: '/images/em9Header2.jpg'
+      alt: '30th Space Symposium'
+    - src: '/images/cyber14header.jpg'
+      alt: '30th Space Symposium'
 ---
+
 ### Status
 
 Archived
@@ -54,4 +56,4 @@ Provide customer information and promote registration for the Space Foundation's
 
 ### Highlighted Features
 
-Responsive mobile-friendly design, custom Google Translate integration, media sync with main Space Foundation website, [pricing calculator] *-link archived-*, IP->geo-located welcome flag, greater customer focus
+Responsive mobile-friendly design, custom Google Translate integration, media sync with main Space Foundation website, [pricing calculator] _-link archived-_, IP->geo-located welcome flag, greater customer focus

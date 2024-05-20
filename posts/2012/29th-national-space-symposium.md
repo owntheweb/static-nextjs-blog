@@ -4,25 +4,26 @@ type: Project
 date: '2012-10-31'
 previewImage: /images/29thNationalFeature.jpg
 tags:
-  - Drupal
-  - Drupal 7
-  - MySQL
-  - PHP
-  - responsive
-  - Twitter Bootstrap
-  - Space Foundation
-  - Space Symposium
+    - Drupal
+    - Drupal 7
+    - MySQL
+    - PHP
+    - responsive
+    - Twitter Bootstrap
+    - Space Foundation
+    - Space Symposium
+    - API
 slides:
-  - src: '/images/29thSymposium1.jpg'
-    alt: '29th National Space Symposium'
-  - src: '/images/29thSymposiumAttendee.jpg'
-    alt: '29th National Space Symposium'
-  - src: '/images/29thSymposiumSpeaker.jpg'
-    alt: '29th National Space Symposium'
-  - src: '/images/29thSymposiumExhibitCenter.jpg'
-    alt: '29th National Space Symposium'
-  - src: '/images/29thSymposiumSponsors.jpg'
-    alt: '29th National Space Symposium'
+    - src: '/images/29thSymposium1.jpg'
+      alt: '29th National Space Symposium'
+    - src: '/images/29thSymposiumAttendee.jpg'
+      alt: '29th National Space Symposium'
+    - src: '/images/29thSymposiumSpeaker.jpg'
+      alt: '29th National Space Symposium'
+    - src: '/images/29thSymposiumExhibitCenter.jpg'
+      alt: '29th National Space Symposium'
+    - src: '/images/29thSymposiumSponsors.jpg'
+      alt: '29th National Space Symposium'
 ---
 
 ### Status

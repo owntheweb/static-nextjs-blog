@@ -4,29 +4,31 @@ type: Project
 date: '2015-05-04'
 previewImage: /images/digital-signs-feature.jpg
 tags:
-  - Drupal
-  - Drupal 7
-  - JavaScript
-  - Linux
-  - Node.js
-  - PHP
-  - Raspberry Pi
-  - Space Foundation
-  - Space Symposium
+    - Drupal
+    - Drupal 7
+    - JavaScript
+    - Linux
+    - Node.js
+    - PHP
+    - Raspberry Pi
+    - Space Foundation
+    - Space Symposium
+    - API
 slides:
-  - src: '/images/digital-signs-1.jpg'
-    alt: 'Event Info Screens (v2)'
-  - src: '/images/digital-signs-1b.jpg'
-    alt: 'Event Info Screens (v2)'
-  - src: '/images/digital-signs-2.jpg'
-    alt: 'Event Info Screens (v2)'
-  - src: '/images/digital-signs-3.jpg'
-    alt: 'Event Info Screens (v2)'
-  - src: '/images/digital-signs-4.jpg'
-    alt: 'Event Info Screens (v2)'
-  - src: '/images/digital-signs-3b.jpg'
-    alt: 'Event Info Screens (v2)'
+    - src: '/images/digital-signs-1.jpg'
+      alt: 'Event Info Screens (v2)'
+    - src: '/images/digital-signs-1b.jpg'
+      alt: 'Event Info Screens (v2)'
+    - src: '/images/digital-signs-2.jpg'
+      alt: 'Event Info Screens (v2)'
+    - src: '/images/digital-signs-3.jpg'
+      alt: 'Event Info Screens (v2)'
+    - src: '/images/digital-signs-4.jpg'
+      alt: 'Event Info Screens (v2)'
+    - src: '/images/digital-signs-3b.jpg'
+      alt: 'Event Info Screens (v2)'
 ---
+
 ### Status
 
 Archived

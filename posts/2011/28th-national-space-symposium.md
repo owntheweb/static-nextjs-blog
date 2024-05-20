@@ -4,13 +4,15 @@ type: Project
 date: '2011-09-01'
 previewImage: /images/28thFeature.jpg
 tags:
-  - Drupal
-  - Drupal 6
-  - MySQL
-  - PHP
-  - Space Foundation
-  - Space Symposium
+    - Drupal
+    - Drupal 6
+    - MySQL
+    - PHP
+    - Space Foundation
+    - Space Symposium
+    - API
 ---
+
 ![28th National Space Symposium](/images/28thTop.jpg)
 
 ### Status

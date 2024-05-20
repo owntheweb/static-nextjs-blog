@@ -4,28 +4,30 @@ type: Blog Post
 date: '2011-01-02'
 previewImage: /images/exploringSolar.jpg
 tags:
-  - live solar images
-  - solar- imagery
-  - solar weather
-  - Space Foundation
+    - live solar images
+    - solar- imagery
+    - solar weather
+    - Space Foundation
+    - API
 slides:
-  - src: '/images/solar1.jpg'
-    alt: 'Exploring Solar Imagery'
-  - src: '/images/solar2.jpg'
-    alt: 'Exploring Solar Imagery'
-  - src: '/images/solar3.jpg'
-    alt: 'Exploring Solar Imagery'
-  - src: '/images/solar4.jpg'
-    alt: 'Exploring Solar Imagery'
-  - src: '/images/solar5.jpg'
-    alt: 'Exploring Solar Imagery'
-  - src: '/images/solar6.jpg'
-    alt: 'Exploring Solar Imagery'
-  - src: '/images/solar7.jpg'
-    alt: 'Exploring Solar Imagery'
-  - src: '/images/solar8.jpg'
-    alt: 'Exploring Solar Imagery'
+    - src: '/images/solar1.jpg'
+      alt: 'Exploring Solar Imagery'
+    - src: '/images/solar2.jpg'
+      alt: 'Exploring Solar Imagery'
+    - src: '/images/solar3.jpg'
+      alt: 'Exploring Solar Imagery'
+    - src: '/images/solar4.jpg'
+      alt: 'Exploring Solar Imagery'
+    - src: '/images/solar5.jpg'
+      alt: 'Exploring Solar Imagery'
+    - src: '/images/solar6.jpg'
+      alt: 'Exploring Solar Imagery'
+    - src: '/images/solar7.jpg'
+      alt: 'Exploring Solar Imagery'
+    - src: '/images/solar8.jpg'
+      alt: 'Exploring Solar Imagery'
 ---
+
 This project has been archived, no longer grabbing live images from various sources for personal web hosting performance reasons. It now sits in the toolbox for future space endeavors when needed. My CEO dropped off a magazine before the holiday break with an article about monitoring live solar weather. What started as something interesting to read sparked a very fascinating endeavor! As I've enjoyed combining webcam images and other data in the past used Live Devner image/weather, playing with live solar imagery took the excitement out of this world. I wrote a script to start automatically pulling in and archiving 32 live or nearly live solar images from Solar Dynamics Observatory (SDO), NOAA's Space Weather Protection Center (SWPC), Solar and Heliospheric Observatory (SOHO) and Solar TErrestrial RElations Observatory (STEREO). I also built a crude Flash interface (above) to load and play images being collected. The result: HOT.
 
 ### Why monitor solar activity?
@@ -40,7 +42,7 @@ Courtesy of NASA.
 
 When I read "observatory", I think of a dome shaped building on a mountain top containing a big telescope. The Solar Dynamics Observatory (SDO) takes observatories to the next level as it's instead a satellite the size of a truck orbiting the Earth, containing multiple instruments. Launched February 11, 2010, SDO hosts three suites of instruments to peer at the sun with. The Atmospheric Imaging Assembly (AIA) takes images of the sun at various wavelengths. The Helioseismic and Magnetic Imager (HMI) captures magnetograms, intensitygrams, and doplergrams. SDO is also home of the Extreme ultraviolet Variability Experiment (EVE), hosting a pinhole X-ray imager, and other instruments that collect a wide range of in-depth data.
 
-[![Huge images produced by Solar Dynamics Observatory's Atmospheric Imaging Assembly (AIA)](/images/hugeSunImages.jpg)](https://sdo.gsfc.nasa.gov/data/) 
+[![Huge images produced by Solar Dynamics Observatory's Atmospheric Imaging Assembly (AIA)](/images/hugeSunImages.jpg)](https://sdo.gsfc.nasa.gov/data/)
 
 Original image courtesy of NASA/SDO and the AIA, EVE, and HMI science teams.
 
@@ -64,7 +66,7 @@ Courtesy of NASA/SDO and the AIA, EVE, and HMI science teams.
 
 The Helioseismic and Magnetic Imager (HMI) on the SDO is a follow up to the Michelson Doppler Imager on the Solar and Heliospheric Observatory (SOHO, further down). HMI measures motion of the photosphere and also measures the magnetic field. HMI's observations will help establish relationships between the sun's internal dynamics and magnetic activity. HMI produces three unique types of solar images. From left to right above: HMI magnetogram, HMI intensitygram, HMI dopplergram
 
-[![SDO's Extreme ultraviolet Variability Experiment (EVE) Soft X-Ray Image from SAM Pinhole Camera](/images/latest_sam.png)](https://sdo.gsfc.nasa.gov/data/) 
+[![SDO's Extreme ultraviolet Variability Experiment (EVE) Soft X-Ray Image from SAM Pinhole Camera](/images/latest_sam.png)](https://sdo.gsfc.nasa.gov/data/)
 
 Courtesy of NASA/SDO and the AIA, EVE, and HMI science teams. HMI also sports a pinhole camera that takes Soft X-Ray images (above).
 
@@ -80,7 +82,7 @@ Courtesy of the National Oceanic and Atmospheric Administration.
 
 GEOS-15 in particular (along with its predecessors GEOS-13 and GEOS-14) additionally keeps an eye on solar activity and provides a Solar X-Ray Image (SXI) (above). The image is updated and made available to the public by the National Oceanic and Atmospheric Administration (NOAA) / National Weather Service (NWC) Space Weather Protection Center (SWPC).
 
-[![NOAA Space Weather Protection Center (SWPC) Polar-orbiting Operational Environmental Satellite (POES)](/images/noaaswpcpoes.jpg)] *-link archived-*
+[![NOAA Space Weather Protection Center (SWPC) Polar-orbiting Operational Environmental Satellite (POES)](/images/noaaswpcpoes.jpg)] _-link archived-_
 
 Courtesy of the National Oceanic and Atmospheric Administration.
 
@@ -116,6 +118,6 @@ This was an information overload of fun, but I'm sure there's still more live im
 
 ### Sources and Further Reading
 
-Solar Dynamics Observatory (SDO) [https://sdo.gsfc.nasa.gov/](https://sdo.gsfc.nasa.gov/) SDO is GO [https://sdoisgo.blogspot.com/](https://sdoisgo.blogspot.com/) SDO's Atmospheric Imaging Assembly (AIA) [https://aia.lmsal.com/](https://aia.lmsal.com/) HMI Major Science Goals [https://hmi.stanford.edu/Description/hmi-overview/hmi-overview.html] *-link archived-* NOAA Watch: Space Weather [https://www.noaawatch.gov/themes/space.php] *-link archived-* NOAA Space Weather Protection Center [https://www.swpc.noaa.gov/](https://www.swpc.noaa.gov/) GEOS Solar X-Ray Imager [https://www.swpc.noaa.gov/sxi/index.html] *-link archived-* GOES-15 Weather Satellite Captures Its First Image of Earth [https://www.noaanews.noaa.gov/stories2010/20100407\_goes15.html] *-link archived-* Solar and Heliospheric Observatory (SOHO) [https://sohowww.nascom.nasa.gov](https://sohowww.nascom.nasa.gov) Guide to SDO Data Analysis [https://www.lmsal.com/sdodocs/doc/.../index.html](https://www.lmsal.com/sdodocs/doc/dcur/SDOD0060.zip/zip/entry/index.html) Helioviewer [https://helioviewer.org/](https://helioviewer.org/) SolarMonitor.org [https://www.solarmonitor.org/](https://www.solarmonitor.org/) NICT Space Environment Information Service [https://hirweb.nict.go.jp/](https://hirweb.nict.go.jp/) Real-time and Near-real-time Solar Image Sites [https://www.swpc.noaa.gov/solar\_sites.html] *-link archived-* STEREO [https://stereo.gsfc.nasa.gov/](https://stereo.gsfc.nasa.gov/)
+Solar Dynamics Observatory (SDO) [https://sdo.gsfc.nasa.gov/](https://sdo.gsfc.nasa.gov/) SDO is GO [https://sdoisgo.blogspot.com/](https://sdoisgo.blogspot.com/) SDO's Atmospheric Imaging Assembly (AIA) [https://aia.lmsal.com/](https://aia.lmsal.com/) HMI Major Science Goals [https://hmi.stanford.edu/Description/hmi-overview/hmi-overview.html] _-link archived-_ NOAA Watch: Space Weather [https://www.noaawatch.gov/themes/space.php] _-link archived-_ NOAA Space Weather Protection Center [https://www.swpc.noaa.gov/](https://www.swpc.noaa.gov/) GEOS Solar X-Ray Imager [https://www.swpc.noaa.gov/sxi/index.html] _-link archived-_ GOES-15 Weather Satellite Captures Its First Image of Earth [https://www.noaanews.noaa.gov/stories2010/20100407\_goes15.html] _-link archived-_ Solar and Heliospheric Observatory (SOHO) [https://sohowww.nascom.nasa.gov](https://sohowww.nascom.nasa.gov) Guide to SDO Data Analysis [https://www.lmsal.com/sdodocs/doc/.../index.html](https://www.lmsal.com/sdodocs/doc/dcur/SDOD0060.zip/zip/entry/index.html) Helioviewer [https://helioviewer.org/](https://helioviewer.org/) SolarMonitor.org [https://www.solarmonitor.org/](https://www.solarmonitor.org/) NICT Space Environment Information Service [https://hirweb.nict.go.jp/](https://hirweb.nict.go.jp/) Real-time and Near-real-time Solar Image Sites [https://www.swpc.noaa.gov/solar\_sites.html] _-link archived-_ STEREO [https://stereo.gsfc.nasa.gov/](https://stereo.gsfc.nasa.gov/)
 
 Disclaimer: Views and statements contained in this personal blog do not express the views of the Space Foundation.

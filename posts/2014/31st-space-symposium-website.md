@@ -4,25 +4,27 @@ type: Project
 date: '2014-10-01'
 previewImage: /images/31stSymposiumFeature.jpg
 tags:
-  - custom theme
-  - Drupal
-  - Drupal 7
-  - JavaScript
-  - MySQL
-  - PHP
-  - Twitter Bootstrap
-  - Space Foundation
-  - Space Symposium
+    - custom theme
+    - Drupal
+    - Drupal 7
+    - JavaScript
+    - MySQL
+    - PHP
+    - Twitter Bootstrap
+    - Space Foundation
+    - Space Symposium
+    - API
 slides:
-  - src: '/images/31stSymposium-s1.jpg'
-    alt: '31st Space Symposium Website'
-  - src: '/images/31stSymposium-s2.jpg'
-    alt: '31st Space Symposium Website'
-  - src: '/images/31stSymposium-s3.jpg'
-    alt: '31st Space Symposium Website'
-  - src: '/images/31stSymposium-s4.jpg'
-    alt: '31st Space Symposium Website'
+    - src: '/images/31stSymposium-s1.jpg'
+      alt: '31st Space Symposium Website'
+    - src: '/images/31stSymposium-s2.jpg'
+      alt: '31st Space Symposium Website'
+    - src: '/images/31stSymposium-s3.jpg'
+      alt: '31st Space Symposium Website'
+    - src: '/images/31stSymposium-s4.jpg'
+      alt: '31st Space Symposium Website'
 ---
+
 ### Status
 
 Archived

@@ -1,16 +1,16 @@
 ---
-title: "VR-Ready Stereo Pairs and Gifs From Library of Congress Stereocard Collection"
+title: 'VR-Ready Stereo Pairs and Gifs From Library of Congress Stereocard Collection'
 type: Blog
-date: "2023-08-02"
+date: '2023-08-02'
 previewImage: /images/stererocard-to-vr-stereo-pair.jpg
 tags:
-  - React
-  - "Node.js"
-  - React Testing Library
-  - JavaScript
-  - TypeScript
-  - life
-  - VR
+    - React
+    - 'Node.js'
+    - React Testing Library
+    - JavaScript
+    - TypeScript
+    - life
+    - VR
 ---
 
 ![stereocard viewer](images/stereocard-viewer.jpg)
@@ -45,6 +45,6 @@ Indraprastha colonnade, Delhi, India (1902) ([source](https://www.loc.gov/pictur
 ![Hall of Mosaics, Mexico (1903)](images/hall-of-mosaics.gif)
 Hall of Mosaics, marvelous relic of prehistoric builders, ruins of Mitla, Mexico (1903) ([source](https://www.loc.gov/pictures/collection/stereo/item/2021636567/))
 
-At the time of writing this post, my project didn't survive the bricking of my last laptop (Note to future self: Post these small projects to GitHub always!!!). However, there are still artifacts from the project that survive for purposes of this post at least. The next rendition of this when/if needed will just be built faster and at a higher quality. I did learn a ton from this, serving its purpose in making me stronger in different areas of React.
+At the time of writing this post, my little project didn't survive the bricking of my last laptop (Note to future self: Post these small projects to GitHub always!). However, there are still artifacts from the project that survive for purposes of this post. I did learn a ton, with this project serving its purpose in making me stronger in different areas of React.
 
-If anyone has a need to create a virtual gallery of our history in VR, let's connect!
+If anyone has a need to create a virtual gallery of our history in VR, let's connect. :)

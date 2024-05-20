@@ -4,11 +4,13 @@ type: Project
 date: '2013-07-01'
 previewImage: /images/sfIndexFeature.jpg
 tags:
-  - GD
-  - jpGraph
-  - PHP
-  - Space Foundation
+    - GD
+    - jpGraph
+    - PHP
+    - Space Foundation
+    - API
 ---
+
 ![Data-Driven Charts](/images/index.png)
 
 ### Status

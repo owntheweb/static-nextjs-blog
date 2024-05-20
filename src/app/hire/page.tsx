@@ -40,7 +40,7 @@ export async function generateMetadata(params: any): Promise<Metadata> {
 
 export default function Hire() {
     return (
-        <div className="post-col">
+        <div id="main" role="main" className="post-col">
             <h1
                 className={`text-2xl text-creamcicle mb-4 px-4 sm:px-0 ${robertoSlab.className}`}
             >

@@ -1,13 +1,11 @@
 import ExportedImage from 'next-image-export-optimizer';
 import sizeOf from 'image-size';
-import { ReactElement } from 'react-markdown/lib/react-markdown';
 import { ImageMetadata } from '../model/ImageMetadata';
 
-// TODO: Do I need to pass in an array of contentImageMetadata here? Single would be cooler.
 const getSizedImage = (
     imgSrc: string,
     contentImageMetadata: ImageMetadata[]
-): ReactElement => {
+) => {
     const imageMetadataResults = contentImageMetadata.filter(
         (contentImageMetadata: any) => contentImageMetadata.src === imgSrc
     );
@@ -23,12 +21,10 @@ const getSizedImage = (
         );
     }
 
-    // TODO: not found image?
-    // TODO: Not sure if this would ever be hit unless regex is silly, keep for now (could be the case!)
     return (
         <ExportedImage
-            src={imgSrc ?? ''}
-            alt={''}
+            src={imgSrc ?? '/images/imageNotFouned.jpg'}
+            alt={'Image Not Founed (I know, AI spells about as good as me...)'}
             width={1000}
             height={700}
             sizes="100vw"

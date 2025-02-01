@@ -6,12 +6,12 @@ import {
     slugifyTag,
 } from '@/components/utils/tags';
 import { Roboto_Slab } from 'next/font/google';
-import { Metadata, ResolvingMetadata } from 'next';
+import { Metadata } from 'next';
 import { addBaseUrl, makeMetadata } from '@/components/utils/headerMeta';
 
 const robertoSlab = Roboto_Slab({ subsets: ['latin'] });
 
-export async function generateMetadata(params: any): Promise<Metadata> {
+export async function generateMetadata(): Promise<Metadata> {
     const title = `Topics | Christopher Stevens`;
     const description = `Follow the adventures of Christopher stevens.`;
     const contentUrl = addBaseUrl(`/topics`);
@@ -41,6 +41,7 @@ export default function Posts() {
     const tagGrid = sortedTags.map((tag) => {
         return (
             <Link
+                key={tag[0]}
                 href={`/topics/${slugifyTag(tag[0])}`}
                 className="post-preview border block p-4 rounded-md shadow-md bg-cream hover:bg-white"
             >

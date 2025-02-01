@@ -1,6 +1,5 @@
 "use client"
 
-import './HomeHeaderStyle.css';
 import TopNav from "./TopNav";
 import TypingEffect from "./TypingEffect";
 
@@ -11,7 +10,7 @@ const HomeHeader = () => {
   return (
     <header className="lg:pb-6 mb-8">
       <TopNav />
-      <div className="headerSpace mx-auto lg:max-w-4xl pt-8 pl-4 invisible md:visible">
+      <div className="h-[200px] sm:h-[250px] md:h-[300px] lg:h-[340px] xl:h-[430px] mx-auto lg:max-w-4xl pt-8 pl-4 invisible md:visible">
         <TypingEffect
           story={story}
           className="text-green-400 drop-shadow-[0_3px_3px_rgba(21,128,61,2.0)]"

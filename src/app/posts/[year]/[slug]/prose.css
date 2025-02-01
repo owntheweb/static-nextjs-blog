@@ -1,11 +1,3 @@
-.post-col {
-  max-width: 44rem;
-}
-
-.post {
-  background-color: #f8f2e3;
-}
-
 .prose :where(img):not(:where([class~="not-prose"] *)) {
   margin-top: 0;
 }
@@ -18,7 +10,7 @@
 .prose :where(h3):not(:where([class~="not-prose"] *)) {
   font-weight: inherit;
   color: var(--tw-prose-headings);
-  font-family: '__Roboto_Slab_35304a', '__Roboto_Slab_Fallback_35304a';
+  font-family: 'Roboto Slab', 'Roboto Slab Fallback';
   font-style: normal;
   margin-top: 0;
 }

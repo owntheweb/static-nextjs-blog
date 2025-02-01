@@ -5,3 +5,5 @@ It's time to reboot the personal blog. I want a statically generated blog to rep
 Also, going to explore partnering with AI to push things along. I don't have much time to make a blog (says most folks with jobs).
 
 If you're reading this, don't pay too much attention. This is going to be UGLY for awhile. At the least I'll learn something and am happy to share. :D
+
+TODO: Post instructions on how I post this to S3 because I forget over time...

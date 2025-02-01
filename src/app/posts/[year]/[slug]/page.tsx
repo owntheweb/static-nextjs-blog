@@ -8,7 +8,6 @@ import {
     getImageMetadata,
     getSizedImage,
 } from '@/components/utils/image';
-import './style.css';
 import PreviousNextPosts from '@/components/PreviousNextPosts';
 import { Roboto_Slab } from 'next/font/google';
 import { Metadata, ResolvingMetadata } from 'next';
@@ -20,33 +19,26 @@ import {
 import Slideshow from '@/components/Slideshow';
 import { ImgSrcAlt } from '@/components/model/ImgSrcAlt';
 import EmbeddedFrame from '@/components/EmbeddedFrame';
+import './prose.css';
 
-interface PostParams {
+type PostParams = Promise<{
     slug: string;
-    year: number;
-}
+    year: string;
+}>;
 
-interface PostProps {
-    params: PostParams;
-}
-
-export async function generateMetadata(params: any): Promise<Metadata> {
-    const year = params.params.year;
-    const slug = params.params.slug;
+export async function generateMetadata({ params }: { params: PostParams }): Promise<Metadata> {
+    const { year, slug } = await params;
     const contentUrl = addBaseUrl(`/posts/${year}/${slug}`);
     const contentGrayMatter = getPostContent(year, slug);
-    const contentImages = getContentImageMetadata(contentGrayMatter.content)
-        .map((image) => image.src)
-        .map((src) => addBaseUrl(src));
     const description = getDescriptionFromMarkdown(contentGrayMatter.content);
     const title = `${contentGrayMatter.data.title} | Christopher Stevens`;
 
     return makeMetadata({
-        title: contentGrayMatter.data.title,
+        title,
         description: description,
         keywords: [...contentGrayMatter.data.tags],
         openGraph: {
-            title: contentGrayMatter.data.title,
+            title,
             description: description,
             images: [addBaseUrl(contentGrayMatter.data.previewImage)],
             url: contentUrl,
@@ -56,8 +48,6 @@ export async function generateMetadata(params: any): Promise<Metadata> {
 
 const robertoSlab = Roboto_Slab({ subsets: ['latin'] });
 
-// TODO: Define generated image sizes in nextjs config when design is ready
-
 export const generateStaticParams = async () => {
     const posts = getPostMetadata(true);
     return posts.map((post) => ({
@@ -66,9 +56,10 @@ export const generateStaticParams = async () => {
     }));
 };
 
-const Post = (props: PostProps) => {
-    const slug = props.params.slug;
-    const post = getPostContent(props.params.year, slug);
+const Post = async  ({ params }: { params: PostParams }) => {
+    const {slug, year} = await params;
+    
+    const post = getPostContent(year, slug);
     const contentImageMetadata: ImageMetadata[] =
         getContentImageMetadata(post.content) ?? [];
 
@@ -82,7 +73,7 @@ const Post = (props: PostProps) => {
             <ul role="list" className="flex flex-wrap">
                 {post.data.tags.map((tag: string) => {
                     return (
-                        <li>
+                        <li key={tag}>
                             <Link
                                 href={`/topics/${slugifyTag(tag)}`}
                                 className="mr-4 hover:underline md:mr-6 text-cream"
@@ -110,7 +101,7 @@ const Post = (props: PostProps) => {
     };
 
     return (
-        <div id="main" role="main" className="post-col">
+        <div id="main" role="main" className="max-w-[44rem]">
             <div className="4">
                 <h1
                     className={`text-2xl text-creamcicle mb-4 ${robertoSlab.className}`}
@@ -133,7 +124,6 @@ const Post = (props: PostProps) => {
                 <ReactMarkdown
                     components={{
                         img: (imgProps) =>
-                            // TODO: default src? (make typescript happy for now)
                             getSizedImage(
                                 imgProps.src ?? '',
                                 contentImageMetadata

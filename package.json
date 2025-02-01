@@ -8,24 +8,23 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "20.2.1",
-    "@types/react": "18.2.6",
-    "@types/react-dom": "18.2.4",
-    "autoprefixer": "10.4.14",
+    "@types/node": "22.12.0",
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3",
     "gray-matter": "^4.0.3",
-    "image-size": "^1.0.2",
-    "next": "13.4.3",
-    "next-image-export-optimizer": "^1.7.0",
-    "postcss": "8.4.23",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-markdown": "^8.0.7",
-    "react-social-icons": "ken-salterdiazsolutions/react-social-icons#add-mastodon-icon",
-    "tailwindcss": "3.3.2",
-    "typescript": "5.0.4"
+    "image-size": "^1.2.0",
+    "next": "15.1.6",
+    "next-image-export-optimizer": "^1.18.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-markdown": "^9.0.3",
+    "react-social-icons": "^6.20.0",
+    "typescript": "5.7.3"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.9"
-  },
-  "packageManager": "yarn@4.1.1+sha512.ec40d0639bb307441b945d9467139cbb88d14394baac760b52eca038b330d16542d66fef61574271534ace5a200518dabf3b53a85f1f9e4bfa37141b538a9590"
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.0"
+  }
 }

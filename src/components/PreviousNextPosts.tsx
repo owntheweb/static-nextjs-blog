@@ -48,13 +48,13 @@ const PreviousNextPosts = (props: matter.GrayMatterFile<string>) => {
           <PostPreview {...previousPost} />
         )}
         {!previousPost && (
-          <div className="hidden md:flex p-4 rounded-md shadow-md bg-[#482627] text-creamcicle items-center justify-center">This panel intentionally left blank</div>
+          <div className="hidden md:flex p-4 rounded-md shadow-md bg-mudraised text-creamcicle items-center justify-center">This panel intentionally left blank</div>
         )}
         {nextPost && (
           <PostPreview {...nextPost} />
         )}
         {!nextPost && (
-          <div className="hidden md:flex p-4 rounded-md shadow-md bg-[#482627] text-creamcicle items-center justify-center">This panel intentionally left blank</div>
+          <div className="hidden md:flex p-4 rounded-md shadow-md bg-mudraised text-creamcicle items-center justify-center">This panel intentionally left blank</div>
         )}
       </div>
     </>

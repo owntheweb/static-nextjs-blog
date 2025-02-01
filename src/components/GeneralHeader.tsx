@@ -1,5 +1,3 @@
-import Link from 'next/link';
-import './HomeHeaderStyle.css';
 import TopNav from './TopNav';
 
 const GeneralHeader = () => {

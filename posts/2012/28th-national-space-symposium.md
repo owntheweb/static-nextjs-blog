@@ -20,10 +20,6 @@ Credit: Space Foundation
 
 The [Space Foundation](https://spacesymposium.org) team, 350+ volunteers, 165+ exhibitors (with 40+ first time exhibitors), 100+ speakers (over 9,000 participants total) from 30+ nations enjoyed a successful [28th National Space Symposium](https://spacesymposium.org) April 16 - 19, 2012.
 
-[![Ball Aerospace Exhibit Center: 28th National Space Symposium](/images/exhibitCenter.jpg)](images/exhibitCenter.jpg)
-
-Credit: Space Foundation
-
 Every year the Space Foundation strives to make the event the consistent premiere quality experience, while also re-inventing elements and delivering something new. This year, a LOT of new features were delivered. A large, permanent concrete pad was installed at The Broadmoor to allow for a huge new pavilion structure, greatly increasing exhibitor space, adding an "Open Space Cafe", book signings and other events. Consecutive sessions were introduced on Wednesday for the first time to accommodate a growing audience with diverse interests. There were a lot more events, added international participation, interesting panels, dining events and more.
 
 ![automated scrolling screens](/images/auomatedScreens.jpg)

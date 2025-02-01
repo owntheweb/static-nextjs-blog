@@ -6,13 +6,17 @@ import { Roboto_Slab } from 'next/font/google';
 import { Metadata, ResolvingMetadata } from 'next';
 import { addBaseUrl, makeMetadata } from '@/components/utils/headerMeta';
 
+type TagParams = Promise<{
+    tag: string;
+}>;
+
 const robertoSlab = Roboto_Slab({ subsets: ['latin'] });
 
-export async function generateMetadata(params: any): Promise<Metadata> {
-    const topic = params.params.tag;
-    const title = `Topics: ${topic} | Christopher Stevens`;
-    const description = `Follow the adventures of Christopher stevens for the topic, ${topic}`;
-    const contentUrl = addBaseUrl(`/topics/${slugifyTag(topic)}`);
+export async function generateMetadata({ params }: { params: TagParams }): Promise<Metadata> {
+    const { tag } = await params;
+    const title = `Topics: ${tag} | Christopher Stevens`;
+    const description = `Follow the adventures of Christopher stevens for the topic, ${tag}`;
+    const contentUrl = addBaseUrl(`/topics/${slugifyTag(tag)}`);
 
     return makeMetadata({
         title: title,
@@ -26,13 +30,9 @@ export async function generateMetadata(params: any): Promise<Metadata> {
     });
 }
 
-interface TagPostParams {
+type TagPostParams = Promise<{
     tag: string;
-}
-
-interface TagPostsProps {
-    params: TagPostParams;
-}
+}>
 
 export const generateStaticParams = async () => {
     const posts = getPostMetadata(false);
@@ -48,15 +48,17 @@ export const generateStaticParams = async () => {
     }));
 };
 
-export default function TagPosts(props: TagPostsProps) {
+export default async function TagPosts({ params }: {params: TagPostParams }) {
+    const { tag } = await params;
+    
     const postMetadata = getPostMetadata(true);
     const taggedPosts = postMetadata.filter((post) => {
         const slugifiedTags = post.tags.map((tag) => slugifyTag(tag));
-        return slugifiedTags.includes(props.params.tag);
+        return slugifiedTags.includes(tag);
     });
 
     const unsluggedTag = taggedPosts[0].tags.filter(
-        (tag) => slugifyTag(tag) === props.params.tag
+        (tag) => slugifyTag(tag) === tag
     )[0];
 
     const postPreviews = taggedPosts.map((post) => (

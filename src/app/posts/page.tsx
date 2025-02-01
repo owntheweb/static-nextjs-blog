@@ -1,12 +1,12 @@
 import { getPostMetadata } from '@/components/utils/posts';
 import PostPreview from '@/components/PostPreview';
 import { Roboto_Slab } from 'next/font/google';
-import { Metadata, ResolvingMetadata } from 'next';
+import { Metadata } from 'next';
 import { addBaseUrl, makeMetadata } from '@/components/utils/headerMeta';
 
 const robertoSlab = Roboto_Slab({ subsets: ['latin'] });
 
-export async function generateMetadata(params: any): Promise<Metadata> {
+export async function generateMetadata(): Promise<Metadata> {
     const title = `Posts | Christopher Stevens`;
     const description = `Follow the adventures of Christopher stevens.`;
     const contentUrl = addBaseUrl(`/posts`);

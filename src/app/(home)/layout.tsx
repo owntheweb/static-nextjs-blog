@@ -5,6 +5,12 @@ import Footer from "@/components/Footer";
 import SideNav from "@/components/SideNav";
 import HomeHeader from "@/components/HomeHeader";
 
+import type { Viewport } from 'next'
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1
+}
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function RootLayout({
@@ -16,6 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={
         `${inter.className}
+        bg-mud
         bg-[url('/images/header-background-768.jpg')]
         md:bg-[url('/images/header-background-1024.jpg')]
         lg:bg-[url('/images/header-background-1280.jpg')]

@@ -14,6 +14,7 @@ const GeneralLayout = ({
     <html lang="en">
       <body className={
         `${inter.className}
+        bg-mud
         bg-[url('/images/header-sec-background-640.jpg')]
         sm:bg-[url('/images/header-sec-background-768.jpg')]
         md:bg-[url('/images/header-sec-background-1024.jpg')]

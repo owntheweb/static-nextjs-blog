@@ -62,9 +62,6 @@ const makeMetadata = (metaData: Metadata): Metadata => {
     generator: metaData?.generator ?? 'Next.js',
     keywords: metaData?.keywords ?? undefined,
     referrer: metaData?.referrer ?? 'origin',
-    themeColor: metaData?.themeColor ?? undefined, // TODO: hmm the nav is light on dark, content is dark on light, what to do...
-    colorScheme: metaData?.colorScheme ?? undefined, // TODO: hmm the nav is light on dark, content is dark on light, what to do...
-    viewport: metaData?.viewport ?? { width: "device-width", initialScale: 1 },
     creator: metaData?.creator ?? 'Christopher Stevens',
     publisher: metaData?.publisher ?? 'Christopher Stevens',
     robots: metaData?.robots ?? { index: true, follow: true },

@@ -54,7 +54,7 @@ const SideNav = ({ className }: GeneralComponentProps) => {
       <ul className="mb-4">
         {groupedSortedYears.map( yearAndCount => {
           return(
-            <li>
+            <li key={`/posts/${yearAndCount[0]}`}>
               <Link className="text-white hover:underline" href={`/posts/${yearAndCount[0]}`}>{yearAndCount[0]} ({yearAndCount[1]})</Link>
             </li>
           );
@@ -68,7 +68,7 @@ const SideNav = ({ className }: GeneralComponentProps) => {
       <ul className="mb-4">
         {sortedTags && sortedTags.map((tagCount: [string, number]) => {
           return(
-            <li>
+            <li key={`/topics/${slugifyTag(tagCount[0])}`}>
               <Link className="text-white hover:underline" href={`/topics/${slugifyTag(tagCount[0])}`}>{tagCount[0]}</Link>
             </li>
           );

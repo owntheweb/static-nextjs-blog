@@ -10,6 +10,6 @@ For memory (static hosting on S3):
 
 ```
 npm run build
-cd out
 aws s3 sync out s3://MY_BUCKET --delete
+aws cloudfront create-invalidation --distribution-id MY_DISTRIBUTION_ID --paths "/*"
 ```

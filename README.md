@@ -6,4 +6,10 @@ Also, going to explore partnering with AI to push things along. I don't have muc
 
 If you're reading this, don't pay too much attention. This is going to be UGLY for awhile. At the least I'll learn something and am happy to share. :D
 
-TODO: Post instructions on how I post this to S3 because I forget over time...
+For memory (static hosting on S3):
+
+```
+npm run build
+cd out
+aws s3 sync out s3://MY_BUCKET --delete
+```
